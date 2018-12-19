@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:35:06">
+	<Metadata>
+		<Id>faq_temp</Id>
+		<Title>Knowledge Base</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+			<Section>
+				<Id>634</Id>
+				<Title>Work Process</Title>
+				<BitrixSort>100</BitrixSort>
+				<BitrixCode></BitrixCode>
+				<BitrixPicture></BitrixPicture>
+				<BitrixDetailPicture></BitrixDetailPicture>
+				<Sections>
+				</Sections>
+			</Section>
+			<Section>
+				<Id>654</Id>
+				<Title>Files and Documents</Title>
+				<BitrixSort>200</BitrixSort>
+				<BitrixCode></BitrixCode>
+				<BitrixPicture></BitrixPicture>
+				<BitrixDetailPicture></BitrixDetailPicture>
+				<Sections>
+				</Sections>
+			</Section>
+			<Section>
+				<Id>683</Id>
+				<Title>Using portal services</Title>
+				<BitrixSort>300</BitrixSort>
+				<BitrixCode></BitrixCode>
+				<BitrixPicture></BitrixPicture>
+				<BitrixDetailPicture></BitrixDetailPicture>
+				<Sections>
+				</Sections>
+			</Section>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>faq_temp</Id>
+		<MetadataId>faq_temp</MetadataId>
+		<Title>Knowledge Base</Title>
+		<BitrixCode>faq_temp</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#/services/faq/faq.php</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#/services/faq/#SECTION_ID#/#ID#/</BitrixDetailURL>
+		<BitrixSectionURL>#SITE_DIR#/services/faq/#SECTION_ID#/</BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>true</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Question</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Questions</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add Question</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit Question</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete Question</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Categories</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Category</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>1896</Id>
+				<Title>Where can the new employees obtain information?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>634</Id>
+				</Sections>
+				<Description>&lt;p&gt;New employees will find all essential information in the &lt;a href=&quot;/services/learning/&quot; target=&quot;_blank&quot;&gt;New employee course&lt;/a&gt;.&lt;/p&gt;
+
+ 
+
+ </Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>100</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1898</Id>
+				<Title>How can I find the phone number of a certain employee?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>634</Id>
+				</Sections>
+				<Description>
+&lt;ul&gt;
+&lt;li&gt;Open the &lt;b&gt;Find employee&lt;/b&gt; page (&lt;i&gt;Employees &gt; Find employee&lt;/i&gt;).&lt;/li&gt;
+&lt;li&gt;In the search form, specify the employee's first and last names. Click &lt;b&gt;Find&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;In the user's profile shown, find their phone number. If no number is specified, you can send the user a personal message and ask for their phone number.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+ 
+
+ </Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>200</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1899</Id>
+				<Title>How can I apply to other positions inside the company? </Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>634</Id>
+				</Sections>
+				<Description>&lt;p&gt;You can grow as much as you can. You can send your CV on the &lt;b&gt;Vacancies&lt;/b&gt; page (&lt;i&gt;Company &gt; Career, vacancies&lt;/i&gt;).&lt;/p&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>300</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1900</Id>
+				<Title>How can I find out if an employee is currently in the office?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>634</Id>
+				</Sections>
+				<Description>&lt;p&gt;Open the &lt;b&gt;Absence graph&lt;/b&gt; page (&lt;i&gt;Employees &gt; Absence graph&lt;/i&gt;). If the person is not in the absent employee list, they are currently at work.&lt;/p&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>400</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1917</Id>
+				<Title>Can I create a shared folder? </Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>654</Id>
+				</Sections>
+				<Description>&lt;p&gt;The &lt;b&gt;Common documents&lt;/b&gt; page exists for this purpose. Here you can manage folders and upload documents. Documents in this folder can be accessed by all employees.&lt;/p&gt;
+
+ 
+
+ </Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>100</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1918</Id>
+				<Title>Is it possible to create a private file archive?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>654</Id>
+				</Sections>
+				<Description>&lt;p&gt;Yes if the &lt;b&gt;Files&lt;/b&gt; feature is available at your profile page. In order to disallow other users to manage your files, select &lt;b&gt;Only Me&lt;/b&gt; in the &lt;b&gt;Edit Files&lt;/b&gt; and &lt;b&gt;View Files&lt;/b&gt; fields.&lt;/p&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>200</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1959</Id>
+				<Title>Who can post to a forum?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>683</Id>
+				</Sections>
+				<Description>&lt;p&gt;All employees can post to forums.&lt;/p&gt;</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>400</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1962</Id>
+				<Title>Who can view my personal calendar?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>683</Id>
+				</Sections>
+				<Description>&lt;p&gt;This is defined by your personal settings (&lt;i&gt;Employees &gt; Personal page &gt; Edit settings link&lt;/i&gt;). In the &lt;b&gt;View Calendar&lt;/b&gt; field, you can select the permission scope:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Only Me&lt;/b&gt; – no one but you can view your calendar;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Only Friends&lt;/b&gt; – your calendar can be viewed by you and your friends;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Only Friends And Their Friends&lt;/b&gt; – your calendar can be viewed by you, your friends  and your friends' friends;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;All Users&lt;/b&gt; – all users can view your calendar.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>100</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1963</Id>
+				<Title>Can employees have a personal folder in the common photo gallery (Communication &gt; Photo gallery)?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>683</Id>
+				</Sections>
+				<Description>&lt;p&gt;A user can have a personal folder in the common photo gallery if they have any uploaded photos, and the &lt;b&gt;View Photo Gallery&lt;/b&gt; field is set to &lt;b&gt;All Users&lt;/b&gt; in their personal settings.&lt;/p&gt;</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>200</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1972</Id>
+				<Title>Can employees have their own file storage?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>683</Id>
+				</Sections>
+				<Description>&lt;p&gt;Yes, if the &lt;b&gt;Files&lt;/b&gt; feature is enabled on their personal page. If so, users can manage their files on the &lt;b&gt;Files&lt;/b&gt; tab of their personal page and configure access to files on the personal settings page.&lt;/p&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1973</Id>
+				<Title>What access permission is required to place an Ad in Classifieds?</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+					<Id>683</Id>
+				</Sections>
+				<Description>&lt;p&gt;By default, all the company employees are entitled to place ads.&lt;/p&gt;</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>300</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<content type="LES"><id>47</id>
+<timestamp_x>1228916187</timestamp_x>
+<date_create>1227877799</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>4</course_id>
+<chapter_id></chapter_id>
+<name>Tuition Assistance / Career Development</name>
+<sort>800</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<table>
+  <tbody>
+    <tr><td>Our company has established an education assistance program to help eligible employees develop their skills and upgrade their performance. All full-time regular employees who work 40 hours a week and have successfully completed 90 days of employment as a benefited employee are eligible to participate in the program.</td><td></td><td><img height="126" src="cid:resources/res16/z1k1u.N44PT.learning.jpg" width="200" /></td></tr>
+  </tbody>
+</table>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

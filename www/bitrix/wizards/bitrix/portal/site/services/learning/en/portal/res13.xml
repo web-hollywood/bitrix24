@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>22</id>
+<timestamp_x>1231861503</timestamp_x>
+<date_create>1227862697</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>2</chapter_id>
+<name>Using The Document Library In Windows</name>
+<sort>200</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>Any folder in the Documents section that can be accessed according to the user's permissions can be mapped to a network drive or a web folder at any Intranet portal computer. Once mapped, the drive (folder) can be browsed using Windows Explorer. In Windows XP, a network folder can be mapped directly to an Intranet Portal folder using Internet Explorer.</p>
+
+<p><b>Browsing A Web Folder In Internet Explorer</b></p>
+
+<ul>
+  <li>Open the required <b>Documents</b> folder in a browser. </li>
+  <li>Click <b>Network Drive</b> on the context toolbar: 
+    <p><img src="cid:resources/res13/bxeAx.network_storage_contex_panel.png" width="599" height="30" border="0"></p></li>
+  <li>Enter your <b>Login</b> and <b>Password</b>.</li>
+  <li>Explorer will open a window showing the contents of the selected folder: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/web_folder.png',730,420,'Web Folder')"> <img width="250" height="144" border="0" src="cid:resources/res13/tgMXY.web_folder_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+    <div class="hint"><b>Note!</b> This method of connection can fail sometimes due to incorrect settings in Windows Registry. If you encounter problems, contact your portal <b>administrator</b>.</div>
+  </li>
+</ul>
+<p><b>Adding A Web Folder To Network Neighborhood</b></p>
+<ul>
+  <li>Run Windows Explorer. </li>
+  <li>Select <i>Service </i>&gt; <i>Map Network Disk</i>. </li>
+  <li>Click the link <b>Sign-up for online storage or connect to a network server</b>: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/network_add_1.png',447,329,'Initial window')"> <img width="250" height="184" border="0" src="cid:resources/res13/jAvVe.network_add_1_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+  This will run the <b>Add Network Place Wizard</b>. The first wizard step will open: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/network_add_2.png',563,466,'First step')"> <img width="250" height="207" border="0" src="cid:resources/res13/ommvT.network_add_2_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p></li>
+  <li>In the wizard window, click <b>Next</b>. The next wizard window will appear: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/network_add_3.png',563,466,'Second step')"> <img width="250" height="207" border="0" src="cid:resources/res13/vd2VG.network_add_3_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+  <li>In this window, click <b>Choose Another Network Location</b> and then click <b>Next</b>: 
+   <p><a href="javascript:ShowImg('/images/portal_course/big/network_add_4.png',563,466,'Third step')"> <img width="250" height="207" border="0" src="cid:resources/res13/Cz927.network_add_4_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+  <li>Here, in the <b>Internet</b> <b>or network address</b> field, type the URL of the folder to be mapped in the format: <i>http://&lt;your_server&gt;/docs/shared/</i>. </li>
+  <li>Click <b>Next</b>. The authorization dialog will appear. When prompted for a <b>User name</b> and <b>Password</b>, enter your login and password, and then click <b>OK</b>. The system will authorize you and open the next <b>Wizard</b> step:
+    <p><a href="javascript:ShowImg('/images/portal_course/big/network_add_5.png',563,466,'Fourth step')"> <img width="250" height="207" border="0" src="cid:resources/res13/FzbZ1.network_add_5_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+  </li>
+  <li>In this step, you can specify an arbitrary title for the mapped folder. By default, the title is the folder name. Modify the name of the network resource if needed. Click <b>Next</b>. The last <b>Wizard</b> step will open. 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/network_add_6.png',563,466,'Fifth Step')"> <img width="250" height="207" border="0" src="cid:resources/res13/IMpaJ.network_add_6_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+  </li>
+  <li>In this step, the <b>Wizard</b> confirms that the folder has been successfully mapped and offers an option to open the folder when you finish the <b>Wizard</b>. Click <b>Finish</b>. </li>
+  <li>The system will map the folder and, if you have chosen to open the folder, open the <b>Explorer</b> window showing the mapped folder. 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/web_folder.png',730,420,'Web Folder')"> <img width="250" height="144" border="0" src="cid:resources/res13/gDtyh.web_folder_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+  <li>Later, you can view the folder by selecting <b>Start &gt; Network Neighborhood &gt; folder name</b>. </li>
+</ul>
+<p><b>Mapping A Library As A Network Drive</b></p>
+<div class="important"><b>Important!</b> Though this method of connection works in <b>Windows XP</b>, it may have functional limitations. If you encounter problems, contact your portal <b>administrator</b>.</div>
+<ul>
+  <li>Run Windows Explorer. </li>
+  <li>Select <b>Tools</b> &gt; <b>Map Network Drive</b>. The network disc wizard will open: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/network_storage.png',447,329,'Network Storage')"> <img width="250" height="184" border="0" src="cid:resources/res13/KoEpm.network_storage_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a>
+	</p></li>
+  <li>In the <b>Drive</b> field, specify a drive letter to map the folder to. </li>
+  <li>In the <b>Folder</b> field, enter the path to the library: <i>http://&lt;your_server&gt;/docs/shared/</i>. </li>
+  <li>If you want this folder to be available when the system starts, check the <b>Reconnect at logon</b> option. </li>
+  <li>Click <b>Ready</b>. The authorization dialog will open. Enter your <b>login</b> and <b>password</b>.</li>
+  <li>Click <b>OK</b>. The system will authorize you and open the mapped folder in a Windows <b>Explorer</b> window: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/web_folder.png',730,420,'Library As A Network Drive')"> <img width="250" height="144" border="0" src="cid:resources/res13/yNMJQ.web_folder_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+  <li>Later, you can open the folder in <b>Windows Explorer</b> where the folder will be shown as a drive under My Computer, or in any file manager. </li>
+</ul>]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

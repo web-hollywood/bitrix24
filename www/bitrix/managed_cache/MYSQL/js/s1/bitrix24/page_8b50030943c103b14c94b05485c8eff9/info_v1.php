@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/voximplant.sip_payments/templates/.default/template.js" => "1544131466723",); ?>

@@ -1,0 +1,5 @@
+
+; /* Start:"a:4:{s:4:"full";s:85:"/bitrix/components/bitrix/sender.start/templates/.default/script.min.js?1544127450750";s:6:"source";s:67:"/bitrix/components/bitrix/sender.start/templates/.default/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+(function(){BX.namespace("BX.Sender");if(BX.Sender.Start){return}var e=BX.Sender.Helper;var t=BX.Sender.Page;function n(e){}n.prototype.init=function(n){this.context=BX(n.containerId);this.isAdAvailable=n.isAdAvailable;var i=e.getNode("letter-other",this.context);var r=e.getNode("letter-other-cont",this.context);BX.bind(i,"click",e.display.toggle.bind(e.display,r,false));var a=e.getNodes("letter-add",this.context);a.forEach(function(e){var n=e.getAttribute("data-bx-url");BX.bind(e,"click",function(i){i.stopPropagation();i.preventDefault();var r=e.getAttribute("data-available")==="y";if(!r&&BX.Sender.B24License){BX.Sender.B24License.showPopup("Ad");return}t.open(n)})},this)};n.prototype.initNode=function(e){};BX.Sender.Start=new n})(window);
+/* End */
+;; /* /bitrix/components/bitrix/sender.start/templates/.default/script.min.js?1544127450750*/

@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/intranet.contact_center.list/templates/.default/script.js" => "15441274245591",); ?>

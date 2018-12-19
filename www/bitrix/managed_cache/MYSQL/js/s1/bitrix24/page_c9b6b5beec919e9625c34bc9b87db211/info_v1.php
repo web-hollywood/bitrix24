@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/main.userconsent.request/templates/.default/user_consent.js" => "15441273847363",); ?>

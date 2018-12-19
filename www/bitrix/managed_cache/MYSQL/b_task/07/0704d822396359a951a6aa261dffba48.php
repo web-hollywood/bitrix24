@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001544551694';
+$dateexpire = '001544555294';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:4:{i:0;a:9:{s:2:"ID";s:2:"31";s:4:"NAME";s:13:"clouds_denied";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"D";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:13:"Access denied";s:4:"DESC";s:13:"Access denied";}i:1;a:9:{s:2:"ID";s:2:"32";s:4:"NAME";s:13:"clouds_browse";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"F";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:12:"Select files";s:4:"DESC";s:21:"Browse cloud storages";}i:2;a:9:{s:2:"ID";s:2:"33";s:4:"NAME";s:13:"clouds_upload";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"U";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:10:"Move files";s:4:"DESC";s:63:"Upload new files from Site Explorer and download existing files";}i:3;a:9:{s:2:"ID";s:2:"34";s:4:"NAME";s:18:"clouds_full_access";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"W";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:11:"Full access";s:4:"DESC";s:34:"Full access to files and settings.";}}}';
+return true;
+?>

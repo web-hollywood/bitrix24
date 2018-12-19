@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>18</id>
+<timestamp_x>1231761978</timestamp_x>
+<date_create>1227862162</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Main page</name>
+<sort>200</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>The <b>main page</b> is a kind of desktop containing areas showing:</p>
+<p><a href="javascript:ShowImg('/images/portal_course/big/main_page.png',750,552,'Main page')">
+<img src="cid:resources/res5/gOuZy.main_page_sm.png" style="CURSOR: pointer" width="250" height="184" alt="Click on image to enlarge"  border="0"/></a></p>
+<ul>
+<li>recent company events;</li>
+<li>various information about the company employees: honored employees, birthdays, new and absent employees;</li>
+<li>recent blog and forum posts, etc.</li>
+</ul>
+<p>Using links in these areas, you can switch to a corresponding site section containing the detailed information.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

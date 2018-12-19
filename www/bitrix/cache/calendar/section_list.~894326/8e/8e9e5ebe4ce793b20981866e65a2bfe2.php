@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001545083128';
+$dateexpire = '001547675128';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{s:8:"arResult";a:1:{i:0;a:25:{s:2:"ID";s:1:"6";s:4:"NAME";s:15:"Taylor Williams";s:6:"XML_ID";s:32:"e8a370f2b86a94f356ace5871b6e5d77";s:11:"EXTERNAL_ID";N;s:16:"GAPI_CALENDAR_ID";N;s:6:"ACTIVE";s:1:"Y";s:11:"DESCRIPTION";s:39:"The calendar was created by the system.";s:5:"COLOR";s:7:"#9dcf00";s:10:"TEXT_COLOR";N;s:6:"EXPORT";a:2:{s:5:"ALLOW";b:1;s:4:"LINK";s:121:"&type=user&owner=479&user=479&sec_id=6&sign=58027d37460fc112ee162666e21522ea&bx_hit_hash=5a8a187b336379986af1279f34700fa6";}s:4:"SORT";s:3:"100";s:8:"CAL_TYPE";s:4:"user";s:8:"OWNER_ID";s:3:"479";s:10:"CREATED_BY";s:3:"479";s:9:"PARENT_ID";N;s:11:"DATE_CREATE";s:19:"2018-12-14 23:55:00";s:11:"TIMESTAMP_X";s:19:"2018-12-18 04:16:32";s:12:"DAV_EXCH_CAL";N;s:12:"DAV_EXCH_MOD";N;s:11:"CAL_DAV_CON";N;s:11:"CAL_DAV_CAL";N;s:11:"CAL_DAV_MOD";N;s:11:"IS_EXCHANGE";b:0;s:10:"SYNC_TOKEN";N;s:10:"OUTLOOK_JS";s:173:"BX.StsSync.sync(\'calendar\', \'/stssync/calendar\', \'/company/personal/user/479/calendar/\', \'Taylor Williams\', \'Taylor Williams\', \'{e8a370f2-b86a-94f3-56ac-e5871b6e5d77}\', 443)";}}s:12:"arSectionIds";a:1:{i:0;s:1:"6";}s:11:"permissions";a:1:{i:6;a:2:{s:2:"G2";s:2:"15";s:4:"U479";i:19;}}}}';
+return true;
+?>

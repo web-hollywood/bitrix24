@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/voximplant.phones/templates/.default/style.css" => "1544131466971",); ?>

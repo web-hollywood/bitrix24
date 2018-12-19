@@ -1,0 +1,539 @@
+
+
+/* Start:/bitrix/components/bitrix/crm.product/templates/.default/style.min.css?15441274011064*/
+table.bx-interface-toolbar a.btn-view,div.bx-interface-toolbar .btn-view{background-image:url("/bitrix/components/bitrix/crm.product/templates/.default/images/buttons/view.gif")}table.bx-interface-toolbar a.btn-edit,div.bx-interface-toolbar .btn-edit{background-image:url("/bitrix/components/bitrix/crm.product/templates/.default/images/buttons/edit.gif")}table.bx-interface-toolbar a.btn-add,div.bx-interface-toolbar .btn-add{background-image:url("/bitrix/components/bitrix/crm.product/templates/.default/images/buttons/add.gif")}.bx-crm-goods-table{border-spacing:0;table-layout:fixed;width:100%}.bx-crm-goods-cont-cell{vertical-align:top;padding:0}.bx-crm-table-sidebar-cell{vertical-align:top}.bx-crm-goods-drug-btn{padding:0;vertical-align:middle;width:11px}.bx-crm-goods-drug-btn-border{background:url(/bitrix/components/bitrix/crm.product/templates/.default/images/crm-goods-drug-bg.png) repeat-y 0 0;cursor:e-resize}.bx-crm-interface-product-list{padding:0;overflow-x:auto}.bx-crm-table-sidebar-cell-hider{position:absolute;top:50%;left:-11px;width:22px;height:22px;margin-top:-11px;cursor:pointer;border-radius:50%;background:url(/bitrix/components/bitrix/crm.product/templates/.default/images/sprite.png) no-repeat -13px -351px}.bx-crm-sidebar-section{border-bottom:1px solid #edeef0;margin-bottom:30px;padding-bottom:30px;overflow-x:auto}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.product/templates/.default/splitter.css?15441274011205*/
+/* splitter */
+.crm-catalog-scale-btn {
+	cursor: e-resize;
+	height: 100%;
+	top: 0;
+	left: 270px;
+	position: absolute;
+	width: 11px;
+	z-index: 2;
+}
+
+.crm-catalog-scale-btn-inner,
+.bx-crm-goods-drug-btn-inner {
+	background-color: #bdc0c5;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 52px;
+	margin-top: -26px;
+	position: absolute;
+	top: 50%;
+	width: 11px;
+	-webkit-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
+}
+
+.bx-crm-goods-drug-btn-inner {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+}
+
+.crm-catalog-scale-btn-inner:hover,
+.bx-crm-goods-drug-btn-inner:hover {
+	background-color: #9d9fa3;
+}
+
+.crm-catalog-scale-btn-inner:before,
+.bx-crm-goods-drug-btn-inner:before {
+	background: url(/bitrix/components/bitrix/crm.product/templates/.default/images/catalog-popup-sprite.png) no-repeat center -275px;
+	content: '';
+	left: 3px;
+	position: absolute;
+	top: 21px;
+	height: 8px;
+	width: 4px;
+}
+
+.bx-crm-goods-drug-btn-inner:before {
+	background-position: center -295px;
+	left: 4px;
+}
+
+.crm-catalog-close {
+	cursor: auto;
+}
+
+.crm-catalog-close .crm-catalog-scale-btn-inner:before {
+	background-position: center -295px;
+	left: 4px;
+}
+
+.bx-crm-goods-close:before {
+	background-position: center -275px;
+	left: 3px;
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/main.interface.buttons/templates/.default/style.min.css?154412738414934*/
+.main-buttons{position:relative;overflow:hidden;height:68px;box-sizing:border-box}.main-buttons{-moz-user-select:none;-webkit-user-select:none;user-select:none}.main-buttons-inner-container{padding:0 25px;height:60px}.main-buttons-inner-container{background:rgba(240,240,240,0.44)}.template-bitrix24 .main-buttons-inner-container{background:#fff}.main-buttons-item{position:relative;display:inline-block;margin:0 50px 8px 0;height:60px;line-height:30px;text-decoration:none}.main-buttons-item:last-child{margin:0}.main-buttons-item:after{content:'';display:block;margin:-5px auto 0;width:0;height:2px;background:0;transition:width .5s ease,background .5s ease}.main-buttons-item[data-disabled="true"]{display:none}.main-buttons-item-link{position:relative;display:inline-block;height:65px;font:15px/65px "OpenSans-Semibold","Helvetica Neue",Arial,Helvetica,sans-serif;color:#545c6a;outline:0;text-decoration:none;-webkit-transition:color .3s ease;transition:color .3s ease;vertical-align:middle;box-sizing:border-box;cursor:pointer;-khtml-user-drag:none;-webkit-user-drag:none;text-transform:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.main-buttons-item:focus,.main-buttons-item:focus .main-buttons-item-link,.main-buttons-item-link:focus{outline:0}.main-buttons-item-link:hover{color:#545c6a}.main-buttons-item.over .main-buttons-item-link{color:#1058d0}.main-buttons-item-active{border-bottom:2px solid #1058d0;height:58px!important}.main-buttons-item-active .main-buttons-item-link{color:#1058d0}.main-buttons-item .main-buttons-item-icon{display:none}.main-buttons-item-more{margin:0;height:60px;float:right;color:#545c6a;-webkit-transition:background .3s ease,color .3s ease;transition:background .3s ease,color .3s ease}.main-buttons-item-more:hover,.main-buttons-item-more.active{background:#ebf1f4}.main-buttons-item-more .main-buttons-item-link{padding:0 15px 0 11px}.main-buttons-item-more.main-buttons-item:after{position:absolute;top:37px;right:5px;content:"";display:inline-block;width:0;height:0;border-style:solid;border-width:3px 3px 0 3px;border-color:#717a84 transparent transparent transparent;-webkit-transition:border-color .3s ease;transition:border-color .3s ease}.main-buttons-item-more.main-buttons-item-more:hover:after{border-color:#1058d0 transparent transparent transparent}.main-buttons-item-more.main-buttons-item:hover:after{width:0;background:0}.main-buttons-item .main-buttons-item-text{position:relative}.main-buttons-item .main-buttons-item-counter{position:absolute;top:8px;right:-20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 7px;min-width:12px;border-radius:30px;background:#f54819;font:bold 11px/16px "OpenSans-Regular","Helvetica Neue",Arial,Helvetica,sans-serif;color:#fff}.main-buttons-item-more .main-buttons-item-counter{right:-4px}.main-buttons-item .main-buttons-item-counter:empty,.menu-popup-item-text .main-buttons-item-counter:empty{display:none}.menu-popup-item-text .main-buttons-item-text{margin:0 2px 0 0}.menu-popup-item-text .main-buttons-item-counter{padding:0 7px;min-width:12px;border-radius:30px;background:#f54819;font:bold 11px/15px "OpenSans-Regular","Helvetica Neue",Arial,Helvetica,sans-serif;color:#fff}.main-buttons-item-sublink{position:absolute;left:50%;bottom:-8px;display:none;height:15px;width:40px;margin-left:-20px;cursor:pointer;z-index:2}.main-buttons-item-sublink:before{content:'';position:absolute;top:1px;left:50%;height:14px;width:14px;margin-left:-8px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%227%22%20r%3D%227%22%20fill%3D%22%231058D0%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M8%206V3H6v3H3v2h3v3h2V8h3V6H8z%22/%3E%3C/g%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center;-webkit-transition:background-image .3s;transition:background-image .3s}.main-buttons-item-sublink:hover:before{background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%227%22%20r%3D%227%22%20fill%3D%22%232FC7F7%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M8%206V3H6v3H3v2h3v3h2V8h3V6H8z%22/%3E%3C/g%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center}.main-buttons-item:hover .main-buttons-item-sublink{display:block}.main-buttons-submenu-item{min-width:195px;padding-left:10px;padding-right:10px;position:relative;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;-khtml-user-drag:element;-webkit-user-drag:element;text-transform:none}.menu-popup-items .menu-popup-item.main-buttons-submenu-item.secret{display:none!important}.main-buttons-submenu-item.main-buttons-disabled{opacity:.8}.main-buttons-submenu-item .menu-popup-item-icon{display:inline}.main-buttons-submenu-item.noicon .menu-popup-item-icon{display:none}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone{display:none}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone::before{position:absolute;content:'';top:0;right:0;bottom:0;left:0}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone::after{position:absolute;content:'';top:10px;right:10px;bottom:10px;left:10px;border:1px rgba(0,0,0,.2) dashed;border-radius:2px}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone.over::after{border:2px rgba(0,0,0,.2) dashed}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone .menu-popup-item-icon{display:none}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone .menu-popup-item-text{height:auto;line-height:45px}.main-buttons-drag .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone{background:#f0f5f5;position:relative;display:block!important;padding-top:8px;padding-bottom:8px;text-align:center;margin-top:10px;box-shadow:none;border:0;height:48px;min-width:140px}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator{margin-top:4px;margin-bottom:4px;height:0;border-top:0;border-bottom:1px rgba(0,0,0,.1) solid}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator.main-buttons-hidden-label{margin-top:8px;margin-bottom:8px;height:0;border-top:0;border-bottom:1px rgba(0,0,0,.1) solid;z-index:2}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator.main-buttons-hidden-label .menu-popup-item-icon{display:none}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator:hover{background:0;box-shadow:none;border-bottom:1px rgba(0,0,0,.1) solid;cursor:default}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator{padding:0}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator .menu-popup-item-text{width:100%;padding-left:0;box-sizing:border-box;text-align:center;padding-right:0;height:1px;position:relative;top:-8px}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator .menu-popup-item-text span{position:relative;display:inline-block;padding:0 12px;border-radius:30px;background:#fff;color:#b1b6bc;font-size:10px;font-weight:bold;text-transform:uppercase;vertical-align:middle;height:16px;line-height:16px}.template-bitrix24 .menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator .menu-popup-item-text span{top:-19px}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator.main-buttons-manage{margin-top:12px;margin-bottom:12px}.main-buttons-item-edit-button,.main-buttons-item-drag-button{position:absolute;display:inline-block;width:16px;height:18px;right:-15px;top:2px;pointer-events:none;opacity:0;cursor:pointer;-webkit-transition:opacity 200ms;-moz-transition:opacity 200ms;-ms-transition:opacity 200ms;-o-transition:opacity 200ms;transition:opacity 200ms}.main-buttons-item-drag-button{left:-15px;top:3px;right:auto;cursor:move}.main-buttons-edit .main-buttons-item-edit-button,.main-buttons-edit .main-buttons-item-drag-button{opacity:.4;pointer-events:all}.main-buttons-edit .main-buttons-item-edit-button:hover,.main-buttons-edit .main-buttons-item-drag-button:hover{opacity:1}.main-buttons-item-edit-button::after,.main-buttons-item-drag-button::after{display:inline-block;position:absolute;content:'';width:16px;height:18px}.main-buttons-item-edit-button::after{background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2211%22%20height%3D%2211%22%20viewBox%3D%220%200%2011%2011%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%23525c68%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C/style%3E%3C/defs%3E%3Cpath%20id%3D%22Shape_2_copy_8%22%20data-name%3D%22Shape%202%20copy%208%22%20class%3D%22cls-1%22%20d%3D%22M.8%208.157L0%2011l2.933-.842a3.848%203.848%200%200%200-.792-1.233A3.4%203.4%200%200%200%20.8%208.157zm6.49-6.56L1.552%207.332a5.68%205.68%200%200%201%201.312.87%205.38%205.38%200%200%201%20.806%201.25c.354-.356%203.984-3.985%205.732-5.733a4.845%204.845%200%200%200-.895-1.334%203.93%203.93%200%200%200-1.22-.786zM10.567.434A1.51%201.51%200%200%200%208.406.48l-.344.343a4.164%204.164%200%200%201%201.24.813%204.693%204.693%200%200%201%20.876%201.307l.346-.346a1.51%201.51%200%200%200%20.04-2.163z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center}.main-buttons-item-drag-button::after{background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%226%22%20height%3D%2214%22%20viewBox%3D%220%200%206%2014%22%3E%3Cpath%20fill%3D%22%23717A84%22%20fill-rule%3D%22evenodd%22%20d%3D%22M0%200h2v2H0V0zm0%204h2v2H0V4zm4-4h2v2H4V0zm0%204h2v2H4V4zM0%208h2v2H0V8zm4%200h2v2H4V8zm-4%204h2v2H0v-2zm4%200h2v2H4v-2z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center}.main-buttons-submenu-item .main-buttons-item-edit-button,.main-buttons-submenu-item .main-buttons-item-drag-button{top:0;bottom:0;height:auto;width:30px}.main-buttons-submenu-item .main-buttons-item-edit-button{right:0;width:35px}.main-buttons-submenu-item .main-buttons-item-drag-button{right:auto;left:0}.main-buttons-submenu-item .main-buttons-item-edit-button::after,.main-buttons-submenu-item .main-buttons-item-drag-button::after{top:9px}.main-buttons-submenu-item .main-buttons-item-edit-button::after{left:6px}.main-buttons-submenu-item .main-buttons-item-drag-button::after{right:6px;top:10px}.main-buttons-submenu-setting{position:relative}.main-buttons-submenu-setting::after{content:'';position:relative;top:6px;right:9px;display:inline-block;height:18px;width:24px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%23545C6A%22%20fill-rule%3D%22evenodd%22%20d%3D%22M11.654%206.56V5.093h-1.42c-.11-.69-.374-1.326-.763-1.872l.996-.995L9.43%201.188l-.996.995c-.542-.394-1.174-.662-1.863-.78V0H5.106v1.4c-.696.113-1.334.378-1.882.77l-.99-.99-1.038%201.038.99.988c-.397.55-.663%201.19-.777%201.887H0V6.56h1.41c.117.69.385%201.325.778%201.87l-1%20.998%201.037%201.037%201-1c.55.39%201.188.652%201.88.765v1.425H6.57v-1.43c.688-.114%201.318-.382%201.86-.772l1.005%201.006%201.04-1.038-1.01-1.008c.388-.54.653-1.17.768-1.854h1.42zM5.82%208.6C4.285%208.6%203.04%207.353%203.04%205.816c0-1.54%201.246-2.785%202.783-2.785%201.54%200%202.785%201.247%202.785%202.786C8.605%207.353%207.36%208.6%205.82%208.6z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center;-webkit-transition:opacity .3s;transition:opacity .3s}.menu-popup .menu-popup-item.main-buttons-submenu-item.main-buttons-submenu-settings-apply{display:none}.menu-popup .menu-popup-item.main-buttons-submenu-item.main-buttons-submenu-settings-apply::after{content:'';position:relative;top:6px;right:9px;display:inline-block;height:18px;width:24px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%229%22%20height%3D%227%22%20viewBox%3D%220%200%209%207%22%3E%3Cpath%20fill%3D%22%23535C68%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3.456%204.253L1.42%202.177c-.03-.03-.07-.046-.11-.046-.042%200-.08.017-.11.047L.046%203.354c-.06.063-.06.163%200%20.225l2.12%202.16c.006.01.014.02.023.03L3.342%206.95c.03.03.068.047.11.047.04%200%20.08-.017.11-.047l5.386-5.5c.06-.062.06-.162%200-.225L7.794.046C7.765.016%207.725%200%207.685%200c-.042%200-.08.017-.11.047l-4.12%204.206z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center;-webkit-transition:opacity .3s;transition:opacity .3s}.main-buttons-settings-apply-alias{position:absolute;display:none;top:5px;right:10px;width:24px;height:24px;background:#afc776;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;cursor:pointer;-webkit-transition:width 200ms;-moz-transition:width 200ms;-ms-transition:width 200ms;-o-transition:width 200ms;transition:width 200ms;border:2px #fff solid}.main-buttons-settings-apply-alias:hover{width:157px}.main-buttons-settings-apply-alias::before{content:'';position:absolute;top:4px;right:3px;display:inline-block;height:14px;width:20px;background:url(/bitrix/components/bitrix/main.interface.buttons/templates/.default/images/menu-sprite.svg) no-repeat 6px -81px;-webkit-transition:opacity .3s;transition:opacity .3s}.main-buttons-settings-apply-alias-text{display:inline-block;max-width:100%;-ms-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#545c6a;font-weight:normal;font-size:12px;line-height:24px;text-align:left;z-index:7;margin-left:11px;opacity:0;-webkit-transition:opacity 100ms;-moz-transition:opacity 100ms;-ms-transition:opacity 100ms;-o-transition:opacity 100ms;transition:opacity 100ms}.main-buttons-settings-apply-alias:hover .main-buttons-settings-apply-alias-text{-webkit-transition-delay:200ms;-moz-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-delay:200ms;opacity:1}.main-buttons-submenu-item-no-hidden{text-align:center;padding-top:12px;padding-bottom:12px;opacity:.6;cursor:default!important}.main-buttons-submenu-item-no-hidden:hover{background:#fff}.main-buttons-submenu-item-no-hidden.over{opacity:1}.menu-popup-item.main-buttons-submenu-item.main-buttons-item-active{background:#f6f8f9;border-bottom:none!important;height:auto!important}.menu-popup-item.main-buttons-submenu-item.main-buttons-item-active .main-buttons-item-text-title{color:#2067b0}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.product.list/templates/.default/style.css?15441274014048*/
+.bx-crm-popup-title{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+	height:30px;
+	margin-bottom:10px;
+	vertical-align:top;
+	color:#7f858d;
+}
+.bx-crm-popup-content,
+.bx-crm-popup-content-small{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	min-width:500px;
+	padding:20px;
+	color:#000;
+	border-radius:2px;
+	background-color:#edf1f3;
+}
+.bx-crm-popup-content-small{
+	margin-bottom: 10px;
+	padding:20px 0;
+}
+.bx-crm-popup-content .bx-crm-popup-content{
+	font-size:14px;
+	padding:15px;
+	color:#535c69;
+	background-color:#f8fafa;
+}
+.bx-crm-popup-content-title{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:20px;
+	color:#535b69;
+	border-bottom:1px solid #cfd4d8;
+}
+.bx-crm-popup-content-title.noborder{
+	border:none;
+}
+
+.bx-crm-popup-input {
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	height:36px;
+	vertical-align:middle;
+	border:1px solid #c5cdd3;
+	border-radius:2px;
+	background-color:#fff;
+}
+
+.bx-crm-btn{
+	font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	display:inline-block;
+	margin-bottom:10px;
+	padding:0 15px;
+	cursor:pointer;
+	-webkit-transition:background .5s ease;
+	-moz-transition:background .5s ease;
+	-ms-transition:background .5s ease;
+	-o-transition:background .5s ease;
+	transition:background .5s ease;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#535b69;
+	border:none;
+	border-radius:2px;
+}
+.bx-crm-btn-big{
+	line-height:40px;
+	height:40px;
+}
+.bx-crm-btn-medium{
+	line-height:32px;
+	height:32px;
+}
+.bx-crm-btn-small{
+	line-height:29px;
+	height:29px;
+}
+.bx-crm-btn-gray{
+	color:#fff;
+	background-color:#868d96;
+}
+.bx-crm-btn-gray:hover{
+	color:#fff;
+	background-color:#6c7177;
+}
+.bx-crm-btn-green{
+	background-color:#bbed21;
+}
+.bx-crm-btn-green:hover{
+	color:#535b69;
+	background-color:#a9de04;
+}
+.bx-crm-btn-lightgray{
+	background-color:#d9dfe3;
+}
+.bx-crm-btn-lightgray:hover{
+	color:#535b69;
+	background-color:#cfd3d6;
+}
+.bx-crm-btn-transparent{
+	background-color:transparent;
+}
+.bx-crm-btn-transparent:hover{
+	color:#535b69;
+	background-color:#e5e8eb;
+}
+
+.bx-crm-btn-transparent.border{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-transition:border .5s ease, background .5s ease;
+	-moz-transition:border .5s ease, background .5s ease;
+	-ms-transition:border .5s ease, background .5s ease;
+	-o-transition:border .5s ease, background .5s ease;
+	transition:border .5s ease, background .5s ease;
+	border:1px solid #c4cace !important;
+	border-right:2px;
+}
+.bx-crm-btn-transparent.border:hover{
+	color:#535b69;
+	border-color:#9fa4ab !important;
+}
+
+.bx-crm-popup-buttons{
+	padding:20px 10px 10px;
+	text-align:center;
+}
+.bx-crm-info-popup-wrap .bx-crm-popup-buttons {
+	padding: 15px 0 10px;
+	height: 40px;
+}
+
+.popup-window.popup-window-titlebar .popup-window-top-row .popup-window-left-column,
+.popup-window.popup-window-titlebar .popup-window-top-row .popup-window-center-column,
+.popup-window.popup-window-titlebar .popup-window-top-row .popup-window-right-column,
+.popup-window.popup-window-titlebar-light .popup-window-top-row .popup-window-left-column,
+.popup-window.popup-window-titlebar-light .popup-window-top-row .popup-window-center-column,
+.popup-window.popup-window-titlebar-light .popup-window-top-row .popup-window-right-column {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	border-bottom: medium none;
+	box-shadow: none;
+}
+.bx-crm-popup-label{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:14px;
+	opacity:.6;
+	color:#000;
+}
+.bx-crm-popup-input{
+	display:block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	height:36px;
+	vertical-align:middle;
+	border:1px solid #c5cdd3;
+	border-radius:2px;
+	background-color:#fff;
+}
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/system.pagenavigation/templates/modern/style.min.css?1544127384659*/
+div.modern-page-navigation{padding:.5em 0}div.modern-page-navigation a,span.modern-page-current,span.modern-page-dots{border-left-width:1px;border-left-style:solid;padding-left:.75em;padding-right:.5em;text-decoration:none}div.modern-page-navigation a.modern-page-previous{border-right-width:1px;border-right-style:solid;border-left:none}div.modern-page-navigation a.modern-page-first,div.modern-page-navigation span.modern-page-first{border-left:none;padding-left:.5em}span.modern-page-current{font-weight:bold}div.modern-page-navigation a,span.modern-page-current,div.modern-page-navigation a.modern-page-previous,span.modern-page-dots{border-color:#cdcdcd}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/style.min.css?154412740113549*/
+div.bx-crm-interface-list{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}div.empty{height:0}div.bx-drag-object{height:50px;padding:0 10px;border:1px solid #cdcdcd;color:black;font-weight:bold;background-color:#d6f1fb;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/listhead.png);background-repeat:repeat-x;background-position:top;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}div.bx-drag-arrow{width:11px;height:6px;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/drag_arrow.gif);background-repeat:no-repeat;background-position:left top;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}div.bx-interface-filter{margin:16px 0 16px 0}table.bx-interface-filter td{padding:0}table.bx-interface-filter tr.bx-filter-header td{background-color:#a1a1a1;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/bg.png);background-repeat:repeat-x;background-position:left 1px;border:1px solid #909090;border-top:1px solid #9a9a9a;border-bottom:1px solid #818181}table.bx-interface-filter tr.bx-filter-content td{border:1px solid #d6d6d6;border-top:0;padding:10px;padding-top:5px}table.bx-interface-filter table.bx-filter-rows tr{background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/row_bg.gif);background-position:left bottom;background-repeat:repeat-x}table.bx-interface-filter table.bx-filter-rows td{border:0;padding:5px}div.bx-filter-buttons{margin-top:10px}a.bx-filter-minus{display:block;width:18px;height:18px;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/minus.gif);background-position:center;background-repeat:no-repeat}a.bx-filter-minus:hover{background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/minus-hover.gif)}a.bx-filter-btn,div.bx-filter-btn{float:left;display:block;width:18px;height:18px;margin:3px;background-position:center;background-repeat:no-repeat}a.bx-filter-show{background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/arrow-down.gif)}a.bx-filter-hide{background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/arrow-up.gif)}a.bx-filter-menu{width:28px;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/menu.gif)}a.bx-filter-min{float:right;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/minimize.gif)}a.bx-filter-max{float:right;background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/maximize.gif)}a.bx-filter-show:hover,a.bx-filter-hide:hover,a.bx-filter-menu:hover,a.bx-filter-min:hover,a.bx-filter-max:hover{background-color:#b7b7b7}div.bx-filter-sep{float:left;width:1px;height:17px;margin:3px;background-color:#b7b7b7}div.bx-filter-off{background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/check-off.gif)}div.bx-filter-on{background-image:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/filter/check-on.gif)}div.bx-filter-text{float:left;color:white;font-size:12px;font-weight:bold;margin:5px 3px 0 0}span.bx-filter-hellip{width:20px;display:inline-block;text-align:center}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/popup/drop-menu-icons.png) no-repeat;width:24px;height:24px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.view{background-position:-78px -48px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.edit{background-position:-78px -82px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.delete{background-position:-78px -116px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.copy{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/popup/copy.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.print{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/popup/print.png) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.checked{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/popup/checkbox.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.list{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/popup/list.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.add{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/popup/new.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-filters{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/filters.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-settings{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/settings.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-sort-asc{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/sort_asc.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-sort-desc{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/sort_desc.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-themes{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/themes.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-views{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/views.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-lock{background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons/lock.png) no-repeat 0 1px!important}.bx-crm-folder-icon{display:inline-block;float:left;width:36px;height:29px;margin-right:10px;vertical-align:middle;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons-items.png) no-repeat;background-position:0 0!important}.bx-crm-folder-icon-container-small.bx-crm-item-icon,.bx-crm-item-icon-container-small.bx-crm-item-icon{display:inline-block;width:36px;height:36px;margin-right:10px;vertical-align:middle;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/icons-items.png) no-repeat;background-position:left -576px!important}.bx-crm-item-icon-container-small.bx-crm-item-icon.icon-img{background-position:left -624px!important}.bx-crm-item-title{cursor:pointer}.bx-crm-interface-list{padding:0 0 13px 0}.bx-crm-interface-list td{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;vertical-align:middle!important}.bx-crm-interface-list a.bx-crm-action:hover{border:none!important}.bx-crm-table-body .draggable{background-color:transparent}.bx-crm.bx-crm-grid-head>td{font-size:14px;height:55px;padding:0 10px;vertical-align:middle;color:#535c69!important;background:#d6f1fb!important}.bx-crm.bx-crm-grid-head .bx-crm-sortable:hover,.bx-crm.bx-crm-grid-head .bx-crm-sortable.bx-crm-sorted{cursor:pointer;-webkit-transition:background .3s cubic-bezier(.000,.465,.750,.750);-moz-transition:background .3s cubic-bezier(.000,.465,.750,.750);-o-transition:background .3s cubic-bezier(.000,.465,.750,.750);transition:background .3s cubic-bezier(.000,.465,.750,.750);background:#c1eaf9!important}.bx-crm.bx-crm-grid-head .bx-crm-sortable .bx-crm-sort-sign{width:10px;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s;opacity:0;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat!important}.bx-crm.bx-crm-grid-head .bx-crm-sortable:hover .bx-crm-sort-sign,.bx-crm.bx-crm-grid-head .bx-crm-sortable.bx-crm-sorted .bx-crm-sort-sign{opacity:1}.bx-crm.bx-crm-grid-head .bx-crm-sortable .bx-crm-sort-sign.bx-crm-sort-down{background-position:4px -87px!important}.bx-crm.bx-crm-grid-head .bx-crm-sortable .bx-crm-sort-sign.bx-crm-sort-up{background-position:-36px -87px!important}.bx-crm.bx-crm-grid-head .bx-crm-actions-col a.bx-crm-action{opacity:.4}.bx-head-advanced-more{display:inline-block;width:16px;height:16px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -16px -224px}.bx-head-advanced-more:hover{cursor:pointer;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}.bx-crm-table-body>td{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:59px;padding:0 10px;-webkit-transition:background .3s cubic-bezier(.000,.465,.750,.750);-moz-transition:background .3s cubic-bezier(.000,.465,.750,.750);-o-transition:background .3s cubic-bezier(.000,.465,.750,.750);transition:background .3s cubic-bezier(.000,.465,.750,.750);vertical-align:middle!important;color:#535c69;border-top:1px solid #edeef0!important;border-bottom:none!important}.bx-crm-table-body td{font-size:14px}.bx-crm-table-body:first-child>td{border-top:none!important}.bx-crm-table-body:hover>td{background:#f5f5f5!important}.bx-crm-table-body.selected>td{background:#f5fcde!important}td.bx-crm-checkbox-col{padding-left:15px}.bx-crm-object-name{width:100%}.bx-crm-object-name tr td{padding:0!important;border:none!important}.bx-crm-item-title,.bx-crm-folder-title{font-size:14px;text-decoration:none;color:#535c69}.bx-crm-folder-title{vertical-align:middle}input.bx-crm-folder-title{line-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:30px;margin:0 auto;padding:0 5px;color:#535c69;border:1px solid #c6cdd3;border-radius:2px}.bx-crm-interface-tile input.bx-crm-folder-title{width:90%;margin:-5px auto 0;text-align:center}.bx-crm-item-title{cursor:pointer}.bx-crm-actions-col{padding:0 15px;text-align:center}.bx-crm-actions-col a.bx-crm-action,.bx-crm-interface-tile a.bx-crm-action,.bx-crm-info-panel-context a.bx-crm-action,.bx-crm-item-container:hover a.bx-crm-action{display:inline-block;width:16px;height:16px;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s;opacity:.2;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat;background-position:-16px -191px;vertical-align:middle}.bx-crm-actions-col a.bx-crm-action .empty,.bx-crm-actions-col a.bx-crm-action .empty:hover,.bx-crm-item-container a.bx-crm-action .empty,.bx-crm-item-container a.bx-crm-action .empty:hover,.bx-crm-interface-tile a.bx-crm-action .empty,.bx-crm-interface-tile a.bx-crm-action .empty:hover{background:none!important}.bx-crm-info-panel-context a.bx-crm-action:hover,.bx-crm-actions-col a.bx-crm-action:hover,.bx-crm-interface-tile a.bx-crm-action:hover{opacity:.7}.bx-crm-info-panel-context a.bx-crm-action:active,.bx-crm-actions-col a.bx-crm-action:active,.bx-crm-interface-tile a.bx-crm-action:active{opacity:1}.bx-head-advanced-more-col{display:inline-block;width:14px;height:14px;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -16px -256px}.bx-crm-table-footer.bx-crm-grid-footer{width:100%;border:1px solid #d2d5d8!important}.bx-crm-table-footer.bx-crm-grid-footer td{font-size:13px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:52px!important;padding:0 20px!important;vertical-align:middle;white-space:nowrap;color:#93989f!important;background:#fff!important}.bx-crm-table-footer.bx-crm-grid-footer td span{color:#000}.bx-crm-table-footer.bx-crm-grid-footer td span.modern-page-title{color:#93989f}.bx-pagination-text{display:inline-block;margin:0 5px;vertical-align:middle}.bx-crm-table-footer.bx-crm-grid-footer td span.bx-pagination-text{color:inherit}.bx-crm-btn{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;font-weight:bold;display:inline-block;margin-bottom:10px;padding:0 15px;cursor:pointer;-webkit-transition:background .5s ease;-moz-transition:background .5s ease;-ms-transition:background .5s ease;-o-transition:background .5s ease;transition:background .5s ease;text-align:center;vertical-align:middle;text-decoration:none;text-transform:uppercase;color:#535b69;border:0;border-radius:2px}.bx-crm-btn-big{line-height:40px;height:40px}.bx-crm-btn-medium{line-height:32px;height:32px}.bx-crm-btn-small{line-height:29px;height:29px}.bx-crm-btn-gray{color:#fff;background-color:#868d96}.bx-crm-btn-gray:hover{color:#fff;background-color:#6c7177}.bx-crm-btn-green{background-color:#bbed21}.bx-crm-btn-green:hover{color:#535b69;background-color:#a9de04}.bx-crm-btn-lightgray{background-color:#d9dfe3}.bx-crm-btn-lightgray:hover{color:#535b69;background-color:#cfd3d6}.bx-crm-btn-transparent{background-color:transparent}.bx-crm-btn-transparent:hover{color:#535b69;background-color:#e5e8eb}.bx-crm-btn-transparent.border{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:border .5s ease,background .5s ease;-moz-transition:border .5s ease,background .5s ease;-ms-transition:border .5s ease,background .5s ease;-o-transition:border .5s ease,background .5s ease;transition:border .5s ease,background .5s ease;border:1px solid #c4cace!important;border-right:2px}.bx-crm-btn-transparent.border:hover{color:#535b69;border-color:#9fa4ab!important}.bx-crm-btn-icon{line-height:40px;display:inline-block;width:13px;height:13px;margin-right:10px;vertical-align:middle;opacity:.7;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -9px -969px}.bx-crm-not-result,.bx-crm-not-result:hover,td.bx-crm-not-result,td.bx-crm-not-result:hover{text-align:center!important;vertical-align:middle!important;height:150px!important;color:#b6b9bd!important;font-size:30px!important;line-height:100px!important;background:#fff!important}.bx-crm-footer-interface-toolbar-container{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:54px;height:54px;margin-top:20px;padding:0 10px;color:#535c69;background:#eef2f4}.bx-crm-footer-interface-toolbar-container td{padding:0 6px;vertical-align:middle}.bx-crm-footer-interface-toolbar-container .popup-control{height:32px}.bx-crm-bd-icon-edit{display:block;width:15px;height:15px;cursor:pointer;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s;opacity:.7;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat 0 -160px}.bx-crm-bd-icon-edit.active,.bx-crm-bd-icon-edit:hover{opacity:1}.bx-crm-bd-icon-del{display:block;width:15px;height:15px;margin-right:30px;cursor:pointer;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s;opacity:.7;background:url(/bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -36px -158px}.bx-crm-bd-icon-del.active,.bx-crm-bd-icon-del:hover{opacity:1}.tar{text-align:right!important}.vam{vertical-align:middle}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/style.min.css?154412740112388*/
+.bx-filter-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:8px;margin-top:8px;min-height:64px;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;overflow:hidden}.bx-filter-wrap .bx-filter-folded{margin-bottom:0;margin-top:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bx-filter-folded .bx-filter-tabs-block{padding-left:10px}.bx-filter-tabs-block{padding-right:70px;white-space:nowrap;position:relative}.bx-filter-tab{background-color:#fff;display:inline-block;border-radius:2px 2px 0 0;border:1px solid #a1a6ac;border-bottom:0;color:#535c69;cursor:pointer;font-size:12px;font-family:"OpenSans-Bold",Helvetica,Arial,sans-serif;height:41px;line-height:41px;margin-left:8px;text-transform:uppercase;padding:0 20px;position:relative;vertical-align:top;z-index:2;-webkit-transition:background-color .25s linear;transition:background-color .25s linear}.bx-filter-tab:hover{background-color:#f8fafb}.bx-filter-add-tab{padding:0 23px 0 22px}.bx-filter-add-tab:after{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat scroll center 0 rgba(0,0,0,0);content:"";height:12px;left:16px;top:15px;position:absolute;width:14px}.bx-filter-main-table{margin:auto 0;border-spacing:0;width:670px!important}.bx-ie8 .bx-filter-main-table,.bx-ie9 .bx-filter-main-table{border-spacing:0;width:800px}.bx-filter-main-table-cell{padding:0}.bx-filter-tab:first-child{margin:0}.bx-filter-tab-active,.bx-filter-tab-active:hover{background-color:#eef2f4;border-color:#eef2f4}.bx-current-filter-tab{background-color:#ecf7c8;border-color:#ecf7c8}.bx-current-filter-tab:hover{background-color:#e4f5ae}.bx-filter-content{overflow:hidden}.bx-filter-content-inner{background-color:#eef2f4;border-radius:0 2px 2px;overflow:hidden;padding:10px 0 14px 0;position:relative;z-index:3;-webkit-transition:background-color .25s linear;transition:background-color .25s linear}.bx-current-filter .bx-filter-content-inner{background-color:#ecf7c8}.bx-filter-item{padding:0 14px 18px 11px}.bx-input-help-icon-wrap{padding-right:30px!important}.bx-input-help-icon{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat center -130px;right:0;top:0;height:27px;text-decoration:none;position:absolute;width:30px}.bx-input-help-icon:hover{background-position:center -100px}.bx-filter-content .bx-select-wrap{float:right;max-width:250px;min-width:100px}.bx-select-wrap:after{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat -9px -641px;content:"";height:10px;margin-top:-5px;right:8px;position:absolute;top:50%;width:5px;z-index:0}.bx-filter-wrap .bx-select-wrap{background-color:#fff;border-radius:2px;display:inline-block;vertical-align:top;position:relative}.bx-filter-wrap .bx-select{background:transparent;border:1px solid #c6cdd3;border-radius:0;-webkit-box-shadow:none;box-shadow:none;color:#535c69;display:inline-block;font-size:14px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:15px;height:36px;text-shadow:0 1px #fff;outline:0;overflow:hidden;padding:0 0 0 5px;min-width:100px;vertical-align:top;-webkit-appearance:none;position:relative;width:100%;z-index:1}.bx-filter-content-table-wrap{padding:0 18px}.bx-filter-content-table{border:0;border-spacing:0;width:100%}.bx-filter-item-left{color:#535c69;border:0;font-size:14px;min-width:114px;height:24px;text-align:left;text-overflow:ellipsis;vertical-align:top;padding:9px 12px 6px 0}.bx-filter-item-center{border:0;vertical-align:top;overflow:hidden;padding:0 0 8px 0;width:100%}.bx-workarea .bx-filter-content-table .bx-input-wrap{padding-right:12px}.bx-filter-calendar-separate{background-color:#87919c;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5);box-shadow:0 1px 0 0 rgba(255,255,255,0.5);display:inline-block;height:3px;margin:17px -4px 0 6px;vertical-align:top;width:15px}.bx-calendar-icon{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat center -503px;border:medium none!important;cursor:pointer;height:15px;outline:medium none;position:absolute;right:10px;top:10px;width:16px}.bx-calendar-icon:hover{background-position:center -525px}.bx-filter-box-sizing{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:start;-moz-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-direction:normal;-moz-box-direction:normal;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;font-size:13px;text-shadow:0 1px rgba(255,255,255,0.7);width:100%}.bx-filter-alignment{margin:0 0 -5px -12px}.bx-filter-box-sizing .bx-input-wrap{display:block;margin:0 0 5px 12px;vertical-align:top;padding:0;position:relative;-webkit-box-flex:10;-moz-box-flex:10;-webkit-flex:10 10 auto;-ms-flex:10 10 auto;flex:10 10 auto}.bx-filter-wrap .bx-input,.bx-filter-wrap input[type="text"],.bx-filter-wrap input[type="password"],.bx-filter-wrap input[type="email"]{background:#fff;border:1px solid #c6cdd3;border-radius:2px;color:#313232;display:inline-block;font-size:13px;height:36px;margin:0;outline:0;vertical-align:middle;padding:0 8px;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.bx-flexwrap .bx-workarea .bx-filter-box-sizing .bx-input-wrap,.bx-boxdirection .bx-workarea .bx-filter-box-sizing .bx-input-wrap{-webkit-box-flex:10;-moz-box-flex:10;-webkit-flex:10 1 auto;-ms-flex:10 1 auto;flex:10 1 auto;margin-left:12px;min-width:90px;padding-right:0}.bx-filter-box-sizing .bx-select-wrap{-webkit-box-flex:1;-moz-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;float:none;margin:0 0 5px 12px}.bx-no-flexwrap .bx-workarea .bx-filter-box-sizing .bx-input-wrap{display:inline-block;margin-left:12px;padding:0;vertical-align:top;width:190px}.bx-ie8 .bx-workarea .bx-filter-box-sizing .bx-input-wrap{width:150px}.bx-calendar-separate{background-color:#87919c;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5);box-shadow:0 1px 0 0 rgba(255,255,255,0.5);display:inline-block;margin:12px -4px 0 6px;height:3px;vertical-align:top;width:15px}.bx-calendar-block .bx-select-wrap{max-width:150px}.bx-filter-item-right{border:0;vertical-align:top;padding:0 0 8px 0;width:29px;white-space:nowrap}.bx-filter-bottom-separate{background-color:#d8dde0;height:1px;margin:0 18px 13px}.bx-current-filter .bx-filter-bottom-separate{background-color:#d6e1bb}.bx-filter-bottom{padding:0 18px}.bx-filter-content-first .bx-filter-bottom{border:0;-webkit-box-shadow:none;box-shadow:none;margin-top:-5px;padding-top:0}.bx-filter-setting-block{float:right;margin-top:4px}.bx-filter-add-button,.bx-filter-item-delete,.bx-filter-setting{border:1px solid #a1a6ac;border-radius:2px;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5);cursor:pointer;display:inline-block;height:30px;vertical-align:top;position:relative;width:32px;-webkit-transition:background-color .25s linear;transition:background-color .25s linear}.bx-filter-setting{margin-right:7px}.bx-ie8 .bx-filter-add-button,.bx-ie8 .bx-filter-item-delete,.bx-ie8 .bx-filter-setting{border:1px solid #8b999d}.bx-filter-item-delete{margin:2px 0 0 12px}.bx-filter-add-button:after,.bx-filter-item-delete:after,.bx-filter-setting:after{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat scroll center 0;content:"";height:16px;position:absolute;left:9px;top:9px;width:16px}.bx-filter-item-delete:after{height:2px;top:14px;left:8px;background-color:#535c69}.bx-filter-setting:after{background-position:center -26px;left:9px;top:7px}.bx-filter-add-button:hover,.bx-filter-item-delete:hover,.bx-filter-setting:hover{background-color:#cfd4d8}.bx-filter-text-wrap{display:inline-block;color:#000;font-size:13px;margin:4px 0 0 12px;text-shadow:0 1px rgba(255,255,255,0.7);vertical-align:top}.bx-filter-main-table br{display:none}.bx-filter-main-table label+br{display:block}.bx-chrome .bx-filter-main-table label+br{margin-top:5px}.bx-filter-main-table label.bx-designed-checkbox-label+br{display:none}.bx-ie8 .bx-filter-main-table input[type="checkbox"]{margin-left:12px}.bx-filter-text-search{margin:6px 0 0 12px}.bx-filter-switcher-tab{border:1px solid transparent;display:block;cursor:pointer;right:18px;top:5px;height:30px;position:absolute;z-index:2;width:32px;-webkit-transition:border-color .25s linear;transition:border-color .25s linear}.bx-filter-switcher-tab-icon{background-color:#535c69;display:block;margin-top:14px;height:2px;margin-left:8px;width:16px}.bx-filter-switcher-tab:hover{border:1px solid #a1a6ac}.bx-filter-folded .bx-filter-switcher-tab-icon{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat center -342px;height:14px;margin-top:8px;width:16px}.bx-filter-folded .bx-filter-tab{border-radius:2px;border:1px solid #a1a6ac;z-index:2;height:38px;line-height:38px;background-color:transparent}.bx-filter-folded .bx-filter-add-tab:after{top:13px}.bx-filter-folded .bx-filter-tab-active:hover{background-position:0 -39px}.bx-filter-folded .bx-current-filter-tab{background-color:#818992;border-color:#818992;color:#fff;position:relative}.bx-filter-tabs-block-underlay{background-color:#eef2f4;height:64px;border-radius:2px;top:-12px;left:-1px;opacity:0;right:0;position:absolute;z-index:1;-webkit-transition:opacity .25s linear;transition:opacity .25s linear}.bx-filter-folded .bx-filter-tabs-block-underlay{opacity:1}.bx-ie8 .bx-filter-tabs-block-underlay{display:none}.bx-ie8 .bx-filter-folded .bx-filter-tabs-block-underlay{display:block}.bx-filter-wrap .bx-btn,.bx-filter-wrap input[type="button"],.bx-filter-wrap input[type="reset"],.bx-filter-wrap input[type="submit"]{background:transparent;border-radius:2px;border:1px solid #a1a6ac;box-shadow:none;color:#535c69;cursor:pointer;display:inline-block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;height:40px;line-height:38px;margin-left:12px;min-width:55px;text-transform:uppercase;text-decoration:none;padding:0 15px;position:relative;vertical-align:middle;-webkit-font-smoothing:antialiased;-webkit-transition:all .25s linear;transition:all .25s linear}.bx-filter-wrap .bx-btn:hover,.bx-filter-wrap input[type="button"]:hover,.bx-filter-wrap input[type="reset"]:hover,.bx-filter-wrap input[type="submit"]:hover{text-decoration:none;background:#cfd4d8!important}.bx-filter-wrap .bx-btn:active,.bx-filter-wrap .bx-btn.bx-btn-active,.bx-filter-wrap input[type="submit"]:active,.bx-filter-wrap input[type="button"]:active{background-color:#868d95!important;color:#fff}.bx-filter-bottom .bx-btn,.bx-filter-bottom input[type="button"],.bx-filter-bottom input[type="reset"],.bx-filter-bottom input[type="submit"]{margin:0 10px 0 0;min-width:90px}.bx-filter-wrap .bx-select-wrap-multiple{border-radius:2px;border:1px solid #c6cdd3;-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;display:inline-block;float:left;min-width:100px;margin:0 0 5px 12px;overflow:hidden;position:relative}.bx-filter-wrap .bx-select-multiple{background-color:#fff;border-radius:4px;border:0;color:#535c69;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;margin:0;outline:0;padding:0;width:100%}.bx-filter-wrap select[multiple],.bx-filter-wrap select[size]{height:auto;min-height:27px}.bx-filter-box-sizing .bx-user-field-wrap{display:block;margin:0 0 5px 12px;vertical-align:top;padding:0;position:relative;-webkit-box-flex:10;-moz-box-flex:10;-webkit-flex:10 10 auto;-ms-flex:10 10 auto;flex:10 10 auto}.bx-filter-box-sizing .bx-user-field-wrap input[type="text"]{width:auto}.crm-filter-popup-item .menu-popup-item-icon{background:url("/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/filter-sprite.png") no-repeat 100px 100px;width:12px}.crm-filter-popup-item .menu-popup-item-left,.crm-filter-popup-item .menu-popup-item-right{display:none}.crm-filter-popup-item .menu-popup-item-text{margin-left:5px}.crm-filter-popup-item.menu-popup-item-checked .menu-popup-item-icon{background-position:center -616px}.bx-filter-item-row .bx-filter-date-days-suffix{margin-left:12px;margin-top:8px}.crm-filter-name-container{position:relative;display:inline-block}.crm-filter-name-clean{position:absolute;top:12px;right:-17px;display:inline-block;width:11px;height:11px;background:url(/bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/images/filter/crm-filter-clean.svg) center center no-repeat;-webkit-transition:opacity .3s ease;-moz-transition:opacity .3s ease;transition:opacity .3s ease;cursor:pointer;opacity:.5}.crm-filter-name-clean:hover{opacity:1}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.product.section.tree/templates/.default/style.css?15441274012512*/
+.bx-crm-wood-section{
+	margin:10px 0;
+	padding:0;
+	list-style:none;
+}
+.bx-crm-parent  .bx-crm-wood-section {
+	height: 0;
+	overflow: hidden;
+}
+
+.bx-crm-parent.bx-crm-open > .bx-crm-wood-section {
+	height: auto;
+	overflow: visible;
+}
+.bx-crm-wood-section .bx-crm-wood-section{
+	margin:0;
+	padding-left:20px;
+}
+li.bx-crm-section-container{
+	margin:0;
+	padding:0;
+}
+div.bx-crm-section-container{
+	-webkit-transition:background .2s ease;
+	transition:background .2s ease;
+}
+div.bx-crm-section-container table{
+	width:100%;
+}
+div.bx-crm-section-container td{
+	height:24px;
+	vertical-align:middle;
+	padding: 0;
+}
+li.bx-crm-section-container.bx-crm-close{
+	height:30px;
+}
+li.bx-crm-section-container>.bx-crm-section-container:hover{
+	border-radius:2px;
+	background:#e6e9eb;
+}
+li.bx-crm-section-container.selected>.bx-crm-section-container {
+	border-radius:2px;
+	background:#d9dee1 !important;
+}
+
+.bx-crm-wf-arrow{
+	width:17px !important;
+}
+.bx-crm-wf-arrow span{
+	display:block;
+	width:17px;
+	height:17px;
+	-webkit-transition:all .2s ease;
+	-moz-transition:all .2s ease;
+	-ms-transition:all .2s ease;
+	-o-transition:all .2s ease;
+	transition:all .2s ease;
+	opacity:.8;
+	border-radius:50%;
+	background:url(/bitrix/components/bitrix/crm.product.section.tree/templates/.default/images/sprite.png) no-repeat 5px -89px;
+}
+.bx-crm-wf-arrow span:hover{
+	cursor:pointer;
+	background-color:#c9d1d5;
+}
+
+.bx-crm-wf-section-empty span {
+	background: none;
+}
+
+li.bx-crm-section-container.bx-crm-close>div .bx-crm-wf-arrow span{
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+}
+li.bx-crm-section-container.bx-crm-open>div .bx-crm-wf-arrow span{
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);
+}
+
+.bx-crm-wf-section-icon{
+	width:16px !important;
+}
+.bx-crm-wf-section-icon span{
+	display:block;
+	width:16px;
+	height:16px;
+	background:transparent url(/bitrix/components/bitrix/crm.product.section.tree/templates/.default/images/icons-files2.png) no-repeat -72px 0;
+}
+.bx-crm-wf-section-name{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:13px;
+	cursor:pointer;
+	text-align:left;
+	color:#535b69;
+	/*width: 100%;*/
+}
+.bx-crm-wf-section-name span{
+	display:block;
+	overflow:hidden;
+	/*max-width: 75%;*/
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	max-width:500px;
+	padding-left:5px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+}
+.bx-crm-wf-section-name.tal { font-size:20px; }
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.product.section.crumbs/templates/.default/style.css?15441274012690*/
+.bx-crm-interface-product-section-crumbs{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	max-width:70%;
+	padding:14px 18px 6px;
+	white-space:nowrap;
+	height: 38px;
+}
+.bx-crm-interface-product-section-crumbs-item-container-arrow{
+	display:inline-block;
+	width:16px;
+	height:38px;
+	cursor:pointer;
+	position: relative;
+	top: -1px;
+	opacity:.7;
+	background:url(/bitrix/components/bitrix/crm.product.section.crumbs/templates/.default/images/sprite.png) no-repeat center -1082px;
+}
+.bx-crm-interface-product-section-crumbs-item-container-arrow:hover{
+	opacity:.9;
+}
+.bx-crm-interface-product-section-crumbs-item-container-arrow:active{
+	opacity:1;
+}
+.bx-crm-interface-product-section-crumbs-item-container{
+	position:relative;
+	display:inline-block;
+	max-width:31%;
+}
+
+
+.bx-crm-interface-product-section-crumbs-item-container .popup-current{
+	position: relative;
+	bottom: -4px; /* kostyly */
+}
+.bx-crm-interface-product-section-crumbs-item-link{
+	font-size:13px;
+	line-height:38px;
+	display:block;
+	overflow:hidden;
+	margin-right:30px;
+	vertical-align:middle;
+	white-space:nowrap;
+	text-decoration:none;
+	text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+}
+.bx-crm-interface-product-section-crumbs-item{
+	position:relative;
+	display:inline-block;
+	white-space:nowrap;
+}
+.bx-crm-interface-product-section-crumbs-item-current{
+	margin-right:3px;
+	color:#535c69;
+	border:none;
+}
+.bx-crm-interface-product-section-crumbs-item-container .popup-control{
+	position:absolute;
+	top:0;
+	right:25px;
+	width:10px;
+}
+.bx-crm-interface-product-section-crumbs-item-container .icon-arrow{
+	background-position:0 -82px !important;
+}
+
+/*small popups*/
+.popup-current{
+	line-height:30px;
+	display:inline-block;
+	height:32px;
+	vertical-align:middle;
+	text-decoration:none;
+}
+.popup-control{
+	line-height:30px;
+	display:inline-block;
+	height:38px;
+	vertical-align:middle;
+}
+.popup-current-text{
+	font-weight:bold;
+	line-height:30px;
+	display:inline-block;
+	height:30px;
+	margin-left:5px;
+	padding:0 15px;
+	cursor:pointer;
+	-webkit-transition:border .2s cubic-bezier(.000, .465, .750, .750);
+	-moz-transition:border .2s cubic-bezier(.000, .465, .750, .750);
+	-o-transition:border .2s cubic-bezier(.000, .465, .750, .750);
+	transition:border .2s cubic-bezier(.000, .465, .750, .750);
+	vertical-align:middle;
+	color:#535c69;
+	border:1px solid #c6cdd3;
+	border-radius:2px;
+	background:#fff;
+}
+.popup-current-text.fwn{
+	font-weight:normal;
+}
+.popup-control:hover .popup-current-text{
+	border-color:#7d7d7d;
+}
+.popup-control .icon-arrow{
+	line-height:30px;
+	display:inline-block;
+	width:7px;
+	height:30px;
+	min-height:4px;
+	margin-left:10px;
+	cursor:pointer;
+	vertical-align:middle;
+	opacity:1;
+	background:url(/bitrix/components/bitrix/crm.product.section.crumbs/templates/.default/images/sprite.png) no-repeat 0 -85px ;
+}
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.product.menu/templates/.default/style.css?1544127401216*/
+.btn-edit-sections { background-image:url(/bitrix/components/bitrix/crm.product.menu/templates/.default/images/edit_sections.gif); }
+.btn-add-section { background-image: url("/bitrix/components/bitrix/crm.product.menu/templates/.default/images/add_section.gif"); }
+.btn-parent-section { background-image: url("/bitrix/components/bitrix/crm.product.menu/templates/.default/images/parent_section.gif"); }
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/crm.interface.toolbar/templates/flat/style.min.css?15441274013007*/
+div.bx-crm-interface-toolbar{font-size:13px;color:#94a6af}.bx-crm-interface-toolbar .bx-crm-context-button{font-size:12px;line-height:20px;display:inline-block;height:20px;margin-right:1px;padding:13px 20px;-webkit-transition:background .2s cubic-bezier(.000,.465,.750,.750);-moz-transition:background .2s cubic-bezier(.000,.465,.750,.750);-o-transition:background .2s cubic-bezier(.000,.465,.750,.750);transition:background .2s cubic-bezier(.000,.465,.750,.750);vertical-align:middle;white-space:nowrap;text-decoration:none;text-transform:uppercase;color:#6b798a;opacity:.8;font-family:"OpenSans-Bold"}.bx-crm-interface-toolbar .bx-crm-context-button:hover,.bx-crm-interface-toolbar .bx-crm-context-button.active{background:#def9ff;opacity:1}.bx-crm-interface-toolbar .bx-crm-context-button{cursor:pointer}.bx-crm-interface-toolbar label.bx-crm-context-button form{display:none;opacity:0}.bx-opera .bx-crm-interface-toolbar label.bx-crm-context-button form{display:block!important}.bx-crm-context-button-icon{line-height:24px;display:inline-block;width:24px;height:24px;margin-right:2px;-webkit-transition:opacity .2s cubic-bezier(.000,.465,.750,.750);-moz-transition:opacity .2s cubic-bezier(.000,.465,.750,.750);-o-transition:opacity .2s cubic-bezier(.000,.465,.750,.750);transition:opacity .2s cubic-bezier(.000,.465,.750,.750);vertical-align:middle;opacity:.8;background:url(/bitrix/components/bitrix/crm.interface.toolbar/templates/flat/images/sprite.png) no-repeat}.bx-crm-interface-toolbar .bx-crm-context-button:hover .bx-crm-context-button-icon,.bx-crm-interface-toolbar .bx-crm-context-button.active .bx-crm-context-button-icon{opacity:1}.bx-crm-context-button-icon.btn-new{background-position:-78px -14px}.bx-crm-context-button-icon.btn-view{background-position:-78px -48px}.bx-crm-context-button-icon.btn-edit{background-position:-78px -82px}.bx-crm-context-button-icon.btn-delete{background-position:-78px -116px}.bx-crm-context-button-icon.btn-parent-section{background-position:-78px -145px}.bx-crm-context-button-icon.btn-add-section{background-position:-78px -175px}.bx-crm-context-button-icon.btn-edit-sections{background-position:-78px -82px}.bx-crm-context-button-icon.btn-list{background-position:-78px -247px}.bx-crm-context-button-icon.btn-settings{background-position:-78px -283px}.bx-crm-context-button-icon.btn-settings:hover{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease}.bx-crm-context-button{position:relative;overflow:hidden}.bx-crm-context-button input{filter:alpha(opacity=0)!important;font-size:320px!important;height:105px!important;opacity:0!important;position:absolute!important;cursor:pointer!important;top:0;bottom:0;right:0;left:0}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.btn-crm-product-import{background:url(/bitrix/components/bitrix/crm.interface.toolbar/templates/flat/images/sprite.png) no-repeat -78px -211px!important;opacity:.8}
+/* End */
+/* /bitrix/components/bitrix/crm.product/templates/.default/style.min.css?15441274011064 */
+/* /bitrix/components/bitrix/crm.product/templates/.default/splitter.css?15441274011205 */
+/* /bitrix/components/bitrix/main.interface.buttons/templates/.default/style.min.css?154412738414934 */
+/* /bitrix/components/bitrix/crm.product.list/templates/.default/style.css?15441274014048 */
+/* /bitrix/components/bitrix/system.pagenavigation/templates/modern/style.min.css?1544127384659 */
+/* /bitrix/components/bitrix/crm.interface.grid/templates/flat/bitrix/main.interface.grid/.default/style.min.css?154412740113549 */
+/* /bitrix/components/bitrix/crm.interface.filter/templates/flat/bitrix/main.interface.filter/new/style.min.css?154412740112388 */
+/* /bitrix/components/bitrix/crm.product.section.tree/templates/.default/style.css?15441274012512 */
+/* /bitrix/components/bitrix/crm.product.section.crumbs/templates/.default/style.css?15441274012690 */
+/* /bitrix/components/bitrix/crm.product.menu/templates/.default/style.css?1544127401216 */
+/* /bitrix/components/bitrix/crm.interface.toolbar/templates/flat/style.min.css?15441274013007 */

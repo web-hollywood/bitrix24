@@ -1,0 +1,1 @@
+{"version":3,"sources":["closest.js"],"names":["Element","prototype","closest","selector","node","this","matches","parentElement"],"mappings":"CAAC,WACA,aAEA,IAAKA,QAAQC,UAAUC,QACvB,CAMCF,QAAQC,UAAUC,QAAU,SAASC,GACpC,IAAIC,EAAOC,KAEX,MAAOD,EACP,CACC,GAAIA,EAAKE,QAAQH,GACjB,CACC,OAAOC,EAGRA,EAAOA,EAAKG,cAGb,OAAO,QAvBT","file":""}

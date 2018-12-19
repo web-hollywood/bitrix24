@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2010-08-10T14:11:48">
+	<Metadata>
+		<Id>furniture_news</Id>
+		<Title>News</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_ACTIVE</Id>
+				<Title>BitrixActive</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>furniture_news</Id>
+		<MetadataId>furniture_news</MetadataId>
+		<Title>News</Title>
+		<BitrixCode>furniture_news</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#/news/</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#/news/#ELEMENT_CODE#/</BitrixDetailURL>
+		<BitrixSectionURL></BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Nachricht</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Nachrichten</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Nachricht hinzufügen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Nachricht ändern</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Nachricht löschen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Bereiche</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Bereich</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Bereich hinzufügen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Bereich ändern</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Bereich löschen</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>1</Id>
+				<Title>Neuheiten 2012</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;p&gt;Neuheiten von Möbel+ vorgestellt auf der Möbelmesse Mailand im April 2012.&lt;br /&gt;
+Erhältlich schon ab August - September
+&lt;/p&gt;
+
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value>news_2012</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2012-10-25 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Neuheiten von Möbel+ vorgestellt auf der Möbelmesse Mailand im April 2012.&lt;br /&gt;
+Erhältlich schon ab August - September
+</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>8</Id>
+				<Title>Möbelmesse SALON DEL MOBILE</Title>
+				<BitrixTags></BitrixTags>
+				<Description>Die Möbelmesse Salon del Mobile durfte 2012 noch größer und interessanter werden als gewöhnlich. &amp;quot;Möbel&amp;#43;&amp;quot; nimmt an der Messe teil und stellt alle wichtigen Möbeltypen aus den Bereichen Wohnen und Arbeiten aus: neben den bereits bekannten Modellen werden Neuheiten vorgestellt. Über 1500 Unternehmen aus der ganzen Welt haben die Anträge zur Messebeteiligung eingereicht, 300.000 Besucher werden erwartet. Das Messegelände&amp;nbsp;&amp;nbsp;ist insgesamt 149.971 Quadratmeter groß.</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value>salon_del_mobile_international_furniture_show</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2012-10-26 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Die Möbelmesse Salon del Mobile durfte 2012 noch größer und interessanter werden als gewöhnlich. &quot;Möbel+&quot; nimmt an der Messe teil und stellt alle wichtigen Möbeltypen aus den Bereichen Wohnen und Arbeiten aus: neben den bereits bekannten Modellen werden Neuheiten vorgestellt. Über 1500 Unternehmen aus der ganzen Welt haben die Anträge zur Messebeteiligung eingereicht, 300.000 Besucher werden erwartet. Das Messegelände ist insgesamt 149.971 Quadratmeter groß.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>9</Id>
+				<Title>TIMB-Möbelmesse in Bukarest</Title>
+				<BitrixTags></BitrixTags>
+				<Description>Vom 03.09. bis 07.09.2012 findet die Möbelmesse in Bukarest statt. Die Messe deckt drei Bereiche ab: Gartenmöbel, Küche, Möbel für Kinder. Im letztgenannten Segment wird &amp;quot;Möbel&amp;#43;&amp;quot; einige Neuheiten vorstellen.</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value>timb_furniture_fair_in_bucharest</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2012-10-27 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Vom 03.09. bis 07.09.2012 findet die Möbelmesse in Bukarest statt. Die Messe deckt drei Bereiche ab: Gartenmöbel, Küche, Möbel für Kinder. Im letztgenannten Segment wird &quot;Möbel+&quot; einige Neuheiten vorstellen.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

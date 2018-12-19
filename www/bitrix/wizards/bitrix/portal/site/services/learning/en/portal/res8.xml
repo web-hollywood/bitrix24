@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>19</id>
+<timestamp_x>1231767065</timestamp_x>
+<date_create>1227862462</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>1</chapter_id>
+<name>Finding Users</name>
+<sort>100</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[ 
+<p>To find a specific user, you can use either the <b>simple</b> or the <b>advanced</b> search mode.</p>
+ 
+<ul> 
+  <li>Simple mode: in the filter form, specify the <b>Department</b> or the <b>Last name</b> and the <b>First name</b> to match an employee. 
+    <p><img src="cid:resources/res8/av0wJ.search.png" /></p>
+   </li>
+ 
+  <li>Advanced mode: to search for an employee, fill in any of the following fields in the filter form: <b>Department</b>, <b>Position</b>, <b>Last name</b>, <b>First name</b>, <b>E-mail</b>, <b>Keywords</b>. 
+    <p><img src="cid:resources/res8/xsY0g.adv_search.png" /></p>
+   </li>
+ </ul>
+ 
+<p>The profiles which fit the search parameters will appear under the filter form:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/visit_card.png',612,145,'User profile')">
+<img src="cid:resources/res8/TB35B.visit_card_sm.png" style="CURSOR: pointer" width="249" height="59" alt="Click on image to enlarge"  border="0"/></a></p>
+ 
+<p>Alternatively, you can find employees using the <b>ABC panel</b>. Click a letter to view the list of employees whose last name begins with the selected letter.</p>
+ 
+<p>To switch the result view modes, use the <b>List</b> and <b>Details</b> buttons on the context toolbar:</p>
+ 
+<p><img src="cid:resources/res8/HiGAM.context_panel.png" /></p>
+ 
+<p>For example, the <b>List</b> mode shows the employee profiles in the following manner:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/list.png',627,296,'List mode')">
+<img src="cid:resources/res8/Eo3Hq.list_sm.png" style="CURSOR: pointer" width="250" height="118" alt="Click on image to enlarge"  border="0"/></a></p>
+ 
+<p>The <b>Details</b> mode:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/table.png',628,258,'Details mode')">
+<img src="cid:resources/res8/c3AJ2.table_sm.png" style="CURSOR: pointer" width="250" height="103" alt="Click on image to enlarge"  border="0"/></a></p>
+ 
+<p>The search results can be exported in <b>MS Excel</b> format by clicking <img width="67" height="24" src="cid:resources/res8/bu92E.excel.png" /> on the context toolbar.</p>
+ ]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

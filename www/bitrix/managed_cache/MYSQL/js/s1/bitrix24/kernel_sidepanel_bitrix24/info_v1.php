@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/js/intranet/sidepanel/bitrix24/slider.js" => "15441274246240",); ?>

@@ -1,0 +1,646 @@
+
+
+/* Start:/bitrix/components/bitrix/socialnetwork_user/templates/.default/style.css?154412745416747*/
+/* Standart */
+div.empty-clear{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+	height:4px!important;}
+form.wd-form{
+ 	padding:0px!important;
+ 	margin:0px!important;
+ 	border:none!important;}
+div.controls a{
+	display:block;
+	margin:0px;
+	padding:3px 3px 5px 23px;
+	border:none;
+	white-space:nowrap;
+	text-decoration:none;
+	background-position:2px center;
+	background-repeat: no-repeat;
+	vertical-align:bottom;}
+span.controls a{
+	margin:0px;
+	padding:5px 3px 6px 21px;
+	border:none;
+	white-space:nowrap;
+	text-decoration:none;
+	background-position:2px center;
+	background-repeat: no-repeat;
+	vertical-align:bottom;}
+span.controls a:hover{}
+div.wd-help-list{
+	border:1px solid #C4C4C4;
+	padding:4px;
+	background-color:#f6f6f6;}
+ul.wd-content li{
+	padding: 5px;}
+table.clear, td.clear {
+	border:none!important;
+	padding:0px;
+	margin:0px;
+	width:auto!important;
+	background-color:transparent;}
+div.debug-info{
+	position:absolute;
+	width:170px; padding:5px;
+	background-color:#FCF7D1;
+	border:1px solid #EACB6B;
+	text-align:left;
+	z-index:100; font-size:11px;}
+/* /Standart */
+
+/* Top Menu */
+div.wd-menu{}
+table.wd-menu{
+	border:none;
+	background-color:#CEDEEC;
+	width:100%;
+	padding:0px;
+	margin:0px;}
+table.wd-row{
+	height:auto!important;}
+table.wd-menu td {
+	font-size:100%;
+	padding:0px;
+	margin:0px;
+	border:none;}
+table.wd-menu thead, table.wd-menu tfoot,
+/*table.wd-menu tbody td.right, table.wd-menu tbody td.left,*/
+table.wd-menu-inner div.section-separator{
+	display:none;}
+table.wd-menu tbody td.center{
+	width:100%;
+	padding:4px;}
+table.wd-menu div.separator {
+	width:1px;
+	height:21px;
+	border-left:1px solid #9CB0C5;
+	margin:0px 3px 0px 3px;}
+table.wd-menu-inner td{
+	vertical-align:bottom;}
+table.wd-menu-inner td.separator{
+	vertical-align:middle;}
+table.wd-menu-inner div.controls a{
+	border:1px solid #CEDEEC;
+	color:#072838;}
+table.wd-menu-inner div.controls a:hover {
+	border:1px solid #6290A6;
+	background-color:#E6EEF5;}
+table.wd-menu-inner div.controls a,
+table.wd-menu-inner div.controls a:visited,
+table.wd-menu-inner div.controls a:active {
+	color:#072838;}
+table.wd-menu-inner{}
+/* Top Menu icons*/
+table.wd-menu-inner div.sections a, table.wd-menu-inner div.sections span{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/sections.gif');}
+table.wd-menu-inner div.add a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/section_add.gif');}
+table.wd-menu-inner div.subscribe a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/subscribe.gif');}
+table.wd-menu-inner div.unsubscribe a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/unsubscribe.gif');}
+table.wd-menu-inner div.element-add a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/element_add.gif');}
+table.wd-menu-inner div.upload a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/element_upload.gif');}
+table.wd-menu-inner div.element_edit a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/element_edit.gif');}
+table.wd-menu-inner div.element_delete a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/element_delete.gif');}
+table.wd-menu-inner div.element_download a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/element.gif');}
+table.wd-menu-inner div.help a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/help.gif');}
+table.wd-menu-inner div.maping a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/maping.gif');}
+table.wd-menu div.notice{
+	padding:0px;
+	margin:0px 10px;
+	width:15px;
+	height:15px;
+	display:block;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/menu_icons/notice.gif');
+	corsor:hand;
+	cursor:pointer;}
+/* Breadcrumb */
+div.wd-breadcrumb-navigation{
+	padding:10px 0px;
+	display:block;}
+div.wd-breadcrumb-navigation span{
+	padding:10px 0;
+	font-size:11px;
+	color:#7f7f7f;}
+div.wd-breadcrumb-navigation span.wd-breadcrumb-navigation-header{
+	color:#777777;}
+div.wd-breadcrumb-navigation a{
+	text-decoration:none;
+	color:#7f7f7f;}
+/* /Top Menu */
+
+/* Main table */
+table.wd-main{
+	border-collapse:collapse;
+	font-size:100%;
+	border: 1px solid #C4C4C4;}
+table.wd-main th, table.wd-main td{
+	font-size:100%;}
+table.wd-main th.wd-cell, table.wd-main td.wd-cell{}
+table.wd-main thead th{
+	background-color: #CEDEEC;
+	color:#072838;
+	white-space:nowrap;
+	font-weight:bold;}
+table.wd-main thead th.selected{
+	background-color: #E6EEF5;}
+table.wd-main thead a.wd-sort{
+	color:#072838;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	padding-right:10px;
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/passive_down.gif');}
+table.wd-main thead a.wd-sort-desc{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/active_up.gif');}
+table.wd-main thead a.wd-sort-asc{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/active_down.gif');}
+table.wd-main tbody th{
+	white-space:nowrap;
+	font-weight:normal;
+	text-align:right;}
+table.wd-main tbody td{
+	border-left:none;
+	border-right:none;}
+table.wd-main tbody td.selected{
+	color: #0C4797!important;}
+table.wd-main tbody tr.over td{
+	background-color:#fefdea;}
+table.wd-main tbody tr.checked td{
+	background-color:#eaf8df;}
+table.wd-main td{
+	padding:0px 5px;
+	white-space:normal!important;}
+/* Page History */
+table.wd-main div.popup{
+	z-index:10;
+	background-color:white!important;}
+table.wd-main div.popup div.visible{
+	cursor:default;
+	z-index:10;
+	border:1px solid white;}
+table.wd-main div.popup div.hidden{
+	width:100%;
+	cursor:default;
+	z-index:1000;
+	background-color:white!important;
+	border: 1px solid #C4C4C4;
+	top:-3px;
+	left:-3px;
+	padding:3px;}
+/* /Main table */
+/* Form table */
+table.webdav-form {
+	border:none;
+	width:100%;}
+table.webdav-form td, table.webdav-form th {
+	font-size:100%;
+	padding:5px 10px 5px 0px;
+	font-weight:normal;
+	vertical-align:top;}
+table.webdav-form td{
+	text-align:left;
+	width:70%;}
+table.webdav-form th {
+	text-align:right;
+	width:30%;}
+table.webdav-form tr.header th, table.webdav-form tr.header2 th{
+/*	height:35px;*/
+	background-color: #CEDEEC;
+	color:#072838;
+	vertical-align:middle;
+	white-space:nowrap;
+	font-weight:normal;
+	text-align:center;}
+table.webdav-form tr.header2 th{
+	background-color: #E6EEF5;}
+table.webdav-form tbody select, table.webdav-form tbody input, table.webdav-form tbody textarea{
+	width:70%;}
+table.webdav-form tbody textarea{
+	height:50px;}
+table.webdav-form tbody input.checkbox{
+	width:auto;}
+table.webdav-form tfoot td{
+	height:35px;
+	background-color: #CEDEEC;
+	text-align:center;
+	vertical-align:middle;}
+table.webdav-form span{
+	padding-left:5px;}
+table.webdav-form span.controls a{
+	font-size:11px;
+	white-space:nowrap;}
+table.webdav-form span.controls a:hover{}
+table.webdav-form span.element_download  a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/simple/element_download.gif');}
+table.webdav-form span.element_edit a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/simple/element_edit.gif');}
+table.webdav-form span.element_history a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/simple/element_history.gif');}
+table.webdav-form span.element_delete a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/simple/element_delete.gif');}
+table.webdav-form span.element_view a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/simple/element_view.gif');}
+table.webdav-form span.element_unlock a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/simple/element_unlock.gif');}
+
+span.comments{
+	font-style:italic;}
+table.webdav-upload tbody select, table.webdav-upload tbody input{
+	width:auto;}
+/* /Form table */
+
+/* Actions styles */
+div.up a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/up.gif');}
+div.show-action a.action{
+	display:block;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/arr_down.gif');
+	background-repeat:no-repeat;
+	background-position:22px center;
+	padding:3px;
+	border:1px solid white;
+	margin:0px;
+	white-space:nowrap;}
+div.show-action a.action:hover, table.wd-dropdown-pointer-active a.action {
+	border:1px solid #AEB6C2;
+	background-color:#DBE3F2;}
+div.show-action a.action div.empty{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/action.gif');
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:25px;
+	height:20px; }
+div.wd-action-block{
+	display:block;
+	height:11px;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/action_head.gif');
+	background-repeat:no-repeat;
+	background-position:top center;}
+tr.selected div.show-action a.action{}
+/* Actions styles */
+/* Dropdown */
+table.wd-dropdown-pointer{
+	display:table!important;
+	border:none!important;
+	padding:0px;
+	margin:0px;}
+table.wd-dropdown-pointer td{
+	border:none!important;
+	padding:0px!important;
+	margin:0px!important;}
+div.wd-dropdown-menu table.wd-dropdown-menu, div.wd-dropdown-menu td{
+	font-size:100%;
+	border:none;
+	background:transparent;
+	width:auto;
+	vertical-align:middle;
+	white-space:normal;
+	text-decoration: none;
+	text-align:left;
+	padding:0px;
+	margin:0px;
+	height:auto;}
+div.wd-dropdown-menu{
+	background:#FCFCFC;
+	border:1px solid #B6B6B6;
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/menu_gutter.gif');
+	background-repeat:repeat-y;
+	background-position:left top;
+	padding:1px;}
+table.wd-dropdown-menu{
+	display:table!important;
+	width:100%;}
+table.wd-dropdown-menu td.wd-dropdown-menu{
+	padding:0px!important;}
+table.wd-dropdown-item{
+	width:100%!important;
+	margin:1px;
+	border:none;}
+table.wd-dropdown-item td{
+	cursor:default;}
+table.wd-dropdown-item-over{
+	margin:0px;
+	border:1px solid #AEB6C2;
+	background-color:#CEDAEE;}
+table.wd-dropdown-item-over td{
+	cursor:hand;
+	cursor:pointer;}
+table.wd-dropdown-item td.gutter {
+	width:23px;}
+table.wd-dropdown-item td.gutter div{
+	width:20px;
+	height:20px;
+	background-position:center center;
+	background-repeat:no-repeat;}
+table.wd-dropdown-item td.content{
+	padding:3px 5px 3px 9px;
+	white-space: nowrap;}
+table.wd-dropdown-item td.gutter div.section_edit{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/section_edit.gif');}
+table.wd-dropdown-item td.gutter div.section_drop{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/section_drop.gif');}
+table.wd-dropdown-item td.gutter div.element_edit{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_edit.gif');}
+table.wd-dropdown-item td.gutter div.element_view{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_view.gif');}
+table.wd-dropdown-item td.gutter div.element_delete{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_delete.gif');}
+table.wd-dropdown-item td.gutter div.element_download{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element.gif');}
+table.wd-dropdown-item td.gutter div.element_unlock{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_unlock.gif');}
+table.wd-dropdown-item td.gutter div.element_history{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_history.gif');}
+table.wd-dropdown-item td.gutter div.element_subscribe{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_subscribe.gif');}
+table.wd-dropdown-item td.gutter div.element_unsubscribe{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_unsubscribe.gif');}
+table.wd-dropdown-item td.gutter div.element_unlock{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/dropdown/element_unlock.gif');}
+td.popupmenu div.popupseparator {margin:1px 0px 1px 30px;
+	background-color:#B6B6B6;
+	height:1px;
+	overflow:hidden;}
+/* /Dropdown */
+
+/* Popups */
+div.wd-popup, div.wd-window-edit{
+	background-color:white;
+	padding:0px;
+	margin:0px;
+	border: 1px solid gray;
+	width:350px;
+	height:200px;
+	overflow:hidden;
+	text-align:center;
+	color:black;}
+div.wd-popup{
+	width:352px;
+	height:202px;}
+div.wd-window-edit{
+	border:none;}
+div.wd-window-edit table, div.wd-window-edit table td{
+	font-size:100%;
+	text-align:left;
+	vertical-align:top;
+	border:none;
+	padding:0px;
+	margin:0px;}
+div.wd-window-edit table.wd-window-edit{
+	width:100%;
+	height:200px;}
+div.wd-window-edit table.wd-window-edit thead td{
+	height:50px!important;
+	overflow:hidden;
+	font-size: 110%;
+	padding:5px 10px 0px 10px;
+	color:gray;
+	font-weight:bold;}
+div.wd-window-edit table.wd-window-edit tbody td{
+	height:100px;
+	padding:0px 10px;}
+div.wd-window-edit table.wd-window-edit tfoot td{
+	text-align:center;
+	vertical-align:middle;
+	padding:2px;
+	height:50px!important;}
+div.wd-window-edit table.wd-window-edit tfoot input{
+	margin:0px 7px;}
+div.wd-window-edit table.wd-window-edit tbody div.content {
+	height:90px;
+	overflow:auto;
+	border:none;
+	position:relative;
+	width:330px;}
+div.wd-window-edit table.wd-window-edit tbody input{
+	width: 90%;}
+
+/* /Popups */
+
+
+/* Elements icons */
+div.section-icon{
+	background-position:center;
+	background-repeat: no-repeat;
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/section.gif');
+	float:left;
+	width:20px;
+	height:20px;
+	margin-right:2px;}
+div.element-lamp-green, div.element-lamp-yellow, div.element-lamp-red {
+	background-repeat: no-repeat;
+	background-position:center;
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/green.gif');
+	height:14px;
+	width:14px;}
+div.element-lamp-yellow {
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/yellow.gif');}
+div.element-lamp-red {
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/table/red.gif');}
+div.icbmp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icbmp.gif');}
+div.iccss{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/iccss.gif');}
+div.iccsv{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/iccsv.gif');}
+div.icdib{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icdib.gif');}
+div.icdoc{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icdoc.gif');}
+div.icdocp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icdocp.gif');}
+div.icdocx{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icdocx.gif');}
+div.icgif{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icgif.gif');}
+div.ichtm{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/ichtm.gif');}
+div.ichtml{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/ichtml.gif');}
+div.icjfif{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icjfif.gif');}
+div.icjpe{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icjpe.gif');}
+div.icjpeg{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icjpeg.gif');}
+div.icjpg{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icjpg.gif');}
+div.icjs{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icjs.gif');}
+div.icpdf{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icpdf.gif');}
+div.icphp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icphp.gif');}
+div.icpng{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icpng.gif');}
+div.icppt, div.icpptx{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icppt.gif');}
+div.icpptp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icpptp.gif');}
+div.icrar{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icrar.gif');}
+div.icrtf{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icrtf.gif');}
+div.icswf{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icswf.gif');}
+div.ictif{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/ictif.gif');}
+div.ictiff{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/ictiff.gif');}
+div.ictxt{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/ictxt.gif');}
+div.icundef{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icundef.gif');}
+div.icxls{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icxls.gif');}
+div.icxlsp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icxlsp.gif');}
+div.icxlsx{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icxlsx.gif');}
+div.icxml{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/icxml.gif');}
+div.iczip{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/iczip.gif');}
+/* /Elements icons */
+div.element-name{
+	float:left;}
+a.element-properties{
+	float:left;
+	display:block;
+	padding-left:16px;
+	margin-left:7px;
+	background-position:left center;
+	background-repeat: no-repeat;}
+a.element-comments{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/comments_count.gif');}
+a.element-view{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/webdav/icons/element_view.gif');
+	height:15px; width:15px;}
+div#pwaitwindow {
+	position:relative;
+	text-align:center;
+	width:100%;}
+iframe.waitwindow {
+	position:absolute;
+	border:0px;
+	z-index:9999;}
+div.waitwindow {
+	position:absolute;
+	width:170px!important;
+	padding:10px;
+	background-color:#FCF7D1;
+	border:1px solid #EACB6B;
+	text-align:center;
+	z-index:10000;
+	font-size:13px;
+	background-image:url(/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/wait.gif);
+	background-position:10px center;
+	background-repeat:no-repeat;
+	display:block;}
+/*/ WEBDAV*/
+
+/*top panel icons */
+div.bx-top-panel table.bx-pnbutton div.icon-socnet-reindex {background-image:url(/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/panel/reindex.gif);}
+
+.bx-apps-attached-block{
+	background: #fff8c2;
+	padding: 15px 24px;
+	color: #7f7c61;
+	line-height: 16px;
+	font-size: 12px;
+	margin: 10px auto;
+	vertical-align: middle;
+}
+.bx-apps-attached-block a{
+	color: #167fbb;
+	font-weight: bold;
+}
+.bx-apps-attached-block a:hover{
+	text-decoration: none;
+}
+.bx-apps-icon{
+	display: inline-block;
+	width:16px;
+	height: 16px;
+	line-height: 16px;
+	background: url(/bitrix/components/bitrix/socialnetwork_user/templates/.default/images/apps_sprite.png) no-repeat;
+	vertical-align: middle;
+}
+.bx-apps-icon.download{background-position: center 0;margin-right:10px;}
+.bx-apps-icon.iOS     {background-position: center -32px;margin-left: 10px;}
+.bx-apps-icon.android {background-position: center -64px;margin-left: 10px;}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/style.css?1544127453568*/
+div.sonet-admin-note { background-color: #FFFDC1; border: 1px solid #E6E4AF; color: #787878; margin: 12px 0; padding: 6px; text-align: center; }
+
+.sonet-adminset-error-text-block { padding: 20px; }
+.sonet-adminset-wait-cont { height: 31px; }
+.sonet-adminset-wait-icon { height: 31px; width: 31px; background: url('/bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/images/wait.gif') no-repeat 0 0; display: inline-block; position: relative; left: 1px; top: 1px; }
+.sonet-adminset-wait-text { height: 31px; display: inline-block; position: relative; padding: 0 10px 0 5px; left: 1px; top: -11px; color: #7F7F7F; }
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/bizproc.task.list/templates/.default/style.min.css?15441273874531*/
+.bp-errortext{color:red;padding:5px}.bp-interface-toolbar-container{padding:0}.bp-interface-toolbar{font-size:13px;height:60px;padding-right:20px;color:#94a6af}.bp-interface-toolbar .bp-context-button{position:relative;font-size:12px;line-height:20px;display:inline-block;height:20px;margin-right:15px;padding:13px 20px;-webkit-transition:background .2s cubic-bezier(.000,.465,.750,.750);-moz-transition:background .2s cubic-bezier(.000,.465,.750,.750);-o-transition:background .2s cubic-bezier(.000,.465,.750,.750);transition:background .2s cubic-bezier(.000,.465,.750,.750);vertical-align:middle;white-space:nowrap;text-decoration:none;text-transform:uppercase;color:#535c69;font-family:"OpenSans-Bold",Helvetica,Arial,sans-serif}.bp-interface-toolbar .bp-context-button:hover,.bp-interface-toolbar .bp-context-button.active{background:#def9ff}.bp-context-button-notice{position:absolute;top:2px;width:21px;height:21px;color:#fff;line-height:21px;border-radius:11px;text-align:center;background:#fc0000}.bp-interface-filelist{padding-right:0}.bp-footer-interface-toolbar-container{margin:0}input.bx-bizproc-btn.bx-bizproc-btn-medium{margin-bottom:0}.bp-comments{padding:20px 0;display:inline-block;width:30px}.bp-comments a{color:#3c454b;text-align:center;display:inline-block;cursor:pointer}.bp-comments-icon{display:block;width:16px;height:16px;background:url(/bitrix/components/bitrix/bizproc.task.list/templates/.default/images/bp-sprite.png) no-repeat 0 -18px}.bp-object-name{word-break:break-all;min-width:79px}.bp-folder-title{position:relative;color:#000!important;overflow:hidden;height:16px;display:block}.bx-bizproc-table-body>td{-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none}.bp-folder-title-link{position:relative;text-decoration:underline;display:block;color:#0069ac;overflow:hidden;height:32px}.bp-folder-title:after,.bp-folder-title-link:after,.bp-folder-title:after,.bp-task a:after{content:'';position:absolute;right:0;top:15px;height:16px;width:40px;background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),to(#fff),color-stop(50%,#fff));background:-moz-linear-gradient(to right,rgba(255,255,255,0),#fff 50%,#fff);background:-o-linear-gradient(to right,rgba(255,255,255,0),#fff 50%,#fff);background:-ms-linear-gradient(to right,rgba(255,255,255,0),#fff 50%,#fff);background:linear-gradient(to right,rgba(255,255,255,0),#fff 50%,#fff)}.bx-bizproc-table-body.selected .bp-folder-title:after,.bx-bizproc-table-body.selected .bp-folder-title-link:after,.bx-bizproc-table-body.selected:hover .bp-folder-title:after,.bx-bizproc-table-body.selected:hover .bp-folder-title-link:after,.bx-bizproc-table-body.selected .bp-task a:after,.bx-bizproc-table-body.selected:hover .bp-task a:after{content:'';position:absolute;right:0;bottom:0;height:16px;width:40px;background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),to(#f5fcde),color-stop(50%,#f5fcde));background:-moz-linear-gradient(to right,rgba(255,255,255,0),#f5fcde 50%,#f5fcde);background:-o-linear-gradient(to right,rgba(255,255,255,0),#f5fcde 50%,#f5fcde);background:-ms-linear-gradient(to right,rgba(255,255,255,0),#f5fcde 50%,#f5fcde);background:linear-gradient(to right,rgba(255,255,255,0),#f5fcde 50%,#f5fcde)}.bx-bizproc-table-body:hover .bp-folder-title:after,.bx-bizproc-table-body:hover .bp-folder-title-link:after,.bx-bizproc-table-body:hover .bp-task a:after{background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),to(#f5f5f5),color-stop(50%,#f5f5f5));background:-moz-linear-gradient(to right,rgba(255,255,255,0),#f5f5f5 50%,#f5f5f5);background:-o-linear-gradient(to right,rgba(255,255,255,0),#f5f5f5 50%,#f5f5f5);background:-ms-linear-gradient(to right,rgba(255,255,255,0),#f5f5f5 50%,#f5f5f5);background:linear-gradient(to right,rgba(255,255,255,0),#f5f5f5 50%,#f5f5f5)}.bp-folder-title-description{color:#525252;font-size:12px}.bp-folder-title-description span{font-weight:bold}.bx-bizproc-table-body td{padding:15px 10px!important;vertical-align:top!important}.bp-comments .bp-comments-icon{background:url(/bitrix/components/bitrix/bizproc.task.list/templates/.default/images/bp-sprite.png) no-repeat 0 0;margin:0 auto 5px}.bx-bizproc-table-body:hover .bp-short-process-steps .bp-short-process-finished span span{background:#f5f5f5}.bp-task-container{display:inline-block;vertical-align:middle}.bp-task{display:block;margin-bottom:15px;font-size:13px}.bp-task a{color:#000;position:relative;display:block;max-height:30px;overflow:hidden;margin-right:10px}.bp-task a:hover{text-decoration:underline;color:#0069ac}.bp-btn-panel{display:inline-block;vertical-align:middle}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/style.min.css?154412738711464*/
+.bp-short-process{white-space:nowrap}.bp-short-process-steps{position:relative;display:inline-block;border:2px solid #edeef0;border-radius:3px;padding:0 17px 0}.bp-short-process-steps .bp-short-process-finished{position:relative;display:block;font-size:12px;padding:0 5px 0 26px;z-index:1;color:#000;height:14px;margin-top:-7px}.bp-short-process-steps .bp-short-process-finished span{margin:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;left:24px;right:0;position:absolute;z-index:999;line-height:14px}.bp-short-process-steps .bp-short-process-finished span span{position:static;background:#fff;padding:0 5px 0 0}.bp-short-process-steps .bp-short-process-finished:before{content:'';background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat 0 -101px;position:absolute;top:0;bottom:0;width:26px;height:26px;left:-3px;margin:auto}.bp-short-process-steps .bp-short-process-finished.process-finished-ready:before{background-position:0 -130px}.bp-short-process.alone .bp-short-process-steps{border-color:transparent;padding-right:0}.bp-short-process-step-wrapper{display:inline-block;vertical-align:middle;position:relative;width:14%}a.process-step-more{position:absolute;display:block;border-bottom:1px dashed;color:#535c69;font-weight:bold;margin-top:-10px;font-size:13px;text-align:center}.bp-short-prosess-steps-arrow .process-step-more:hover{border-bottom:1px dashed transparent}.bp-short-process-step{position:relative;display:inline-block;vertical-align:middle;height:43px;width:43px;border:1px solid #fff;border-radius:50%;box-shadow:0 0 0 3px #9299a3;margin:12px 0 16px}.bp-short-process-step-wrapper .bp-short-process-step:hover,.bp-short-process-steps .bp-short-process-step-firs:hover{border-bottom:1px solid transparent}.bp-short-process-step-inner{position:relative;overflow:hidden;border-radius:50%;width:100%;height:100%;display:block;line-height:43px;background:#525b69 url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat -17px -496px}.bp-short-process-step img{width:43px;height:43px;border-radius:50%;margin:auto;vertical-align:middle}.bp-short-process-step:after{content:'';position:absolute;width:18px;height:18px;background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat 0 -79px;top:32px;left:31px;border-radius:50%}.bp-short-process-step.bp-short-process-step-firs:after{display:none}.bp-short-process-step.bp-short-process-step-ready:after{background-position:0 -36px}.bp-short-process-step.bp-short-process-step-cancel:after{background-position:0 -57px}.bp-short-process-step.bp-short-process-step-firs{box-shadow:0 0 0 3px #1ec6f9}.bp-short-process-step.bp-short-process-step-ready{box-shadow:0 0 0 3px #a3d600}.bp-short-process-step.bp-short-process-step-cancel{box-shadow:0 0 0 3px #f73200}.bp-short-process-step.bp-short-process-step-more{box-shadow:0 0 0 3px #9299a3,2px 0 0 3px #fff,5px 0 0 3px #b0b5bc,7px 0 0 3px #fff,10px 0 0 3px #c8ccd2;margin-right:13px}.bp-short-process-step-ready.bp-short-process-step-more{box-shadow:0 0 0 3px #a3d600,2px 0 0 3px #fff,5px 0 0 3px #b0b5bc,7px 0 0 3px #fff,10px 0 0 3px #c8ccd2}.bp-short-process-step-cancel.bp-short-process-step-more{box-shadow:0 0 0 3px #f73200,2px 0 0 3px #fff,5px 0 0 3px #b0b5bc,7px 0 0 3px #fff,10px 0 0 3px #c8ccd2}.bp-short-prosess-steps-arrow{position:relative;display:inline-block;vertical-align:middle;text-align:center;width:48px;font-size:13px;font-weight:bold;color:#535c69;padding-top:25px}.bp-short-prosess-steps-arrow.bp-short-prosess-steps-arrow-ready{width:66px}.bp-short-process-steps .bp-short-prosess-steps-arrow{width:66px}.bp-short-process-steps .bp-short-prosess-steps-arrow .process-step-more{color:#7daa00}.bp-short-prosess-steps-arrow .process-step-more{color:#535c69;position:relative;display:inline}.bp-short-prosess-steps-arrow:after,.bp-short-prosess-steps-arrow.steps-arrow-right-right:before,.bp-short-prosess-steps-arrow.steps-arrow-left-right:before{content:'';position:absolute;width:18px;height:12px;background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat -27px -36px;left:0;right:0;bottom:0;top:0;margin:auto}.bp-short-prosess-steps-arrow.bp-short-prosess-steps-arrow-ready:after{background-position:-27px -21px}.bp-short-prosess-steps-arrow.steps-arrow-right-right:before,.bp-short-prosess-steps-arrow.steps-arrow-left-right:before{bottom:auto}.bp-short-prosess-steps-arrow.steps-arrow-right-right:after,.bp-short-prosess-steps-arrow.steps-arrow-left-right:after{top:auto;bottom:0}.bp-short-prosess-steps-arrow.steps-arrow-left-right:before{background-position:-27px -49px}.bp-short-process.alone .bp-short-prosess-steps-arrow-running{width:66px}.process-step-more-complete,.process-step-more-running{background:#fff;border:0;padding:0 5px;border:none!important}.process-step-more-complete{color:#7daa00!important}.process-step-more-complete span{border-bottom:1px dashed}.bp-popup-parallel{display:inline-block;border-radius:1px;width:215px;padding:5px 0;background:#fff}.bp-popup-parallel a{display:block;margin:3px 0;padding:2px 12px;height:27px}.bp-popup-parallel a:hover{background-color:#f5f7f8}.bp-popup-parallel-avatar{position:relative;display:inline-block;vertical-align:middle;height:25px;width:25px;border:1px solid #fff;border-radius:50%;box-shadow:0 0 0 2px #9299a3}.bp-popup-parallel-avatar span{overflow:hidden;border-radius:50%;width:100%;height:100%;display:block;line-height:25px;background:#525b69 url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat -25px -500px}.bp-popup-parallel-avatar img{width:25px;height:25px;border-radius:50%;margin:auto;vertical-align:middle}.bp-popup-parallel-avatar:after{content:'';position:absolute;width:15px;height:15px;background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat -30px -141px;top:14px;left:16px}.bp-popup-parallel-avatar.bp-popup-parallel-avatar-ready:after{background-position:-30px -109px}.bp-popup-parallel-avatar.bp-popup-parallel-avatar-cancel:after{background-position:-30px -125px}.bp-popup-parallel-name{font-size:14px;color:#80868e;margin-left:12px;display:inline-block;vertical-align:middle;width:145px;line-height:27px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.bp-popup-parallel-sub{position:relative}.bp-popup-parallel-sub .bp-popup-parallel{display:none;position:absolute;left:100%;top:0;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.18);-moz-box-shadow:0 2px 5px rgba(0,0,0,.18);box-shadow:0 2px 5px rgba(0,0,0,.18);border:1px solid;border-color:#d8d8d8 #bdbdbd #bdbdbd #bdbdbd}.bp-popup-parallel-sub:hover .bp-popup-parallel{display:block}.bp-popup-parallel-parent{background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/arrow.png) no-repeat 97% center;cursor:pointer}.bp-short-process-step-wrapper .process-step-more{border:0;border-radius:10px}.bp-short-process-step-wrapper .process-step-more-complete{background:#fff;color:#7daa00}.bp-short-process-step-wrapper .process-step-more span{border-bottom:1px dashed}.bp-short-process-step-wrapper .process-step-more:hover span{border-bottom:1px dashed transparent}.bp-short-process-step-wrapper a.process-step-more:hover{border-bottom:0}.bp-button{background:#ecedef;-webkit-box-shadow:0 0 0 1px #c6cdd3 inset;box-shadow:0 0 0 1px #c6cdd3 inset;border-radius:2px;cursor:pointer;color:#7a818a;display:inline-block;font-family:"OpenSans-Bold",Helvetica,Arial,sans-serif;font-size:12px;outline:0;vertical-align:middle;text-decoration:none;text-transform:uppercase;text-shadow:none;white-space:nowrap;-webkit-font-smoothing:antialiased;-webkit-transition:background-color .25s linear;transition:background-color .25s linear;margin:3px;text-align:center;height:auto;line-height:18px!important;padding:8px 10px;border-bottom:1px solid transparent}.bp-button:hover{font-size:12px;font-family:"OpenSans-Bold",Helvetica,Arial,sans-serif;line-height:47px;text-shadow:none;background:#cfd4d8;color:#535c69}.bp-button:before,.bp-button:after{display:none}.bp-button:active{background:#868d95;-webkit-box-shadow:none;box-shadow:none;color:#fff}.bp-button-transparent,.bp-button-transparent:link{box-shadow:inset 0 0 0 1px #a1a6ac;background:0;color:#535c69;border-bottom:0}.bp-button-transparent:hover{background:#cfd4d8;color:#535c69;box-shadow:inset 0 0 0 1px #cfd4d8}.bp-button-first{margin-left:0}.bp-button-accept,.bp-button-accept:link{background:#bbed21;-webkit-box-shadow:none;box-shadow:none;color:#535c69}.bp-button-accept:hover{background:#d2f95f;color:#535c69}.bp-button-accept:active{background:#b2e233!important;color:#535c69}.bp-button-accept:active .bp-button-text{color:#535c69}.bp-button-decline,.bp-button-decline:link{background:#f1361b;-webkit-box-shadow:none;box-shadow:none;color:#fff}.bp-button-decline:hover{background:#cc1a00;color:#fff}.bp-button-blue,.bp-button-blue:link{background:#3bc8f5;-webkit-box-shadow:none;box-shadow:none;color:#fff}.bp-button-blue:hover{background:#3fddff;color:#fff}.bp-button.bp-button-blue{height:18px;line-height:18px!important}.bp-button-wait{color:transparent!important;position:relative}.bp-button-wait:before{background:none!important;box-shadow:inset 0 0 0 1px #fff;border-radius:50%;color:#fff;display:block;content:'_';font-size:10px;font-family:"OpenSans-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;line-height:10px;height:21px;top:0;left:50%;padding-right:6px;position:absolute;text-align:right;width:15px;box-sizing:content-box;bottom:0;margin:auto;margin-left:-11px}.bp-button-wait:after{background:#fff!important;content:'';display:block;height:7px;position:absolute;top:-6px;left:50%;padding:0;width:1px;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-animation:bp-clock 1s infinite linear;animation:bp-clock 1s infinite linear;bottom:0;margin:auto;margin-left:-1px}.bp-button-accept.bp-button-wait:before{color:#535c69;-webkit-box-shadow:inset 0 0 0 1px #535c69;box-shadow:inset 0 0 0 1px #535c69}.bp-button-accept.bp-button-wait:after{background:#535c69!important}@keyframes bp-clock{0%{transform:rotate(0deg)}50%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}@-webkit-keyframes bp-clock{0%{-webkit-transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg)}}@-moz-keyframes bp-clock{0%{-moz-transform:rotate(0deg);top:-6px}50%{-moz-transform:rotate(180deg)}100%{-moz-transform:rotate(360deg);top:-6px}}.bp-button-icon{width:14px;height:11px;background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat 1px -499px;display:inline-block;vertical-align:middle;float:left;margin:3px 0}.bp-button-decline .bp-button-icon{background-position:1px -512px}.bp-button-wait .bp-button-icon{opacity:0}.bp-button-text{padding-right:7px;min-width:100px;display:block;padding-left:22px}.bp-status{display:inline-block;vertical-align:middle}.bp-status .bp-status-inner{position:relative;vertical-align:middle;display:table-cell}.bp-status .bp-status-inner span{padding:11px 17px 11px 40px;color:#cd8600;line-height:16px;text-align:left;border-radius:3px;background:#ffefd0;font-weight:bold;display:inline-block;position:relative}.bp-status .bp-status-inner span:after{content:'';position:absolute;left:13px;top:50%;margin:auto;margin-top:-9px;width:18px;height:18px;background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat -27px 0}.bp-status-cancel,.bp-status-ready{position:relative;display:inline-block;color:#f73200;font-weight:bold;padding-left:22px;line-height:17px;vertical-align:middle}.bp-status-ready{color:#61aa00}.bp-status-cancel:after,.bp-status-ready:after{content:'';position:absolute;left:0;top:0;bottom:0;margin:auto;width:13px;height:13px;background:url(/bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/images/bp-sprite.png) no-repeat -28px -79px}.bp-status-ready:after{width:18px;height:13px;background-position:-27px -63px}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/intranet.user.selector.new/templates/.default/style.css?1544127424349*/
+input.intranet-hidden-input {display: none;}
+.intrantet-user-selector-tooltip {z-index: 4500 !important;}
+
+.finder-box .finder-box-item-icon,
+.finder-box .company-department-employee-icon {
+	display: none;
+}
+.finder-box.finder-box-multiple .finder-box-item-icon,
+.finder-box.finder-box-multiple .company-department-employee-icon {
+	display: block;
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/system.pagenavigation/templates/modern/style.min.css?1544127384659*/
+div.modern-page-navigation{padding:.5em 0}div.modern-page-navigation a,span.modern-page-current,span.modern-page-dots{border-left-width:1px;border-left-style:solid;padding-left:.75em;padding-right:.5em;text-decoration:none}div.modern-page-navigation a.modern-page-previous{border-right-width:1px;border-right-style:solid;border-left:none}div.modern-page-navigation a.modern-page-first,div.modern-page-navigation span.modern-page-first{border-left:none;padding-left:.5em}span.modern-page-current{font-weight:bold}div.modern-page-navigation a,span.modern-page-current,div.modern-page-navigation a.modern-page-previous,span.modern-page-dots{border-color:#cdcdcd}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/style.min.css?154412738713819*/
+div.bx-bizproc-interface-list{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}div.empty{height:0}div.bx-drag-object{height:50px;padding:0 10px;border:1px solid #cdcdcd;color:black;font-weight:bold;background-color:#d6f1fb;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/listhead.png);background-repeat:repeat-x;background-position:top;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}div.bx-drag-arrow{width:11px;height:6px;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/drag_arrow.gif);background-repeat:no-repeat;background-position:left top;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}div.bx-interface-filter{margin:16px 0 16px 0}table.bx-interface-filter td{padding:0}table.bx-interface-filter tr.bx-filter-header td{background-color:#a1a1a1;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/bg.png);background-repeat:repeat-x;background-position:left 1px;border:1px solid #909090;border-top:1px solid #9a9a9a;border-bottom:1px solid #818181}table.bx-interface-filter tr.bx-filter-content td{border:1px solid #d6d6d6;border-top:0;padding:10px;padding-top:5px}table.bx-interface-filter table.bx-filter-rows tr{background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/row_bg.gif);background-position:left bottom;background-repeat:repeat-x}table.bx-interface-filter table.bx-filter-rows td{border:0;padding:5px}div.bx-filter-buttons{margin-top:10px}a.bx-filter-minus{display:block;width:18px;height:18px;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/minus.gif);background-position:center;background-repeat:no-repeat}a.bx-filter-minus:hover{background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/minus-hover.gif)}a.bx-filter-btn,div.bx-filter-btn{float:left;display:block;width:18px;height:18px;margin:3px;background-position:center;background-repeat:no-repeat}a.bx-filter-show{background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/arrow-down.gif)}a.bx-filter-hide{background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/arrow-up.gif)}a.bx-filter-menu{width:28px;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/menu.gif)}a.bx-filter-min{float:right;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/minimize.gif)}a.bx-filter-max{float:right;background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/maximize.gif)}a.bx-filter-show:hover,a.bx-filter-hide:hover,a.bx-filter-menu:hover,a.bx-filter-min:hover,a.bx-filter-max:hover{background-color:#b7b7b7}div.bx-filter-sep{float:left;width:1px;height:17px;margin:3px;background-color:#b7b7b7}div.bx-filter-off{background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/check-off.gif)}div.bx-filter-on{background-image:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/filter/check-on.gif)}div.bx-filter-text{float:left;color:white;font-size:12px;font-weight:bold;margin:5px 3px 0 0}span.bx-filter-hellip{width:20px;display:inline-block;text-align:center}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/popup/drop-menu-icons.png) no-repeat;width:24px;height:24px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.view{background-position:-78px -48px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.edit{background-position:-78px -82px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.delete{background-position:-78px -116px}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.copy{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/popup/copy.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.print{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/popup/print.png) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.checked{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/popup/checkbox.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.list{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/popup/list.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.add{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/popup/new.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-filters{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons/filters.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-settings{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons/settings.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-sort-asc{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons/sort_asc.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-sort-desc{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons/sort_desc.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-themes{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons/themes.gif) no-repeat 0 0!important}div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.grid-views{background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons/views.gif) no-repeat 0 0!important}.bx-bizproc-folder-icon{display:inline-block;float:left;width:36px;height:29px;margin-right:10px;vertical-align:middle;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons-items.png) no-repeat;background-position:0 0!important}.bx-bizproc-folder-icon-container-small.bx-bizproc-item-icon,.bx-bizproc-item-icon-container-small.bx-bizproc-item-icon{display:inline-block;width:36px;height:36px;margin-right:10px;vertical-align:middle;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/icons-items.png) no-repeat;background-position:left -576px!important}.bx-bizproc-item-icon-container-small.bx-bizproc-item-icon.icon-img{background-position:left -624px!important}.bx-bizproc-item-title{cursor:pointer}.bx-bizproc-interface-list{padding:0 20px 13px 0}.bx-bizproc-interface-list td{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px}.bx-bizproc-interface-list a.bx-bizproc-action:hover{border:none!important}.bx-bizproc-table-body .draggable{background-color:transparent}.bx-bizproc.bx-bizproc-grid-head>td{font-size:14px;height:55px;padding:0 10px;vertical-align:middle;color:#535c69!important;background:#d6f1fb!important}.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable:hover,.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable.bx-bizproc-sorted{cursor:pointer;-webkit-transition:background .3s cubic-bezier(.000,.465,.750,.750);-moz-transition:background .3s cubic-bezier(.000,.465,.750,.750);-o-transition:background .3s cubic-bezier(.000,.465,.750,.750);transition:background .3s cubic-bezier(.000,.465,.750,.750);background:#c1eaf9!important}.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable .bx-bizproc-sort-sign{width:10px;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s;opacity:0;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat!important}.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable:hover .bx-bizproc-sort-sign,.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable.bx-bizproc-sorted .bx-bizproc-sort-sign{opacity:1}.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable .bx-bizproc-sort-sign.bx-bizproc-sort-down{background-position:4px -87px!important}.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-sortable .bx-bizproc-sort-sign.bx-bizproc-sort-up{background-position:-36px -87px!important}.bx-bizproc.bx-bizproc-grid-head .bx-bizproc-actions-col a.bx-bizproc-action{opacity:.4}.bx-bizproc-sorted a{display:inline-block;overflow:hidden;vertical-align:middle;max-width:350px;white-space:nowrap;text-overflow:ellipsis}.bx-head-advanced-more{display:inline-block;width:16px;height:16px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -16px -224px}.bx-head-advanced-more:hover{cursor:pointer;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}.bx-bizproc-table-body>td{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:59px;padding:0 10px;color:#535c69;border-top:1px solid #edeef0!important;border-bottom:none!important}.bx-bizproc-table-body td{font-size:14px}.bx-bizproc-table-body:first-child>td{border-top:none!important}.bx-bizproc-table-body:hover>td{background:#f5f5f5!important}.bx-bizproc-table-body.selected>td{background:#f5fcde!important}td.bx-bizproc-checkbox-col{padding-left:15px}.bx-bizproc-object-name{width:100%}.bx-bizproc-object-name tr td{padding:0!important;border:none!important}.bx-bizproc-item-title,.bx-bizproc-folder-title{font-size:14px;text-decoration:none;color:#535c69}.bx-bizproc-folder-title{vertical-align:middle}input.bx-bizproc-folder-title{line-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:30px;margin:0 auto;padding:0 5px;color:#535c69;border:1px solid #c6cdd3;border-radius:2px}.bx-bizproc-interface-tile input.bx-bizproc-folder-title{width:90%;margin:-5px auto 0;text-align:center}.bx-bizproc-item-title{cursor:pointer}.bx-bizproc-actions-col{padding:0 15px;text-align:center}.bx-bizproc-actions-col a.bx-bizproc-action,.bx-bizproc-interface-tile a.bx-bizproc-action,.bx-bizproc-info-panel-context a.bx-bizproc-action,.bx-bizproc-item-container:hover a.bx-bizproc-action{display:inline-block;width:16px;height:16px;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s;opacity:.2;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat;background-position:-16px -191px;vertical-align:top}.bx-bizproc-actions-col a.bx-bizproc-action .empty,.bx-bizproc-actions-col a.bx-bizproc-action .empty:hover,.bx-bizproc-item-container a.bx-bizproc-action .empty,.bx-bizproc-item-container a.bx-bizproc-action .empty:hover,.bx-bizproc-interface-tile a.bx-bizproc-action .empty,.bx-bizproc-interface-tile a.bx-bizproc-action .empty:hover{background:none!important}.bx-bizproc-info-panel-context a.bx-bizproc-action:hover,.bx-bizproc-actions-col a.bx-bizproc-action:hover,.bx-bizproc-interface-tile a.bx-bizproc-action:hover{opacity:.7}.bx-bizproc-info-panel-context a.bx-bizproc-action:active,.bx-bizproc-actions-col a.bx-bizproc-action:active,.bx-bizproc-interface-tile a.bx-bizproc-action:active{opacity:1}.bx-head-advanced-more-col{display:inline-block;width:14px;height:14px;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -16px -256px}.bx-bizproc-table-footer.bx-bizproc-grid-footer{width:100%;border:1px solid #d2d5d8!important}.bx-bizproc-table-footer.bx-bizproc-grid-footer td{font-size:13px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:52px!important;padding:0 20px!important;vertical-align:middle;white-space:nowrap;color:#93989f!important;background:#fff!important}.bx-bizproc-table-footer.bx-bizproc-grid-footer td span{color:#000}.bx-bizproc-table-footer.bx-bizproc-grid-footer td span.modern-page-title{color:#93989f}.bx-pagination-text{display:inline-block;margin:0 5px;vertical-align:middle}.bx-bizproc-table-footer.bx-bizproc-grid-footer td span.bx-pagination-text{color:inherit}.bx-bizproc-btn{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;font-weight:bold;display:inline-block;margin-bottom:10px;padding:0 15px;cursor:pointer;-webkit-transition:background .5s ease;-moz-transition:background .5s ease;-ms-transition:background .5s ease;-o-transition:background .5s ease;transition:background .5s ease;text-align:center;vertical-align:middle;text-decoration:none;text-transform:uppercase;color:#535b69;border:0;border-radius:2px}.bx-bizproc-btn-big{line-height:40px;height:40px}.bx-bizproc-btn-medium{line-height:32px;height:32px}.bx-bizproc-btn-small{line-height:29px;height:29px}.bx-bizproc-btn-gray{color:#fff;background-color:#868d96}.bx-bizproc-btn-gray:hover{color:#fff;background-color:#6c7177}.bx-bizproc-btn-green{background-color:#bbed21}.bx-bizproc-btn-green:hover{color:#535b69;background-color:#a9de04}.bx-bizproc-btn-lightgray{background-color:#d9dfe3}.bx-bizproc-btn-lightgray:hover{color:#535b69;background-color:#cfd3d6}.bx-bizproc-btn-transparent{background-color:transparent}.bx-bizproc-btn-transparent:hover{color:#535b69;background-color:#e5e8eb}.bx-bizproc-btn-transparent.border{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:border .5s ease,background .5s ease;-moz-transition:border .5s ease,background .5s ease;-ms-transition:border .5s ease,background .5s ease;-o-transition:border .5s ease,background .5s ease;transition:border .5s ease,background .5s ease;border:1px solid #c4cace!important;border-right:2px}.bx-bizproc-btn-transparent.border:hover{color:#535b69;border-color:#9fa4ab!important}.bx-bizproc-btn-icon{line-height:40px;display:inline-block;width:13px;height:13px;margin-right:10px;vertical-align:middle;opacity:.7;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -9px -969px}.bx-bizproc-not-result,.bx-bizproc-not-result:hover,td.bx-bizproc-not-result,td.bx-bizproc-not-result:hover{text-align:center!important;vertical-align:middle!important;height:150px!important;color:#b6b9bd!important;font-size:30px!important;line-height:100px!important;background:#fff!important}.bx-bizproc-footer-interface-toolbar-container{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:54px;height:54px;margin-top:20px;padding:0 10px;color:#535c69;background:#eef2f4}.bx-bizproc-footer-interface-toolbar-container td{padding:0 6px;vertical-align:middle}.bx-bizproc-footer-interface-toolbar-container .popup-control{height:32px}.bx-bizproc-bd-icon-edit{display:block;width:15px;height:15px;cursor:pointer;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s;opacity:.7;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat 0 -160px}.bx-bizproc-bd-icon-edit.active,.bx-bizproc-bd-icon-edit:hover{opacity:1}.bx-bizproc-bd-icon-del{display:block;width:15px;height:15px;margin-right:30px;cursor:pointer;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s;opacity:.7;background:url(/bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/images/sprite.png) no-repeat -36px -158px}.bx-bizproc-bd-icon-del.active,.bx-bizproc-bd-icon-del:hover{opacity:1}.tar{text-align:right!important}.vam{vertical-align:middle}.bp-grid-errortext{color:red;padding:5px}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/style.min.css?154412738712185*/
+.bx-filter-wrap{margin-bottom:20px;margin-top:20px}.bx-filter-tabs-block{padding-right:70px;white-space:nowrap;position:relative}.bx-filter-tab{background-color:#fff;display:inline-block;border-radius:2px 2px 0 0;border:1px solid #a1a6ac;border-bottom:0;color:#535c69;cursor:pointer;font-size:12px;font-family:"OpenSans-Bold",Helvetica,Arial,sans-serif;height:41px;line-height:41px;margin-left:8px;text-transform:uppercase;padding:0 20px;position:relative;vertical-align:top;z-index:2;-webkit-transition:background-color .25s linear;transition:background-color .25s linear}.bx-filter-tab:hover{background-color:#f8fafb}.bx-filter-add-tab{padding:0 23px 0 22px}.bx-filter-add-tab:after{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat scroll center 0 rgba(0,0,0,0);content:"";height:12px;left:16px;top:15px;position:absolute;width:14px}.bx-filter-main-table{border-spacing:0;width:670px!important}.bx-ie8 .bx-filter-main-table,.bx-ie9 .bx-filter-main-table{border-spacing:0;width:800px}.bx-filter-main-table-cell{padding:0}.bx-filter-tab:first-child{margin:0}.bx-filter-tab-active,.bx-filter-tab-active:hover{background-color:#eef2f4;border-color:#eef2f4}.bx-current-filter-tab{background-color:#ecf7c8;border-color:#ecf7c8}.bx-current-filter-tab:hover{background-color:#e4f5ae}.bx-filter-content{overflow:hidden}.bx-filter-content-inner{background-color:#eef2f4;border-radius:0 2px 2px;overflow:hidden;padding:10px 0 14px 0;position:relative;z-index:3;-webkit-transition:background-color .25s linear;transition:background-color .25s linear}.bx-current-filter .bx-filter-content-inner{background-color:#ecf7c8}.bx-filter-item{padding:0 14px 18px 11px}.bx-input-help-icon-wrap{padding-right:30px!important}.bx-input-help-icon{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat center -130px;right:0;top:0;height:27px;text-decoration:none;position:absolute;width:30px}.bx-input-help-icon:hover{background-position:center -100px}.bx-filter-content .bx-select-wrap{float:right;max-width:250px;min-width:100px}.bx-select-wrap:after{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat -9px -641px;content:"";height:10px;position:absolute;right:8px;top:13px;width:5px;z-index:1}.bx-filter-wrap .bx-select-wrap{border-radius:2px;display:inline-block;vertical-align:top;position:relative}.bx-filter-wrap .bx-select{position:relative;z-index:1;display:inline-block;overflow:hidden;padding:0 0 0 5px;min-width:100px;width:100%;height:36px;outline:0;border:1px solid #c6cdd3;border-radius:0;background:#fff;box-shadow:none;color:#535c69;vertical-align:top;text-shadow:0 1px #fff;font:14px/15px "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-appearance:none;-moz-appearance:none;appearance:none}.bx-filter-content-table-wrap{padding:0 18px}.bx-filter-content-table{border:0;border-spacing:0;width:100%}.bx-filter-item-left{color:#535c69;border:0;font-size:14px;min-width:114px;height:24px;text-align:left;text-overflow:ellipsis;vertical-align:top;padding:9px 12px 6px 0}.bx-filter-item-center{border:0;vertical-align:top;overflow:hidden;padding:0 0 8px 0;width:100%}.bx-workarea .bx-filter-content-table .bx-input-wrap{padding-right:12px}.bx-filter-calendar-separate{background-color:#87919c;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5);box-shadow:0 1px 0 0 rgba(255,255,255,0.5);display:inline-block;height:3px;margin:17px -4px 0 6px;vertical-align:top;width:15px}.bx-calendar-icon{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat center -503px;border:medium none!important;cursor:pointer;height:15px;outline:medium none;position:absolute;right:10px;top:10px;width:16px}.bx-calendar-icon:hover{background-position:center -525px}.bx-filter-box-sizing{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:start;-moz-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-direction:normal;-moz-box-direction:normal;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;font-size:13px;text-shadow:0 1px rgba(255,255,255,0.7);width:100%}.bx-filter-alignment{margin:0 0 -5px -12px}.bx-filter-box-sizing .bx-input-wrap{display:block;margin:0 0 5px 12px;vertical-align:top;padding:0;position:relative;-webkit-box-flex:10;-moz-box-flex:10;-webkit-flex:10 10 auto;-ms-flex:10 10 auto;flex:10 10 auto}.bx-filter-wrap .bx-input,.bx-filter-wrap input[type="text"],.bx-filter-wrap input[type="password"],.bx-filter-wrap input[type="email"]{background:#fff;border:1px solid #c6cdd3;border-radius:2px;color:#313232;display:inline-block;font-size:13px;height:36px;margin:0;outline:0;vertical-align:middle;padding:0 8px;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.bx-flexwrap .bx-workarea .bx-filter-box-sizing .bx-input-wrap,.bx-boxdirection .bx-workarea .bx-filter-box-sizing .bx-input-wrap{-webkit-box-flex:10;-moz-box-flex:10;-webkit-flex:10 1 auto;-ms-flex:10 1 auto;flex:10 1 auto;margin-left:12px;min-width:90px;padding-right:0}.bx-filter-box-sizing .bx-select-wrap{-webkit-box-flex:1;-moz-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;float:none;margin:0 0 5px 12px}.bx-no-flexwrap .bx-workarea .bx-filter-box-sizing .bx-input-wrap{display:inline-block;margin-left:12px;padding:0;vertical-align:top;width:190px}.bx-ie8 .bx-workarea .bx-filter-box-sizing .bx-input-wrap{width:150px}.bx-calendar-separate{background-color:#87919c;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5);box-shadow:0 1px 0 0 rgba(255,255,255,0.5);display:inline-block;margin:12px -4px 0 6px;height:3px;vertical-align:top;width:15px}.bx-calendar-block .bx-select-wrap{max-width:150px}.bx-filter-item-right{border:0;vertical-align:top;padding:0 0 8px 0;width:29px;white-space:nowrap}.bx-filter-bottom-separate{background-color:#d8dde0;height:1px;margin:0 18px 13px}.bx-current-filter .bx-filter-bottom-separate{background-color:#d6e1bb}.bx-filter-bottom{padding:0 18px}.bx-filter-content-first .bx-filter-bottom{border:0;-webkit-box-shadow:none;box-shadow:none;margin-top:-5px;padding-top:0}.bx-filter-setting-block{float:right;margin-top:4px}.bx-filter-add-button,.bx-filter-item-delete,.bx-filter-setting{border:1px solid #a1a6ac;border-radius:2px;-webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5);cursor:pointer;display:inline-block;height:30px;vertical-align:top;position:relative;width:32px;-webkit-transition:background-color .25s linear;transition:background-color .25s linear}.bx-filter-setting{margin-right:7px}.bx-ie8 .bx-filter-add-button,.bx-ie8 .bx-filter-item-delete,.bx-ie8 .bx-filter-setting{border:1px solid #8b999d}.bx-filter-item-delete{margin:2px 0 0 12px}.bx-filter-add-button:after,.bx-filter-item-delete:after,.bx-filter-setting:after{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat scroll center 0;content:"";height:16px;position:absolute;left:9px;top:9px;width:16px}.bx-filter-item-delete:after{height:2px;top:14px;left:8px;background-color:#535c69}.bx-filter-setting:after{background-position:center -26px;left:9px;top:7px}.bx-filter-add-button:hover,.bx-filter-item-delete:hover,.bx-filter-setting:hover{background-color:#cfd4d8}.bx-filter-text-wrap{display:inline-block;color:#000;font-size:13px;margin:4px 0 0 12px;text-shadow:0 1px rgba(255,255,255,0.7);vertical-align:top}.bx-filter-main-table br{display:none}.bx-filter-main-table label+br{display:block}.bx-chrome .bx-filter-main-table label+br{margin-top:5px}.bx-filter-main-table label.bx-designed-checkbox-label+br{display:none}.bx-ie8 .bx-filter-main-table input[type="checkbox"]{margin-left:12px}.bx-filter-text-search{margin:6px 0 0 12px}.bx-filter-switcher-tab{border:1px solid transparent;display:block;cursor:pointer;right:18px;top:5px;height:30px;position:absolute;z-index:2;width:32px;-webkit-transition:border-color .25s linear;transition:border-color .25s linear}.bx-filter-switcher-tab-icon{background-color:#535c69;display:block;margin-top:14px;height:2px;margin-left:8px;width:16px}.bx-filter-switcher-tab:hover{border:1px solid #a1a6ac}.bx-filter-folded .bx-filter-switcher-tab-icon{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat center -342px;height:14px;margin-top:8px;width:16px}.bx-filter-folded .bx-filter-tab{border-radius:2px;border:1px solid #a1a6ac;z-index:2;height:38px;line-height:38px;background-color:transparent}.bx-filter-folded .bx-filter-add-tab:after{top:13px}.bx-filter-folded .bx-filter-tab-active:hover{background-position:0 -39px}.bx-filter-folded .bx-current-filter-tab{background-color:#818992;border-color:#818992;color:#fff;position:relative}.bx-filter-tabs-block-underlay{background-color:#eef2f4;height:64px;border-radius:2px;top:-12px;left:-1px;opacity:0;right:0;position:absolute;z-index:1;-webkit-transition:opacity .25s linear;transition:opacity .25s linear}.bx-filter-folded .bx-filter-tabs-block-underlay{opacity:1}.bx-ie8 .bx-filter-tabs-block-underlay{display:none}.bx-ie8 .bx-filter-folded .bx-filter-tabs-block-underlay{display:block}.bx-filter-wrap .bx-btn,.bx-filter-wrap input[type="button"],.bx-filter-wrap input[type="reset"],.bx-filter-wrap input[type="submit"]{background:transparent;border-radius:2px;border:1px solid #a1a6ac;box-shadow:none;color:#535c69;cursor:pointer;display:inline-block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;height:40px;line-height:38px;margin-left:12px;min-width:55px;text-transform:uppercase;text-decoration:none;padding:0 15px;position:relative;vertical-align:middle;-webkit-font-smoothing:antialiased;-webkit-transition:all .25s linear;transition:all .25s linear}.bx-filter-wrap .bx-btn:hover,.bx-filter-wrap input[type="button"]:hover,.bx-filter-wrap input[type="reset"]:hover,.bx-filter-wrap input[type="submit"]:hover{text-decoration:none;background:#cfd4d8!important}.bx-filter-wrap .bx-btn:active,.bx-filter-wrap .bx-btn.bx-btn-active,.bx-filter-wrap input[type="submit"]:active,.bx-filter-wrap input[type="button"]:active{background-color:#868d95!important;color:#fff}.bx-filter-bottom .bx-btn,.bx-filter-bottom input[type="button"],.bx-filter-bottom input[type="reset"],.bx-filter-bottom input[type="submit"]{margin:0 10px 0 0;min-width:90px}.bx-filter-wrap .bx-select-wrap-multiple{border-radius:2px;border:1px solid #c6cdd3;-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;display:inline-block;float:left;min-width:100px;margin:0 0 5px 12px;overflow:hidden;position:relative}.bx-filter-wrap .bx-select-multiple{background-color:#fff;border-radius:4px;border:0;color:#535c69;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;margin:0;outline:0;padding:0;width:100%}.bx-filter-wrap select[multiple],.bx-filter-wrap select[size]{height:auto;min-height:27px}.bx-filter-box-sizing .bx-user-field-wrap{display:block;margin:0 0 5px 12px;vertical-align:top;padding:0;position:relative;-webkit-box-flex:10;-moz-box-flex:10;-webkit-flex:10 10 auto;-ms-flex:10 10 auto;flex:10 10 auto}.bx-filter-box-sizing .bx-user-field-wrap input[type="text"]{width:auto}.bp-filter-popup-item .menu-popup-item-icon{background:url("/bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/images/filter/filter-sprite.png") no-repeat 100px 100px;width:12px}.bp-filter-popup-item .menu-popup-item-left,.bp-filter-popup-item .menu-popup-item-right{display:none}.bp-filter-popup-item .menu-popup-item-text{margin-left:5px}.bp-filter-popup-item.menu-popup-item-checked .menu-popup-item-icon{background-position:center -616px}.bp-main-wrap-flat .bx-filter-tabs-block{padding-left:9px}.bizproc-user-search-filter-clean{position:absolute;top:12px;right:12px;display:inline-block;width:11px;height:11px;background:url('data:image/svg+xml;utf8,<svgxmlns="http://www.w3.org/2000/svg"width="17"height="17"viewBox="001717"><polygonfill="#535C69"fill-rule="evenodd"points="9.4867.4859.4862.4857.4862.4857.4867.4852.4867.4852.4869.4857.4869.4857.48614.4859.48614.4859.4869.48514.4869.48514.4867.485"transform="rotate(458.4868.485)"/></svg>') center center no-repeat;-webkit-transition:opacity .3s ease;-moz-transition:opacity .3s ease;transition:opacity .3s ease;cursor:pointer;opacity:.5}.bizproc-user-search-filter-clean:hover{opacity:1}
+/* End */
+/* /bitrix/components/bitrix/socialnetwork_user/templates/.default/style.css?154412745416747 */
+/* /bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/style.css?1544127453568 */
+/* /bitrix/components/bitrix/bizproc.task.list/templates/.default/style.min.css?15441273874531 */
+/* /bitrix/components/bitrix/bizproc.workflow.faces/templates/.default/style.min.css?154412738711464 */
+/* /bitrix/components/bitrix/intranet.user.selector.new/templates/.default/style.css?1544127424349 */
+/* /bitrix/components/bitrix/system.pagenavigation/templates/modern/style.min.css?1544127384659 */
+/* /bitrix/components/bitrix/bizproc.interface.grid/templates/.default/bitrix/main.interface.grid/.default/style.min.css?154412738713819 */
+/* /bitrix/components/bitrix/bizproc.interface.filter/templates/.default/bitrix/main.interface.filter/.default/style.min.css?154412738712185 */

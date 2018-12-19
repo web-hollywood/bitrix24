@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<content type="LES"><id>45</id>
+<timestamp_x>1228916187</timestamp_x>
+<date_create>1227877730</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>4</course_id>
+<chapter_id></chapter_id>
+<name>Holidays</name>
+<sort>700</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>Full-time and part-time eligible employees receive ten (10) paid (fixed) holidays. Since it is not possible for all employees to be off on a holiday, non-exempt employees who must work on these days will be paid time and a half for the hours worked. Part-time eligible employees receive pro-rated holiday hours.</p>
+
+<p>There are 10 legal holidays:</p>
+<ul>
+<li><b>New Years Day</b> &ndash; January 1</li>
+<li><b>Birthday of Martin Luther King, Jr.</b> &ndash; Third Monday in January</li>
+<li><b>Presidents Day</b> &ndash; Third Monday in February</li>
+<li><b>Memorial Day</b> &ndash; Last Monday in May</li>
+<li><b>Independence Day</b> &ndash; July 4</li>
+<li><b>Labor Day</b> &ndash; First Monday in September</li>
+<li><b>Columbus Day</b> &ndash; Second Monday in October</li>
+<li><b>Veterans Day</b> &ndash; November 11</li>
+<li><b>Thanksgiving Day</b> &ndash; Fourth Thursday in November</li>
+<li><b>Christmas Day</b> &ndash; December 25</li>
+</ul>
+<p>Should a holiday fall on a Saturday, the preceding Friday will be considered the paid holiday; if a holiday falls on a Sunday, the following Monday will be considered the paid holiday. For observance of a religious holiday, you must request your Personal Day or vacation leave.</p>]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

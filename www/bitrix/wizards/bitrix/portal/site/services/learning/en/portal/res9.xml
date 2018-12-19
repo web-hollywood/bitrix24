@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>20</id>
+<timestamp_x>1231837430</timestamp_x>
+<date_create>1227862569</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>1</chapter_id>
+<name>Personal Page</name>
+<sort>200</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<p>For each employee, a <b>personal page</b> exists that shows their personal and official information.</p>
+ 
+<p>To switch to your personal section, open <i>Employees &gt; Personal Profile</i>. To view information about another employee, click a link with his or her name. The user&rsquo;s main page will open:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/person.png',611,583,'Personal page')"> <img width="250" height="239" border="0" src="cid:resources/res9/FMR7C.person_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>The first tab contains information about recently added friends, membership in groups, recent forum and blog posts. Absences or mentions in the Honored Employees are also indicated on the main page of the personal section.</p>
+ 
+<p>The following links open the personal settings configuration pages.</p>
+ 
+<ul> 
+  <li><strong>Edit Profile</strong> is used to edit user information: contacts, personal and official information and authorization parameters. </li>
+ 
+  <li><strong>Edit Privacy Settings</strong> changes the permissions of other users to view your personal page, friends and groups; it also defines users allowed to invite you to groups and send personal messages to you. </li>
+ 
+  <li><strong>Edit Settings</strong> enables or disables the portal features (Forum, Photo Gallery etc.), and assigns permissions with respect to these services. </li>
+ </ul>
+ 
+<h4>Users Friends</h4>
+ 
+<div class="hint"><b>Note!</b> This feature is disabled by default. However, you can send a message to any employee to invite them to a group. The portal administrator can enable this feature.</div>
+ 
+<p>The <b>Friends</b> tab presents all the user friends. To add a friend, follow the steps below:</p>
+ 
+<ul> 
+  <li>Click <b>Add Friends</b> to open the <b>Find Employee</b> page. </li>
+ 
+  <li>Find the required employee using this form (see the <b>Finding Users</b> lesson). </li>
+ 
+  <li>In the profile found, click the user name link. The employee's personal page will open. 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/friend_add.png',582,307,'New friend')"> <img width="250" height="132" border="0" src="cid:resources/res9/NQY8F.friend_add_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></li>
+ 
+  <li>Click <b>Add to Friends</b>. </li>
+ 
+  <li>Fill in the invitation form and click <b>Send Message</b>. 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/invint_friend.png',616,242,'Invitation form')"> <img width="249" height="98" border="0" src="cid:resources/res9/LJkVT.invint_friend_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a> 
+    <br />
+   
+    <br />
+   You will see a confirmation saying the message has been successfully sent. When the employee receives and accepts the invitation, they will appear in your friend list. </li>
+ </ul>
+ 
+<p>If an employee sends you a friend invitation, a corresponding message will immediately show on the left of the portal page.</p>
+ 
+<p>To send a message to a user, do the following:</p>
+ 
+<ul> 
+  <li>Select the required employee. </li>
+ 
+  <li>Click <b>Send Message</b>. The messaging window will appear: 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/message.png',640,500,'Message')"> <img width="250" height="195" border="0" src="cid:resources/res9/ezskx.message_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></li>
+ 
+  <li>Type the message text and click <b>Send</b>. The new message will be shown in the dialog window. 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/history.png',411,174,'The new message')"> <img width="250" height="106" border="0" src="cid:resources/res9/hAnWQ.history_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></li>
+ </ul>
+ 
+<p>If a user sends you a message but the messaging window is not active, a notification will immediately show in the left of any portal page.</p>
+ 
+<h4>Workgroups</h4>
+ 
+<p>The <b>Groups</b> tab shows all groups you are assigned to. If you have permission, the <b>Create Group</b> link is available. Clicking it opens the group creation form:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/group_new.png',606,385,'New group')"> <img width="250" height="159" border="0" src="cid:resources/res9/oF98u.group_new_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Specify the required parameters of a new group and click <b>Create Group</b>. You will see a message indicating that the group has been created successfully, and a link that opens the group page:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/group_profile.png',589,407,'Group profile')"> <img width="250" height="173" border="0" src="cid:resources/res9/Pt8b0.group_profile_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Each group has its own photo gallery, forum, calendar and file storage.</p>
+ 
+<p>To invite an employee to a group, do the following:</p>
+ 
+<ul> 
+  <li>Click <b>Invite to Group</b>. Invitation form will open. </li>
+ 
+  <li>Fill in the invitation form and click <b>Send Message</b>. 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/invint_group.png',455,295,'Invitation form')"> <img width="250" height="162" border="0" src="cid:resources/res9/B2tSa.invint_group_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a> 
+    <br />
+   
+    <br />
+   You will see a message indicating the invitation has been successfully sent. When the employee accepts it, they will appear in the group list. </li>
+ </ul>
+ 
+<p>If someone sends you a group membership invitation, a notification will immediately show on the left of any portal page.</p>
+ 
+<h4>Personal Photo Gallery</h4>
+ 
+<p>The <b>Photo</b> tab represents the employee personal photo gallery. You can configure other user's access to your photos in your profile.</p>
+ 
+<p>The <b>Add album</b> link creates a new photo album. In the album creation form, specify the required parameters and click <b>Save</b>.</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/album.png',362,362,'Photo album')"> <img width="250" height="250" border="0" src="cid:resources/res9/NuWyc.album_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Upon saving, the new album is immediately added to the album list. To upload a photo, click <b>Upload Photos</b>.</p>
+ 
+<p>Two photo upload methods are available: single upload and bulk upload. The bulk mode allows adding a whole folder by selecting it in the folder tree and clicking the <b>Add folder</b> button. To add individual photos from any directory, click <b>Add files</b>.</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/photo.png',605,514,'Photo upload')"> <img width="250" height="212" border="0" src="cid:resources/res9/CaCsq.photo_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Using this form, you can preprocess the photos before uploading: specify their titles and descriptions; publish photos; add the copyright sign etc. Note that only published photos are visible. To upload photos, click <b>Upload</b>.</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/person_photo.png',602,623,'Personal photo gallery')"> <img width="250" height="259" border="0" src="cid:resources/res9/ltSIv.person_photo_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<h4>Personal forum</h4>
+ 
+<p>This tab shows the users private forum. You can edit other user's access to your forum in your profile.</p>
+ 
+<h4>Personal blog</h4>
+ 
+<p>The <b>Blog</b> tab contains a personal blog where other users can express their views on events and read their colleagues' opinions on the topic discussed. Access to the blog and permission to post can be configured in the user's profile. If the blog is public to all employees, its posts are displayed in the <i>Communication &gt; Blogs </i>section.</p>
+ 
+<h4>Calendar</h4>
+ 
+<p>On this tab, you can create as many calendars as needed whose events can be viewed in a single grid. </p>
+ 
+<p>To add a new calendar, click <b>Add calendar</b>.</p>
+ 
+<p><img src="cid:resources/res9/Llgap.calen_add.png" /></p>
+ 
+<p>In the calendar creation form, specify the calendar name, select the event display color, and add an optional description:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/calen_new.png',422,314,'New calendar')"> <img width="250" height="186" border="0" alt="Click on image to enlarge" style="cursor: pointer;" src="cid:resources/res9/axFXD.calen_new_sm.png" /></a></p>
+ 
+<p>To confirm creation of the calendar, click <b>Save</b>.</p>
+ 
+<p>Events can be scheduled for one day or many days. To add a one-day event, do the following:</p>
+ 
+<ul> 
+  <li>In the calendar grid, click the event day. The event creation window will open. 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/event1.png',362,203,'New event')"> <img width="250" height="140" border="0" alt="Click on image to enlarge" style="cursor: pointer;" src="cid:resources/res9/5lr6Z.event1_sm.png" /></a></li>
+ 
+  <li>Specify the event name, select the calendar to which the event relates, and add an event description if needed. </li>
+ 
+  <li>Click <b>Add</b>.</li>
+ </ul>
+ 
+<p>To add a multiple day event:</p>
+ 
+<ul> 
+  <li>Click <img src="cid:resources/res9/DKa2l.event_add.png" /> in the upper left of the calendar. The new event creation window will open: 
+    <br />
+   
+    <br />
+   <a href="javascript:ShowImg('/images/portal_course/big/event2.png',472,384,'New event')"> <img width="250" height="203" border="0" alt="Click on image to enlarge" style="cursor: pointer;" src="cid:resources/res9/Rw5Ax.event2_sm.png" /></a> </li>
+ 
+  <li>Remember to specify the event start date and finish date and the name; select the calendar to which the event relates. </li>
+ 
+  <li>Click <b>Save</b>.</li>
+ </ul>
+ 
+<p>The calendar grid will show the events of the selected calendars only:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/calendar.png',550,515,'Calendar')"> <img width="250" height="234" border="0" alt="Click on image to enlarge" style="cursor: pointer;" src="cid:resources/res9/qnwhn.calendar_sm.png" /></a></p>
+ 
+<h4>Personal files</h4>
+ 
+<p>File operations on the employees personal page are similar to those discussed in the <b>Documents</b> section.</p>
+ 
+<p>You can configure other users' access to your files in your profile.</p>
+ ]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/sender.letter.time/templates/.default/script.js" => "15441274507509",); ?>

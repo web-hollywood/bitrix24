@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/imconnector.connector.settings/templates/.default/style.css" => "154412742121935","/bitrix/components/bitrix/imconnector.settings/templates/.default/style.css" => "154412742142746","/bitrix/components/bitrix/imconnector.instagram/templates/.default/style.css" => "154412742116011",); ?>

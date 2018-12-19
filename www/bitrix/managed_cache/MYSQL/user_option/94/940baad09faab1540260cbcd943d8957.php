@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001545215240';
+$dateexpire = '001545218840';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:21:{s:24:"activity_email_addresser";s:35:"Ono Kenichi <bluesven869@gmail.com>";s:25:"crm_company_all_last_calc";i:1545177600;s:29:"crm_company_overdue_last_calc";i:1544918400;s:29:"crm_company_pending_last_calc";i:1544918400;s:18:"crm_company_search";a:1:{s:13:"last_selected";i:5;}s:25:"crm_contact_all_last_calc";i:1545177600;s:29:"crm_contact_overdue_last_calc";i:1545004800;s:29:"crm_contact_pending_last_calc";i:1545004800;s:18:"crm_contact_search";a:1:{s:13:"last_selected";i:2;}s:32:"crm_cur_act_contact_last_calc_s1";i:1544659200;s:24:"crm_cur_act_last_calc_s1";i:1545091200;s:22:"crm_deal_all_last_calc";i:1545177600;s:25:"crm_deal_c0_all_last_calc";i:1544832000;s:29:"crm_deal_c0_overdue_last_calc";i:1544832000;s:29:"crm_deal_c0_pending_last_calc";i:1544832000;s:22:"crm_lead_all_last_calc";i:1545177600;s:26:"crm_lead_overdue_last_calc";i:1545177600;s:26:"crm_lead_pending_last_calc";i:1545177600;s:23:"crm_order_all_last_calc";i:1545177600;s:19:"webform_list_filter";a:1:{s:6:"ACTIVE";s:3:"ALL";}s:27:"webhook_trigger_password_id";i:3;}}';
+return true;
+?>

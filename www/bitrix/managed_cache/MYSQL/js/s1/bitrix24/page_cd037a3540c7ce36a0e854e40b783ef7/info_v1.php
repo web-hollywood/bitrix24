@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/rest.marketplace.detail/templates/.default/script.js" => "15441274421611",); ?>

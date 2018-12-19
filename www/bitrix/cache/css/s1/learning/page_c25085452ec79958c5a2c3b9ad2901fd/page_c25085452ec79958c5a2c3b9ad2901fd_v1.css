@@ -1,0 +1,127 @@
+
+
+/* Start:/bitrix/components/bitrix/learning.course/templates/.default/style.css?1544127428309*/
+table.learn-work-table
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+table.learn-work-table td.learn-left-data
+{
+	vertical-align:top;
+	width:265px;
+	padding:12px 8px;
+}
+
+table.learn-work-table td.learn-right-data
+{
+	vertical-align:top;
+	padding:12px 16px;
+	height: 100%;
+}
+
+.learn-course-tree
+{
+	width:265px;
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/learning.course.tree/templates/.default/style.css?15441274281139*/
+div.learn-course-tree
+{
+	font-size:100%;
+}
+
+div.learn-course-tree ul
+{
+	list-style-type: none;
+	margin: 0; 
+	padding: 0 1em 0 0;
+}
+
+div.learn-course-tree ul ul
+{
+	width: auto;
+	margin:-0.75em 0 0 0;
+	padding: 0 0 0 0.75em;
+}
+
+div.learn-course-tree li
+{
+	margin: 0 0 -0.85em 0;
+	padding:0;
+}
+
+div.learn-course-tree li li
+{
+	margin: 0 0 -0.85em 0.5em; 
+	padding:0;
+}
+
+div.learn-course-tree li.close ul
+{
+	display: none;
+}
+
+div.learn-course-tree div.item-text
+{
+	position:relative;
+	top:-19px;left:19px;
+}
+
+/* Links*/
+div.item-text a 
+{
+	color:#000;
+	text-decoration:none;
+}
+div.item-text a.selected 
+{
+	background-color:#C7CEDA;
+}
+
+/*Icons*/
+div.chapter, div.lesson, div.test-list, div.course-detail
+{
+	background-repeat:no-repeat;
+	width:17px;
+	height:17px;
+	vertical-align:top;
+}
+div.chapter{cursor:pointer; cursor: hand;background-image:url(/bitrix/components/bitrix/learning.course.tree/templates/.default/images/chapter_open.gif);}
+div.learn-course-tree li.close div.chapter{background-image:url(/bitrix/components/bitrix/learning.course.tree/templates/.default/images/chapter_close.gif);}
+div.lesson{background-image:url(/bitrix/components/bitrix/learning.course.tree/templates/.default/images/lesson.gif);}
+div.course-detail{background-image:url(/bitrix/components/bitrix/learning.course.tree/templates/.default/images/course_detail.gif);}
+div.test-list{background-image:url(/bitrix/components/bitrix/learning.course.tree/templates/.default/images/test_list.gif);}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/learning.course.contents/templates/.default/style.css?1544127428263*/
+div.learning-course-contents
+{
+	font:normal 100% Verdana, sans-serif;
+}
+
+.learning-course-contents h2
+{
+	font-size: 120%;
+	font-weight:bold;
+	color:#000;
+}
+
+div.page-break
+{
+	page-break-after:always;
+}
+
+.learning-course-toc ul
+{
+	margin:3px;
+	padding-left:12px;
+}
+/* End */
+/* /bitrix/components/bitrix/learning.course/templates/.default/style.css?1544127428309 */
+/* /bitrix/components/bitrix/learning.course.tree/templates/.default/style.css?15441274281139 */
+/* /bitrix/components/bitrix/learning.course.contents/templates/.default/style.css?1544127428263 */

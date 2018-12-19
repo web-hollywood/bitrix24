@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/gadgets/bitrix/rssreader/styles.css" => "1544127384516","/bitrix/templates/bitrix24/components/bitrix/desktop/.default/style.css" => "15441276443131",); ?>

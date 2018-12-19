@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/support.faq/templates/.default/bitrix/support.faq.section.list/.default/style.css" => "1544127417313",); ?>

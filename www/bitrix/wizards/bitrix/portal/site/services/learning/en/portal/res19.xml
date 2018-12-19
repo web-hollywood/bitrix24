@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>25</id>
+<timestamp_x>1231850571</timestamp_x>
+<date_create>1227862945</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>4</chapter_id>
+<name>Photo gallery</name>
+<sort>200</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>If the galleries of employees or workgroups contain photos, this page shows these galleries as links with names of the employees or groups. A user can view the photos only if the employees have allowed viewing their galleries.</p>
+<p>New photos of employees and groups, if they are approved by the portal administrator, can be viewed in the <b>New</b> section:</p>
+<p><a href="javascript:ShowImg('/images/portal_course/big/photogal.png',617,378,'New photos')"> <img width="250" height="153" border="0" src="cid:resources/res19/qdatj.photogal_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+<p>If a photo is public, clicking it will open the user or group profile where you can view the images:</p>
+<p><a href="javascript:ShowImg('/images/portal_course/big/photogal2.png',598,398,'Detail view')"> <img width="250" height="166" border="0" src="cid:resources/res19/3VP5t.photogal2_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/js/intranet/theme_picker/theme_picker.css" => "15441274249563",); ?>

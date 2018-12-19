@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001544695672';
+$dateexpire = '001544699272';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:18:"templateCachedData";N;s:8:"arResult";a:10:{s:14:"IDEA_MODERATOR";b:0;s:4:"BLOG";a:27:{s:2:"ID";s:1:"2";s:4:"NAME";s:5:"Ideas";s:11:"DESCRIPTION";s:0:"";s:6:"ACTIVE";s:1:"Y";s:8:"OWNER_ID";N;s:3:"URL";s:7:"idea_s1";s:8:"GROUP_ID";s:1:"2";s:15:"ENABLE_COMMENTS";s:1:"Y";s:16:"ENABLE_IMG_VERIF";s:1:"Y";s:12:"EMAIL_NOTIFY";s:1:"Y";s:10:"ENABLE_RSS";s:1:"Y";s:8:"REAL_URL";N;s:12:"LAST_POST_ID";s:1:"3";s:11:"AUTO_GROUPS";N;s:10:"ALLOW_HTML";s:1:"Y";s:12:"SEARCH_INDEX";s:1:"Y";s:15:"SOCNET_GROUP_ID";s:1:"1";s:10:"USE_SOCNET";s:1:"N";s:15:"EDITOR_USE_FONT";s:1:"N";s:15:"EDITOR_USE_LINK";s:1:"N";s:16:"EDITOR_USE_IMAGE";s:1:"N";s:17:"EDITOR_USE_FORMAT";s:1:"N";s:16:"EDITOR_USE_VIDEO";s:1:"N";s:11:"DATE_CREATE";s:22:"12/06/2018 08:21:59 pm";s:11:"DATE_UPDATE";s:22:"12/06/2018 08:21:59 pm";s:14:"LAST_POST_DATE";s:22:"12/06/2018 08:21:59 pm";s:5:"Group";a:3:{s:2:"ID";s:1:"2";s:4:"NAME";s:18:"[s1] Company ideas";s:7:"SITE_ID";s:2:"s1";}}s:13:"ERROR_MESSAGE";a:0:{}s:8:"PostPerm";s:1:"I";s:16:"enable_trackback";s:1:"N";s:6:"filter";a:2:{s:14:"PUBLISH_STATUS";s:1:"P";s:7:"BLOG_ID";s:1:"2";}s:10:"NAV_STRING";s:0:"";s:15:"NAV_CACHED_DATA";a:1:{s:9:"frameMode";b:1;}s:4:"POST";a:0:{}s:3:"IDS";a:0:{}}}}';
+return true;
+?>

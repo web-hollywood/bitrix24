@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/im.router/templates/livechat/style.css" => "154412742099","/bitrix/components/bitrix/imopenlines.livechat/templates/iframe/style.css" => "15441274236973","/bitrix/components/bitrix/imopenlines.livechat/templates/iframe/flag.css" => "154412742335733",); ?>

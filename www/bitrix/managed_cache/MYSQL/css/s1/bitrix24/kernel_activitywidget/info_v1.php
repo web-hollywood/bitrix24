@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/js/report/js/activitywidget/css/activitywidget.css" => "15441274418685",); ?>

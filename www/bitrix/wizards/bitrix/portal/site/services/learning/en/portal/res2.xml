@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>17</id>
+<timestamp_x>1231757373</timestamp_x>
+<date_create>1227861888</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Registration and Authorization</name>
+<sort>100</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[ 
+<p>All company employees obtain access to the portal resources according to access permissions set by the <b>administrator</b>.</p>
+ 
+<p>Before working with the portal:</p>
+ 
+<p> </p>
+ 
+<ol> 
+  <li><b>unregistered</b> employees must register;</li>
+ 
+  <li><b>registered</b> employees must authorize.</li>
+ </ol>
+ 
+<h4>Registration</h4>
+ 
+<p>Click <b>Register</b> in the upper right corner of the screen to open the new member registration form:</p>
+ 
+<p><img src="cid:resources/res2/bBdlD.register.png" /></p>
+ 
+<p>Enter the required information in the registration form: <b>First name</b>, <b>Last name</b>, <b>Login</b>, <b>Password</b>, <b>Confirm password</b>, <b>e-mail address</b>.</p>
+ 
+<p>Click <b>Register</b>. The page will refresh. Now, you can start working with the portal.</p>
+ 
+<h4>Authorization</h4>
+ 
+<p>All company employees must authorize before they start working with the portal. Click <b>Login</b> in the upper right corner to authorize.</p>
+ 
+<p><img src="cid:resources/res2/Bi7Xn.autoriz.png" /></p>
+ 
+<p>In the form, enter your <b>Login</b> and <b>Password</b> and click <b>Login</b>. As soon as the page updates, you can start working with the portal.</p>
+ ]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

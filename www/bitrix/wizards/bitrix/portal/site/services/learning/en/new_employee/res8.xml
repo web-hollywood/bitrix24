@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<content type="LES"><id>39</id>
+<timestamp_x>1228916187</timestamp_x>
+<date_create>1227876992</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>4</course_id>
+<chapter_id></chapter_id>
+<name>Mail</name>
+<sort>400</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p><b>E-Mail/Voice-Mail</b></p>
+<p>All electronic and telephonic communication systems (including voice-mail) and all communications
+and information transmitted by, received from, or stored in these systems are the property of the company,
+and as such are to be used solely for job-related purposes. The use of any software and business
+equipment, including, but not limited to, facsimiles, scanner, computers, and copy machines for
+private purposes is strictly prohibited.
+</p>
+<p><b>Office Mail</b></p>
+<p>Most business letters that are mailed use the official postage- and fees-paid privilege.  However, they must conform to postal regulations and to company mailing procedures.  <i>Do not use Company letterhead and postage-paid privileges for personal business.</i>  Unless it is an emergency, do not have personal mail or packages sent to your office.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

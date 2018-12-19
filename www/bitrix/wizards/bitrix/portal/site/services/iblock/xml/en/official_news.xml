@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:35:31">
+	<Metadata>
+		<Id>official_news_temp</Id>
+		<Title>Important information</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>18</Id>
+				<Title>Category</Title>
+				<Multiple>false</Multiple>
+				<ChoiceValue>
+					<Value>Announcement</Value>
+					<Choice>
+						<Id>ANNOUNCEMENT</Id>
+						<Value>Announcement</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>General info</Value>
+					<Choice>
+						<Id>GENERAL</Id>
+						<Value>General info</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>News</Value>
+					<Choice>
+						<Id>NEWS</Id>
+						<Value>News</Value>
+						<ByDefault>true</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>Notice</Value>
+					<Choice>
+						<Id>NOTICE</Id>
+						<Value>Notice</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>Order</Value>
+					<Choice>
+						<Id>ORDER</Id>
+						<Value>Order</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>Portal News</Value>
+					<Choice>
+						<Id>PORTAL</Id>
+						<Value>Portal News</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+					<Value>Press Release</Value>
+					<Choice>
+						<Id>PR</Id>
+						<Value>Press Release</Value>
+						<ByDefault>false</ByDefault>
+						<Sort>500</Sort>
+					</Choice>
+				</ChoiceValue>
+				<BitrixSort>500</BitrixSort>
+				<BitrixCode>DOC_TYPE</BitrixCode>
+				<BitrixDefaultValue></BitrixDefaultValue>
+				<BitrixPropertyType>L</BitrixPropertyType>
+				<BitrixRows>1</BitrixRows>
+				<BitrixColumns>30</BitrixColumns>
+				<BitrixListType>L</BitrixListType>
+				<BitrixFileType>jpg, gif, bmp, png, jpeg</BitrixFileType>
+				<BitrixNumberOfInputs>5</BitrixNumberOfInputs>
+				<BitrixLinkedInformationBlock></BitrixLinkedInformationBlock>
+				<BitrixWithDescription>false</BitrixWithDescription>
+				<BitrixUsedInSearch>false</BitrixUsedInSearch>
+				<BitrixFilterAllowed>true</BitrixFilterAllowed>
+				<BitrixUserType></BitrixUserType>
+				<BitrixRequired>false</BitrixRequired>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>official_news_temp</Id>
+		<MetadataId>official_news_temp</MetadataId>
+		<Title>Important information</Title>
+		<BitrixCode>official_news_temp</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#about/index.php</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#about/official.php?ID=#ID#</BitrixDetailURL>
+		<BitrixSectionURL></BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Sections</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Section</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>3</Id>
+				<Title>Congratulations on the Intranet Portal Opening!</Title>
+				<BitrixTags>intranet, portal</BitrixTags>
+				<Description>We have launched our own intranet portal. This will obviously make the work more interesting and efficient, the collective more solidary and buoyant. 
+&lt;br /&gt;
+
+&lt;br /&gt;
+Please address all your requests and wishes to the IT department, or directly to your manager. Your opinion will not be left unheard! 
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-02 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>We have launched our own intranet portal!</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>18</Id>
+						<Value>PORTAL</Value>
+						<PropertyValue>
+							<Value>PORTAL</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>238</Id>
+				<Title>Personnel Certification</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;p&gt;Dear colleagues!&lt;/p&gt;
+
+&lt;p&gt;Our company is dedicated to maintaining the highest professional standards. The world of international trade is constantly evolving, which means we must keep pace with changing international agreements, commercial legislation and technological advancements for the monitoring and exchange of trade information. Our company has made a substantial investment in the education of our personnel, and we continue to do so, through certification with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;International Transportation Association&lt;/li&gt;
+
+  &lt;li&gt;The College of the North Atlantic&lt;/li&gt;
+
+  &lt;li&gt;Society of Management Accountants&lt;/li&gt;
+
+  &lt;li&gt;Society of Customs Brokers&lt;/li&gt;
+&lt;/ul&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-08 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Our company has made a substantial investment in the education of our personnel.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>18</Id>
+						<Value>NOTICE</Value>
+						<PropertyValue>
+							<Value>NOTICE</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1265</Id>
+				<Title>New Sales Partner</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;p&gt;Our company and AirSvit, Inc. have concluded a partnership agreement.&lt;/p&gt;
+
+&lt;p&gt;The agreement envisages opening sales for the Atlanta-Bangkok air route through a wide network of agencies and representative offices of AirSvit in all countries of South East Asia and the Asian-Pacific region. Due to this agreement, AirSvit will enjoy greater access to the Asian air travel market, which will result in an increased load on all AirSvit flights in and out of the region.&lt;/p&gt;</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-16 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Our company and AirSvit, Inc. have concluded a partnership agreement.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>18</Id>
+						<Value>PR</Value>
+						<PropertyValue>
+							<Value>PR</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1318</Id>
+				<Title>Computer Use Policy</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;h2&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;A.&lt;/b&gt; To remain competitive, better serve our customers and provide our employees with the best tools to do their jobs, Global Food makes available to our workforce access to one or more forms of electronic media and services, including computers, e-mail, telephones, voicemail, fax machines, external electronic bulletin boards, wire services, online services, intranet, Internet and the World Wide Web. &lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;B.&lt;/b&gt; Global Food encourages the use of these media and associated services because they can make communication more efficient and effective and because they are valuable sources of information about vendors, customers, technology, and new products and services. However, all employees and everyone connected with the organization should remember that electronic media and services provided by the company are company property and their purpose is to facilitate and support company business. All computer users have the responsibility to use these resources in a professional, ethical, and lawful manner.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;C.&lt;/b&gt; To ensure that all employees are responsible, the following guidelines have been established for using e-mail and the Internet. No policy can lay down rules to cover every possible situation. Instead, it is designed to express Global Food philosophy and set forth general principles when using electronic media and services.&lt;/p&gt;
+
+
+&lt;h2&gt;Prohibited communications&lt;/h2&gt;
+&lt;p&gt;Electronic media cannot be used for knowingly transmitting, retrieving, or storing any communication that is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Discriminatory or harassing;&lt;/li&gt;
+&lt;li&gt;Derogatory to any individual or group;&lt;/li&gt;
+&lt;li&gt;Obscene, sexually explicit or pornographic;&lt;/li&gt;
+&lt;li&gt;Defamatory or threatening; &lt;/li&gt;
+&lt;li&gt;In violation of any license governing the use of software; or &lt;/li&gt;
+&lt;li&gt;Engaged in for any purpose that is illegal or contrary to Global Food policy or business interests.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Personal use&lt;/h2&gt;
+
+&lt;p&gt;The computers, electronic media and services provided by Global Food are primarily for business use to assist employees in the performance of their jobs. Limited, occasional, or incidental use of electronic media (sending or receiving) for personal, non-business purposes is understandable and acceptable, and all such use should be done in a manner that does not negatively affect the systems' use for their business purposes. However, employees are expected to demonstrate a sense of responsibility and not abuse this privilege.&lt;/p&gt;
+
+&lt;h2&gt;Access to employee communications&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;A.&lt;/b&gt; Global Food does routinely gather logs for most electronic activities or monitor employee communications directly, e.g. recording telephone calls, telephone numbers dialed, sites accessed, call length, and time at which calls are made, for the following purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cost analysis;&lt;/li&gt;
+&lt;li&gt;Resource allocation;&lt;/li&gt;
+&lt;li&gt;Optimum technical management of information resources; and&lt;/li&gt;
+&lt;li&gt;Detecting patterns of use that indicate employees are violating company policies or engaging in illegal activity.&lt;/li&gt;
+&lt;li&gt;Other training purposes.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;&lt;b&gt;B.&lt;/b&gt; Global Food reserves the right, at its discretion, to review any employee's electronic files and messages to the extent necessary to ensure electronic media and services are being used in compliance with the law, this policy and other company policies.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;C.&lt;/b&gt; Employees should not assume electronic communications are completely private. Accordingly, if they have sensitive information to transmit, they should use other means.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;To prevent computer viruses from being transmitted through the company's computer system, unauthorized downloading of any unauthorized software is strictly prohibited. Including, but not limited to instant message and remote control programs. Only software registered and/or approved through Global Food may be downloaded. Employees should contact the system administrator if they have any questions.&lt;/p&gt;
+
+&lt;h2&gt;Security/appropriate use&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;A.&lt;/b&gt; Employees must respect the confidentiality of other individuals' electronic communications. Except in cases in which explicit authorization has been granted by company management, employees are prohibited from engaging in, or attempting to engage in:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Monitoring or intercepting the files or electronic communications of other employees or third parties; &lt;/li&gt;
+&lt;li&gt;Hacking or obtaining access to systems or accounts they are not authorized to use; &lt;/li&gt;
+&lt;li&gt;Using other people's log-ins or passwords; and&lt;/li&gt;
+&lt;li&gt;Breaching, testing, or monitoring computer or network security measures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;b&gt;B.&lt;/b&gt; No e-mail or other electronic communications can be sent that attempt to hide the identity of the sender or represent the sender as someone else.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;C.&lt;/b&gt; Electronic media and services should not be used in a manner that is likely to cause network congestion or significantly hamper the ability of other people to access and use the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;D.&lt;/b&gt; Anyone obtaining electronic access to other companies' or individuals' materials must respect all copyrights and cannot copy, retrieve, modify or forward copyrighted materials except as permitted by the copyright owner. &lt;/p&gt;
+
+&lt;h2&gt;Encryption&lt;/h2&gt;
+
+&lt;p&gt;Employees can use encryption software supplied to them by the systems administrator for purposes of safeguarding sensitive or confidential business information. supervisor with a sealed hard copy record (to be retained in a secure location) of all of the passwords and/or encryption keys necessary to access the files.&lt;/p&gt;
+
+&lt;h2&gt;Participation in online forums&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;A.&lt;/b&gt; Employees should remember that any messages or information sent on company-provided facilities to one or more individuals via an electronic network—for example, Internet mailing lists, bulletin boards, and online services—are statements identifiable and attributable to Global Food.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;B.&lt;/b&gt; Global Food recognizes that participation in some forums might be important to the performance of an employee's job. For instance, an employee might find the answer to a technical problem by consulting members of a news group devoted to the technical area.&lt;/p&gt;
+
+&lt;h2&gt;Violations&lt;/h2&gt;
+
+&lt;p&gt;Any employee who abuses the privilege of their access to e-mail or the Internet in violation of this policy will be subject to corrective action, including possible termination of employment, legal action, and criminal liability.&lt;/p&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-19 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>The following Computer Use Policy has been developed as a complement to relevant laws and policies to define acceptable and unacceptable computer use, and to promote an understanding of responsible usage of computing resources.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>18</Id>
+						<Value>ORDER</Value>
+						<PropertyValue>
+							<Value>ORDER</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1569</Id>
+				<Title>Employee Awards Ceremony </Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;p&gt;On August 19, our company held its annual employee awards ceremony. Opening the ceremony, Serge Clemons said: &quot;Thank you very much to everyone for all the hard work that you put in – you do a great job for us.&quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Manager of the Year Award:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The Manager of the Year Award goes to Chuck Phillips. Chuck has always been a steady and unflappable manager, and we truly appreciate those traits.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Team Award:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The winner of this year's Team Award is the group that worked together to assemble the first site of our company.&lt;/p&gt; 
+
+&lt;p&gt;&lt;b&gt;Employee of the Year:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Ted Clausing is Employee of the Year for 2009. Ted has worked for well over 15 years.&lt;/p&gt;
+
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-20 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>On February 19, our company held its annual employee awards ceremony.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>18</Id>
+						<Value>NEWS</Value>
+						<PropertyValue>
+							<Value>NEWS</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1636</Id>
+				<Title>New Workgroup</Title>
+				<BitrixTags></BitrixTags>
+				<Description>A workgroup was formed to develop the new site of our company.
+&lt;br /&gt;
+ 
+&lt;br /&gt;
+Members of the workgroup:
+&lt;br /&gt;
+ 1) Mark Harward (Marketing Director) 
+&lt;br /&gt;
+ 2) Judith Lu (PR Manager) 
+&lt;br /&gt;
+ 3) Andy Williams (IT Department Chief) 
+&lt;br /&gt;
+ 
+ </Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-25 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>A workgroup was formed to develop new site of our company.</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>18</Id>
+						<Value>PORTAL</Value>
+						<PropertyValue>
+							<Value>PORTAL</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

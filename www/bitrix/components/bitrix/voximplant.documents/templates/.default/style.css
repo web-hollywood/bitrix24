@@ -1,0 +1,15 @@
+.bx-vi-docs-body { }
+
+.tel-phones-list-notice-status-IN_PROGRESS {
+	background-color: #fbf7cc;
+	color: #41474f;
+}
+.tel-phones-list-notice-status-VERIFIED {
+	background-color: #f1f5de;
+	background-image: -webkit-linear-gradient(top, #f1f5de, #e6edc2);
+	background-image:    -moz-linear-gradient(top, #f1f5de, #e6edc2);
+	background-image:     -ms-linear-gradient(top, #f1f5de, #e6edc2);
+	background-image:      -o-linear-gradient(top, #f1f5de, #e6edc2);
+	background-image:         linear-gradient(to bottom, #f1f5de, #e6edc2);
+	color: #41474f;
+}

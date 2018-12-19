@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001545212152';
+$dateexpire = '001576748152';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:14:"SIDEBAR_GROUPS";a:5:{i:0;a:6:{s:2:"ID";s:2:"13";s:4:"NAME";s:11:"Recruitment";s:11:"DESCRIPTION";s:0:"";s:8:"IMAGE_ID";N;s:3:"URL";s:21:"/workgroups/group/13/";s:13:"IMAGE_RESIZED";b:0;}i:1;a:6:{s:2:"ID";s:2:"12";s:4:"NAME";s:17:"Finish Empower 24";s:11:"DESCRIPTION";s:50:"We have until January 1st to finish empower we ...";s:8:"IMAGE_ID";N;s:3:"URL";s:21:"/workgroups/group/12/";s:13:"IMAGE_RESIZED";b:0;}i:2;a:6:{s:2:"ID";s:1:"8";s:4:"NAME";s:42:"&quot;New Corporate Identity&quot; project";s:11:"DESCRIPTION";s:50:"Development and application of the new corporat...";s:8:"IMAGE_ID";s:3:"624";s:3:"URL";s:20:"/workgroups/group/8/";s:13:"IMAGE_RESIZED";a:4:{s:3:"src";s:54:"/upload/resize_cache/socialnetwork/fa5/100_100_2/7.jpg";s:5:"width";i:0;s:6:"height";i:0;s:4:"size";N;}}i:3;a:6:{s:2:"ID";s:1:"1";s:4:"NAME";s:32:"New company web site development";s:11:"DESCRIPTION";s:38:"Company web site development workgroup";s:8:"IMAGE_ID";s:3:"617";s:3:"URL";s:20:"/workgroups/group/1/";s:13:"IMAGE_RESIZED";a:4:{s:3:"src";s:54:"/upload/resize_cache/socialnetwork/7e4/100_100_2/0.jpg";s:5:"width";i:0;s:6:"height";i:0;s:4:"size";N;}}i:4;a:6:{s:2:"ID";s:2:"10";s:4:"NAME";s:13:"HR Management";s:11:"DESCRIPTION";s:23:"HR department workgroup";s:8:"IMAGE_ID";N;s:3:"URL";s:21:"/workgroups/group/10/";s:13:"IMAGE_RESIZED";b:0;}}}}';
+return true;
+?>

@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/crm.card.show/templates/.default/style.css" => "154412740012014","/bitrix/components/bitrix/im.messenger/templates/iframe/style.css" => "1544127420340",); ?>

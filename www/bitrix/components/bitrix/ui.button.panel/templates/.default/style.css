@@ -1,0 +1,24 @@
+.ui-button-panel-wrapper {
+	width: 100%;
+}
+.ui-button-panel {
+	text-align: left;
+	padding: 20px;
+	opacity: 1;
+	background: white;
+}
+
+.ui-button-panel-checkbox {
+	float: right;
+	height: 39px;
+	line-height: 39px;
+	vertical-align: middle;
+	margin-right: 40px;
+	color: #868c96;
+	font-size: 13px;
+}
+
+.ui-button-panel-checkbox,
+.ui-button-panel-checkbox-label {
+	cursor: pointer;
+}

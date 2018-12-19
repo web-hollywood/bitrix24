@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="CHA"><id>2</id>
+<timestamp_x>1231750428</timestamp_x>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Documents</name>
+<code></code>
+<sort>200</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>The <b>Documents</b> section allows sharing of files, texts, documents, spreadsheets etc. and enables teamwork activity.</p>
+
+<p>Access to the site documents follows the permissions of the group to which a user belongs. A document not being available for editing indicates that a user does not have appropriate permission. Access permissions are defined by the portal <b>administrator</b>. Thus, if you want to edit a document but get the &ldquo;access denied&rdquo; message, you should consult the portal <b>administrator</b>.</p>
+
+<p>If you want to create a document section for a department but the latter is not shown in the left menu, you should contact the portal <b>administrator</b> as well.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

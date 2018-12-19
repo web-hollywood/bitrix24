@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/learning.course.list/templates/.default/style.css" => "154412742830",); ?>

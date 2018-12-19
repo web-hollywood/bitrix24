@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/templates/learning/styles.css" => "15441274281397","/bitrix/templates/learning/template_styles.css" => "15441274282125",); ?>

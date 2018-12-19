@@ -1,0 +1,260 @@
+2018-Dec-16 14:55:24 Required PHP Modules (check_php_modules): Ok
+All required modules are installed.
+2018-Dec-16 14:55:24 PHP Required Parameters (check_php_settings): Ok
+Settings are correct
+2018-Dec-16 14:55:24 Web server modules (check_security): Ok
+No conflicts.
+2018-Dec-16 14:55:24 Server Variables (check_server_vars): Ok
+Correct
+2018-Dec-16 14:55:25 Session retention (check_session): Ok
+50% done
+2018-Dec-16 14:55:25 Session retention (check_session): Ok
+Success
+2018-Dec-16 14:55:25 UTF configuration parameters (mbstring and BX_UTF) (check_mbstring): Ok
+Correct. The website runs in UTF encoding
+2018-Dec-16 14:55:25 Service scripts in the site root (check_install_scripts): Ok
+None
+2018-Dec-16 14:55:26 Using sockets (check_socket): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:26 Use cron to run agents (check_bx_crontab): Ok
+Success
+2018-Dec-16 14:55:26 Database connection parameters (check_dbconn_settings): Ok
+Success
+2018-Dec-16 14:55:26 Redundant output in configuration files (check_dbconn): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:27 Session retention without UserAgent (check_session_ua): Ok
+50% done
+Connection to ssl://empower.software:443	Success
+
+2018-Dec-16 14:55:27 Session retention without UserAgent (check_session_ua): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:27 Website Parameters (check_sites): Ok
+Correct
+2018-Dec-16 14:55:27 Passing objects by reference (check_clone): Ok
+Success
+2018-Dec-16 14:55:28 Stack size; pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:28 File upload (check_upload): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:28 Upload files over 4MB (check_upload_big): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:29 Upload file using php://input (check_upload_raw): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:29 POST requests with many parameters (check_post): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:34 E-mail sending (check_mail): Fail
+Error! The test has failed to complete.
+2018-Dec-16 14:55:42 Large e-mail sending (over 64 KB) (check_mail_big): Fail
+Error! The test has failed to complete.
+2018-Dec-16 14:55:42 Check for unsent messages (check_mail_b_event): Ok
+Success
+2018-Dec-16 14:55:42 Local redirects (LocalRedirect function) (check_localredirect): Ok
+50% done
+Connection to ssl://empower.software:443	Success
+
+2018-Dec-16 14:55:43 Local redirects (LocalRedirect function) (check_localredirect): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:43 Memory limit (check_memory_limit): Ok
+20% done
+Connection to ssl://empower.software:443	Success
+
+2018-Dec-16 14:55:43 Memory limit (check_memory_limit): Ok
+40% done
+Connection to ssl://empower.software:443	Success
+
+2018-Dec-16 14:55:43 Memory limit (check_memory_limit): Ok
+60% done
+Connection to ssl://empower.software:443	Success
+
+2018-Dec-16 14:55:44 Memory limit (check_memory_limit): Ok
+80% done
+Connection to ssl://empower.software:443	Success
+
+2018-Dec-16 14:55:44 Memory limit (check_memory_limit): Ok
+Connection to ssl://empower.software:443	Success
+
+Not less than 256 M.
+2018-Dec-16 14:55:45 Using cache files (check_cache): Ok
+Success
+2018-Dec-16 14:55:45 Access to update server (check_update): Ok
+Success
+2018-Dec-16 14:55:45 HTTP authorization (check_http_auth): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:46 File creation and execution (check_exec): Ok
+Connection to ssl://empower.software:443	Success
+
+Success
+2018-Dec-16 14:55:46 getimagesize support for SWF (check_getimagesize): Ok
+Success
+2018-Dec-16 14:55:46 MySQL version (check_mysql_bug_version): Ok
+Success
+2018-Dec-16 14:55:47 Database and web server times (check_mysql_time): Ok
+Success
+2018-Dec-16 14:55:47 MySQL Mode (check_mysql_mode): Ok
+Success
+2018-Dec-16 14:55:47 Connection charset (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Success
+2018-Dec-16 14:55:47 Database charset (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Success
+2018-Dec-16 14:55:49 Database table charset (check_mysql_table_charset): Ok
+Success
+2018-Dec-16 14:55:50 Database structure (check_mysql_table_structure): Ok
+0% done
+2018-Dec-16 14:55:50 Database structure (check_mysql_table_structure): Ok
+1% done
+2018-Dec-16 14:55:51 Database structure (check_mysql_table_structure): Ok
+2% done
+2018-Dec-16 14:55:51 Database structure (check_mysql_table_structure): Ok
+4% done
+2018-Dec-16 14:55:52 Database structure (check_mysql_table_structure): Ok
+5% done
+2018-Dec-16 14:55:53 Database structure (check_mysql_table_structure): Ok
+7% done
+2018-Dec-16 14:55:54 Database structure (check_mysql_table_structure): Ok
+8% done
+2018-Dec-16 14:55:54 Database structure (check_mysql_table_structure): Ok
+10% done
+2018-Dec-16 14:55:55 Database structure (check_mysql_table_structure): Ok
+11% done
+2018-Dec-16 14:55:55 Database structure (check_mysql_table_structure): Ok
+13% done
+2018-Dec-16 14:55:55 Database structure (check_mysql_table_structure): Ok
+14% done
+2018-Dec-16 14:56:00 Database structure (check_mysql_table_structure): Ok
+16% done
+2018-Dec-16 14:56:00 Database structure (check_mysql_table_structure): Ok
+17% done
+2018-Dec-16 14:56:01 Database structure (check_mysql_table_structure): Ok
+19% done
+2018-Dec-16 14:56:02 Database structure (check_mysql_table_structure): Ok
+20% done
+2018-Dec-16 14:56:02 Database structure (check_mysql_table_structure): Ok
+22% done
+2018-Dec-16 14:56:03 Database structure (check_mysql_table_structure): Ok
+23% done
+2018-Dec-16 14:56:03 Database structure (check_mysql_table_structure): Ok
+25% done
+2018-Dec-16 14:56:04 Database structure (check_mysql_table_structure): Ok
+26% done
+2018-Dec-16 14:56:04 Database structure (check_mysql_table_structure): Ok
+27% done
+2018-Dec-16 14:56:05 Database structure (check_mysql_table_structure): Ok
+29% done
+2018-Dec-16 14:56:06 Database structure (check_mysql_table_structure): Ok
+30% done
+2018-Dec-16 14:56:07 Database structure (check_mysql_table_structure): Ok
+32% done
+2018-Dec-16 14:56:07 Database structure (check_mysql_table_structure): Ok
+33% done
+2018-Dec-16 14:56:08 Database structure (check_mysql_table_structure): Ok
+35% done
+2018-Dec-16 14:56:08 Database structure (check_mysql_table_structure): Ok
+36% done
+2018-Dec-16 14:56:09 Database structure (check_mysql_table_structure): Ok
+38% done
+2018-Dec-16 14:56:10 Database structure (check_mysql_table_structure): Ok
+39% done
+2018-Dec-16 14:56:10 Database structure (check_mysql_table_structure): Ok
+41% done
+2018-Dec-16 14:56:11 Database structure (check_mysql_table_structure): Ok
+42% done
+2018-Dec-16 14:56:11 Database structure (check_mysql_table_structure): Ok
+44% done
+2018-Dec-16 14:56:12 Database structure (check_mysql_table_structure): Ok
+45% done
+2018-Dec-16 14:56:12 Database structure (check_mysql_table_structure): Ok
+47% done
+2018-Dec-16 14:56:13 Database structure (check_mysql_table_structure): Ok
+48% done
+2018-Dec-16 14:56:16 Database structure (check_mysql_table_structure): Ok
+50% done
+2018-Dec-16 14:56:17 Database structure (check_mysql_table_structure): Ok
+51% done
+2018-Dec-16 14:56:17 Database structure (check_mysql_table_structure): Ok
+52% done
+2018-Dec-16 14:56:17 Database structure (check_mysql_table_structure): Ok
+54% done
+2018-Dec-16 14:56:18 Database structure (check_mysql_table_structure): Ok
+55% done
+2018-Dec-16 14:56:18 Database structure (check_mysql_table_structure): Ok
+57% done
+2018-Dec-16 14:56:19 Database structure (check_mysql_table_structure): Ok
+58% done
+2018-Dec-16 14:56:19 Database structure (check_mysql_table_structure): Ok
+60% done
+2018-Dec-16 14:56:20 Database structure (check_mysql_table_structure): Ok
+61% done
+2018-Dec-16 14:56:20 Database structure (check_mysql_table_structure): Ok
+63% done
+2018-Dec-16 14:56:21 Database structure (check_mysql_table_structure): Ok
+64% done
+2018-Dec-16 14:56:26 Database structure (check_mysql_table_structure): Ok
+66% done
+2018-Dec-16 14:56:26 Database structure (check_mysql_table_structure): Ok
+67% done
+2018-Dec-16 14:56:27 Database structure (check_mysql_table_structure): Ok
+69% done
+2018-Dec-16 14:56:28 Database structure (check_mysql_table_structure): Ok
+70% done
+2018-Dec-16 14:56:29 Database structure (check_mysql_table_structure): Ok
+72% done
+2018-Dec-16 14:56:30 Database structure (check_mysql_table_structure): Ok
+73% done
+2018-Dec-16 14:56:31 Database structure (check_mysql_table_structure): Ok
+75% done
+2018-Dec-16 14:56:32 Database structure (check_mysql_table_structure): Ok
+76% done
+2018-Dec-16 14:56:33 Database structure (check_mysql_table_structure): Ok
+77% done
+2018-Dec-16 14:56:33 Database structure (check_mysql_table_structure): Ok
+79% done
+2018-Dec-16 14:56:34 Database structure (check_mysql_table_structure): Ok
+80% done
+2018-Dec-16 14:56:35 Database structure (check_mysql_table_structure): Ok
+82% done
+2018-Dec-16 14:56:36 Database structure (check_mysql_table_structure): Ok
+83% done
+2018-Dec-16 14:56:36 Database structure (check_mysql_table_structure): Ok
+85% done
+2018-Dec-16 14:56:36 Database structure (check_mysql_table_structure): Ok
+86% done
+2018-Dec-16 14:56:37 Database structure (check_mysql_table_structure): Ok
+88% done
+2018-Dec-16 14:56:37 Database structure (check_mysql_table_structure): Ok
+89% done
+2018-Dec-16 14:56:38 Database structure (check_mysql_table_structure): Ok
+91% done
+2018-Dec-16 14:56:38 Database structure (check_mysql_table_structure): Ok
+92% done
+2018-Dec-16 14:56:39 Database structure (check_mysql_table_structure): Ok
+94% done
+2018-Dec-16 14:56:39 Database structure (check_mysql_table_structure): Ok
+95% done
+2018-Dec-16 14:56:39 Database structure (check_mysql_table_structure): Ok
+97% done
+2018-Dec-16 14:56:40 Database structure (check_mysql_table_structure): Ok
+98% done
+2018-Dec-16 14:56:40 Database structure (check_mysql_table_structure): Ok
+Success

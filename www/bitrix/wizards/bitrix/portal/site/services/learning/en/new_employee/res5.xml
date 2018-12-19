@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<content type="LES"><id>36</id>
+<timestamp_x>1228916187</timestamp_x>
+<date_create>1227877649</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>4</course_id>
+<chapter_id></chapter_id>
+<name>Work Schedules</name>
+<sort>250</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<table>
+  <tbody>
+    <tr><td>The standard work week for a full-time employee is 40-hours consisting of 5 days of 8 hours each day, Monday through Friday. Core hours are hours designated during which all employees must be at work. The core hours are 9:30am - 2:30pm.</td><td></td><td><img height="74" src="cid:resources/res5/dZPav.Qr8LO.time.jpg" width="70" /></td></tr>
+  </tbody>
+</table>
+<b>Rest Periods</b> 
+<p>Employees will receive one 30 minute unpaid meal break in a shift of 8 hours or longer. Meal times are scheduled to assure departmental and customer/patient care coverage. Two (2) paid 15 minute breaks per an 8 hour shift are allowed. Supervisors in accordance with the requirements of their department may schedule, at their discretion, a combination of both lunch and a break time for special situations as approved.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

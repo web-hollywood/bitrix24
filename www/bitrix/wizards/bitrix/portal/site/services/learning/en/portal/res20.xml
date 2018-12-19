@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>26</id>
+<timestamp_x>1231851242</timestamp_x>
+<date_create>1227862980</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>4</chapter_id>
+<name>Classifieds</name>
+<sort>300</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>To post an advertisement, open the <b>Classifieds</b> page (<i>Communication > Classifieds</i>).</p>
+<p>Click <b>Classifieds</b> to open the creation form:</p>
+<p><a href="javascript:ShowImg('/images/portal_course/big/adv_new.png',355,371,'New advertisement')"> <img width="250" height="261" border="0" src="cid:resources/res20/Ttpc3.adv_new_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+<p>Fill in the following fields:</p>
+<ul>
+  <li>Type a short title for your ad.</li>
+  <li>In the <b>Category</b> field, select the most appropriate category for your advertisement.</li>
+  <li>Type in the text of the advertisement.</li>
+  <li>Specify the contact information in the following fields: <b>website</b>, <b>phone</b>.</li>
+</ul>
+<p>Click <b>Save</b>. The new advertisement will look similar to the following:</p>
+<p><a href="javascript:ShowImg('/images/portal_course/big/adv.png',564,174,'New advertisement')"> <img width="250" height="77" border="0" src="cid:resources/res20/ksoBA.adv_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+<p>The <b>My Ads</b> link opens a page containing all of your advertisements.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

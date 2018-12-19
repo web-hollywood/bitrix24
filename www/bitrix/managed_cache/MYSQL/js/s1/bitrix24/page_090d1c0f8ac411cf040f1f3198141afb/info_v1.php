@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/crm.entity.counter.panel/templates/.default/script.js" => "15441274015274","/bitrix/components/bitrix/app.placement/templates/menu/script.js" => "1544127442580",); ?>

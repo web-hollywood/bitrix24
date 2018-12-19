@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>21</id>
+<timestamp_x>1231861640</timestamp_x>
+<date_create>1227862623</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>2</chapter_id>
+<name>Managing The Documents Library In A Web Browser</name>
+<sort>100</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p><b>Creating a Folder</b></p>
+
+<p>Perform the following operations to create a folder:</p>
+
+<ul>
+  <li>Open <b>Common Documents</b> page (<i>Documents &gt; Common documents</i>). </li>
+
+  <li>Click <b>Create Folder</b> on the context toolbar: 
+    <p><img src="cid:resources/res12/M1ATf.create_folder_contex_panel.png" width="599" height="30" border="0"></p>
+  </li>
+
+  <li>The new folder creation form will open:
+<p><img src="cid:resources/res12/fmXvW.add_folder_dialog.png" width="249" height="129" border="0"></p>
+</li>
+
+  <li>Enter the name of a new folder in the <b>Name</b> field. Click <b>Save</b>. </li>
+
+  <li>After the page is refreshed, a new folder will appear in the table of elements. 
+<p><a href="javascript:ShowImg('/images/portal_course/big/folder_results.png',700,155,'New folder')"> <img width="248" height="55" border="0" src="cid:resources/res12/bQYq1.folder_results_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+</li>
+</ul>
+
+<p><b>Deleting folders</b></p>
+
+<p>Perform the following actions to remove a folder:</p>
+
+<ul>
+  <li>Click <b>Actions</b> <img src="cid:resources/res12/HBcQX.action_button.png" width="30" height="26" border="0"> in the row showing the folder you want to delete. </li>
+
+  <li>Select <b>Delete</b> in the drop-down list:
+    <p><img src="cid:resources/res12/5WemD.delete_folder.png" width="295" height="124" border="0"></p>
+  </li>
+
+  <li>The system will ask that you confirm the deletion and only then delete the folder and its child elements. </li>
+</ul>
+
+<p><b>Batch Document Upload</b></p>
+
+<p>To upload multiple documents to a folder, follow the steps below:</p>
+
+<ul>
+  <li>Open the folder to which you want to upload the documents. </li>
+
+  <li>Click <b>Upload</b> on the context toolbar: 
+   <p><img src="cid:resources/res12/anYw4.upload_contex_panel.png" width="599" height="30" border="0"></p></li>
+
+  <li>The file upload form will open: 
+   <p><a href="javascript:ShowImg('/images/portal_course/big/upload_files.png',710,578,'Upload files')"> <img width="250" height="204" border="0" src="cid:resources/res12/Wotjb.upload_files_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+  This form serves as a batch document upload front-end. The procedure of uploading individual files from different folders is described below. </li>
+
+  <li>Using the file browser in the left part of the form, open the folder containing documents you want to upload. The right pane will show the documents existing in this folder. </li>
+
+  <li>Select the documents you want to upload by checking the appropriate boxes. </li>
+
+  <li>Click <b>Upload</b>. The file upload procedure will start; the progress bar will show the status of uploading the data: 
+   <p><a href="javascript:ShowImg('/images/portal_course/big/load_files.png',400,173,'Upload process')"> <img width="250" height="108" border="0" src="cid:resources/res12/BDBRT.load_files_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+
+  <li>When the upload completes, the file list will show that the files have been published: 
+   <p><a href="javascript:ShowImg('/images/portal_course/big/load_files_complete.png',625,186,'List of files')"> <img width="249" height="74" border="0" src="cid:resources/res12/djfZV.load_files_complete_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+</ul>
+
+<p><b>Uploading Documents From Different Sources</b></p>
+
+<p>To upload multiple documents that are in different folders, do the following:</p>
+
+<ul>
+  <li>Click <b>Upload</b> on the context toolbar: 
+   <p><img src="cid:resources/res12/lHNeU.upload_contex_panel.png" width="599" height="30" border="0"></p></li>
+   
+  <li>Open a file upload form by clicking the link <b>Show Form</b>: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/file_load_dialog.png',471,349,'Upload files')"> <img width="250" height="185" border="0" src="cid:resources/res12/mW6b4.file_load_dialog_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+
+  <li>Select the files you wish to upload by clicking <b>Browse</b>. By default, four upload fields are available. The <b>administrator</b> can configure the number of fields. </li>
+
+  <li>If you want to update all existing documents, enable the <b>Overwrite existing file(s)</b> option. Otherwise, the system will warn you about existing files. </li>
+
+  <li>Click <b>Upload</b>. When the upload completes, the file list will show:
+    <p><a href="javascript:ShowImg('/images/portal_course/big/load_files_complete.png',625,186,'List of files')"> <img width="249" height="74" border="0" src="cid:resources/res12/HRsqu.load_files_complete_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  
+    <div class="hint"><b>Note!</b> The <b>Apply</b> button allows you to upload files and stay on the upload page without switching to the file list.</div>
+  </li>
+</ul>
+
+<p><b>Deleting Documents</b></p>
+
+<p>To delete a document, follow the steps below:</p>
+
+<ul>
+  <li>Click <b>Actions</b> <img src="cid:resources/res12/fMBEA.action_button.png" width="30" height="26" border="0"> in the row showing the document to be deleted. </li>
+
+  <li>Select <b>Delete</b> in the action menu: 
+   <p><img src="cid:resources/res12/MqdA6.delete.png" width="350" height="164" border="0"></p>
+  </li>
+
+  <li>The system will ask that you confirm the deletion and only then delete the document. </li>
+</ul>
+
+<p><b>Editing documents</b></p>
+
+<p>To edit a document, carry out the following actions:</p>
+
+<ul>
+  <li>Click <b>Actions</b> <img src="cid:resources/res12/TMfdy.action_button.png" width="30" height="26" border="0"> in the row showing the document and select <b>Modify</b>:
+    <p><img src="cid:resources/res12/KEUAw.edit.png" width="350" height="165" border="0"></p>  </li>
+
+  <li>A new form will open in which you can alter the document properties: 
+   <p><a href="javascript:ShowImg('/images/portal_course/big/file_prop.png',707,345,'File properties')"> <img width="250" height="122" border="0" src="cid:resources/res12/ocfZB.file_prop_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+
+  <li>If you want to edit the document, download it by clicking the link with its name, edit the document and supply the path to the modified document by clicking <b>Browse...</b>. </li>
+
+  <li>Click <b>Save</b>. </li>
+  
+</ul>
+
+<p><b>Editing Documents Using Microsoft Office</b></p>
+
+<p>If you want to edit documents in <b>Microsoft Office</b>, you should have it installed on your machine.</p>
+
+<p>The documents can <b>only</b> be edited in MS Office using <b>Internet Explorer</b>.</p>
+
+<div class="hint"><b>Note!</b> If you edit <b>Microsoft Office</b> documents in other web browsers, your changes will <b>not be saved</b>!</div>
+
+<ul>
+  <li>With <b>Microsoft Word</b>, <b>Microsoft Excel</b>, <b>Microsoft PowerPoint</b> documents, just click the document name. </li>
+
+  <li>Click <b>OK</b> in the warning window: 
+    <p><a href="javascript:ShowImg('/images/portal_course/big/warning.png',705,172,'Warning')"> <img width="250" height="61" border="0" src="cid:resources/res12/h1uzs.warning_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>  </li>
+
+  <li>This will run a <b>Microsoft Office</b> application matching the file type. </li>
+
+  <li>Edit the document as desired. Save it and close the application. </li>
+
+  <li>Modifications will be saved to the server Library. </li>
+</ul>
+
+<div class="hint"><b>Warning.</b> The document remains locked for other users while you are editing it.
+Do not forget to unlock it by clicking <b>Actions</b> <img src="cid:resources/res12/YT88M.action_button.png" width="30" height="26" border="0"> and selecting <b>Unlock</b>: 
+<p><img src="cid:resources/res12/Y91hE.unlock.png" width="354" height="205" border="0"></p>
+The row showing the document will light the lamp indicating the document status. The yellow <img src="cid:resources/res12/CiQb7.yellow_status.png" width="14" height="14" border="0"> means that you have locked the document, while the red <img src="cid:resources/res12/iq2Lr.red_status.png" width="14" height="14" border="0"> means that another employee has locked it. The document remains locked for other users while you are editing it.</div>]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

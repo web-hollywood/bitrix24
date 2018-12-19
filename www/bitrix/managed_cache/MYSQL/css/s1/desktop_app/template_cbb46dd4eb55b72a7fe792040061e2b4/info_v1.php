@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/templates/desktop_app/template_styles.css" => "1544127420215",); ?>

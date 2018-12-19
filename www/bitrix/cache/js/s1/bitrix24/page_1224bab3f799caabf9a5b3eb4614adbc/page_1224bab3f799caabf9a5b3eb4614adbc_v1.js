@@ -1,0 +1,7 @@
+
+; /* Start:"a:4:{s:4:"full";s:93:"/bitrix/templates/bitrix24/components/bitrix/im.messenger/content/script.min.js?1544127644738";s:6:"source";s:75:"/bitrix/templates/bitrix24/components/bitrix/im.messenger/content/script.js";s:3:"min";s:79:"/bitrix/templates/bitrix24/components/bitrix/im.messenger/content/script.min.js";s:3:"map";s:79:"/bitrix/templates/bitrix24/components/bitrix/im.messenger/content/script.map.js";}"*/
+function bxFullscreenInit(){BX.bind(BX("im-workarea-popup"),"click",function(){bxFullscreenClose()});BX.bind(BX("im-workarea-backgound-selector"),"change",function(){BX("im-workarea-backgound-selector-title").innerHTML=this.options[this.selectedIndex].text});BX.addCustomEvent("onMessengerWindowInit",function(){BX("im-workarea-backgound-selector-title").innerHTML=BX("im-workarea-backgound-selector").options[BX("im-workarea-backgound-selector").selectedIndex].text})}function bxFullscreenClose(){var e="/";var n=BX.findChildrenByClassName(BX("bx-left-menu"),"menu-item-link");if(n){if(BX.hasClass(n[0].parentNode,"menu-item-active")){if(n[1].parentNode){e=n[1].href}}else{e=n[0].href}}location.href=e}
+/* End */
+;; /* /bitrix/templates/bitrix24/components/bitrix/im.messenger/content/script.min.js?1544127644738*/
+
+//# sourceMappingURL=page_1224bab3f799caabf9a5b3eb4614adbc.map.js

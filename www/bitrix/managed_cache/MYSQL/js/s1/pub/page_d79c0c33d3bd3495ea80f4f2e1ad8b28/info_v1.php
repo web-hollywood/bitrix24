@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/imopenlines.livechat/templates/iframe/script.js" => "154412742321429","/bitrix/components/bitrix/imopenlines.livechat/templates/iframe/masked.js" => "154412742313609",); ?>

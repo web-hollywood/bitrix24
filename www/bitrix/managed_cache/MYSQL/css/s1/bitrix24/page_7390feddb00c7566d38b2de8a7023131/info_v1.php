@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/socialnetwork_group/templates/.default/style.css" => "154412745416111","/bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/style.css" => "1544127453568","/bitrix/templates/bitrix24/components/bitrix/socialnetwork.group/.default/style.css" => "154412764511106",); ?>

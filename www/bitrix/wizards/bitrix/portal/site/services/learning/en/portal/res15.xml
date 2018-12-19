@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="CHA"><id>3</id>
+<timestamp_x>1231837845</timestamp_x>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Workgroups</name>
+<code></code>
+<sort>300</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<p><b>Workgroups</b> is a section containing information on workgroups in the company. Workgroups are classified by function, for example: <b>Projects</b>, <b>Management Board</b> etc. The group subjects are defined by the portal administration.</p>
+ 
+<p>Users can create or enter groups in their personal profile.</p>
+ 
+<div class="hint">Not all users can create groups. If you want to create a group but do not have permission, contact the portal administrator.</div>
+ ]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

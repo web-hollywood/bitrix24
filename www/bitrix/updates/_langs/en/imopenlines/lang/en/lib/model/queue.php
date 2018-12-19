@@ -1,0 +1,7 @@
+<?
+$MESS["QUEUE_ENTITY_LAST_ACTIVITY_DATE_EXACT_FIELD"] = "Time of the most recent reaction, ms";
+$MESS["QUEUE_ENTITY_ID_FIELD"] = "ID";
+$MESS["QUEUE_ENTITY_CONFIG_ID_FIELD"] = "Configuration ID";
+$MESS["QUEUE_ENTITY_USER_ID_FIELD"] = "User ID";
+$MESS["QUEUE_ENTITY_LAST_ACTIVITY_DATE_FIELD"] = "Last activity time";
+?>

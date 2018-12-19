@@ -1,0 +1,17 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001544695301';
+$dateexpire = '001580695301';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:8:"arResult";a:2:{s:5:"ITEMS";a:5:{i:0;a:12:{s:2:"ID";s:2:"31";s:4:"NAME";s:34:"Who can view my personal calendar?";s:9:"IBLOCK_ID";s:1:"9";s:17:"IBLOCK_SECTION_ID";s:2:"13";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:12:"PREVIEW_TEXT";s:0:"";s:16:"DETAIL_TEXT_TYPE";s:4:"html";s:11:"DETAIL_TEXT";s:553:"<p>This is defined by your personal settings (<i>Employees > Personal page > Edit settings link</i>). In the <b>View Calendar</b> field, you can select the permission scope:</p>
+<ul>
+  <li><b>Only Me</b> – no one but you can view your calendar;</li>
+  <li><b>Only Friends</b> – your calendar can be viewed by you and your friends;</li>
+  <li><b>Only Friends And Their Friends</b> – your calendar can be viewed by you, your friends  and your friends\' friends;</li>
+  <li><b>All Users</b> – all users can view your calendar.</li>
+</ul>
+
+
+";s:10:"CREATED_BY";s:1:"1";s:4:"SORT";s:3:"100";s:9:"EDIT_LINK";N;s:11:"DELETE_LINK";N;}i:1;a:12:{s:2:"ID";s:2:"32";s:4:"NAME";s:97:"Can employees have a personal folder in the common photo gallery (Communication > Photo gallery)?";s:9:"IBLOCK_ID";s:1:"9";s:17:"IBLOCK_SECTION_ID";s:2:"13";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:12:"PREVIEW_TEXT";s:0:"";s:16:"DETAIL_TEXT_TYPE";s:4:"html";s:11:"DETAIL_TEXT";s:197:"<p>A user can have a personal folder in the common photo gallery if they have any uploaded photos, and the <b>View Photo Gallery</b> field is set to <b>All Users</b> in their personal settings.</p>";s:10:"CREATED_BY";s:1:"1";s:4:"SORT";s:3:"200";s:9:"EDIT_LINK";N;s:11:"DELETE_LINK";N;}i:2;a:12:{s:2:"ID";s:2:"34";s:4:"NAME";s:65:"What access permission is required to place an Ad in Classifieds?";s:9:"IBLOCK_ID";s:1:"9";s:17:"IBLOCK_SECTION_ID";s:2:"13";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:12:"PREVIEW_TEXT";s:0:"";s:16:"DETAIL_TEXT_TYPE";s:4:"html";s:11:"DETAIL_TEXT";s:71:"<p>By default, all the company employees are entitled to place ads.</p>";s:10:"CREATED_BY";s:1:"1";s:4:"SORT";s:3:"300";s:9:"EDIT_LINK";N;s:11:"DELETE_LINK";N;}i:3;a:12:{s:2:"ID";s:2:"30";s:4:"NAME";s:24:"Who can post to a forum?";s:9:"IBLOCK_ID";s:1:"9";s:17:"IBLOCK_SECTION_ID";s:2:"13";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:12:"PREVIEW_TEXT";s:0:"";s:16:"DETAIL_TEXT_TYPE";s:4:"html";s:11:"DETAIL_TEXT";s:40:"<p>All employees can post to forums.</p>";s:10:"CREATED_BY";s:1:"1";s:4:"SORT";s:3:"400";s:9:"EDIT_LINK";N;s:11:"DELETE_LINK";N;}i:4;a:12:{s:2:"ID";s:2:"33";s:4:"NAME";s:42:"Can employees have their own file storage?";s:9:"IBLOCK_ID";s:1:"9";s:17:"IBLOCK_SECTION_ID";s:2:"13";s:17:"PREVIEW_TEXT_TYPE";s:4:"html";s:12:"PREVIEW_TEXT";s:0:"";s:16:"DETAIL_TEXT_TYPE";s:4:"html";s:11:"DETAIL_TEXT";s:220:"<p>Yes, if the <b>Files</b> feature is enabled on their personal page. If so, users can manage their files on the <b>Files</b> tab of their personal page and configure access to files on the personal settings page.</p>
+";s:10:"CREATED_BY";s:1:"1";s:4:"SORT";s:3:"500";s:9:"EDIT_LINK";N;s:11:"DELETE_LINK";N;}}s:8:"ITEMS_ID";a:5:{i:0;s:2:"31";i:1;s:2:"32";i:2;s:2:"34";i:3;s:2:"30";i:4;s:2:"33";}}s:18:"templateCachedData";a:0:{}}}';
+return true;
+?>

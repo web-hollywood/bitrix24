@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>23</id>
+<timestamp_x>1231840730</timestamp_x>
+<date_create>1227862846</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>3</chapter_id>
+<name>Finding Groups</name>
+<sort>100</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<p>To search for a group, open the <b>Search Groups</b> page (<i>Workgroups &gt; Find Groups</i>).</p>
+ 
+<p>You can search for groups in two ways:</p>
+ 
+<ul> 
+  <li>using the tag cloud by clicking a tag (a keyword) to find the required groups:</li>
+ 
+  <p><img src="cid:resources/res16/KBhms.group_tag.png" /></p>
+ 
+  <li>using the search form: specify a keyword in the <b>Search</b> field and a topic in the <b> </b> field (optional).</li>
+ 
+  <p><img src="cid:resources/res16/Fv6AU.group_filter.png" /></p>
+ </ul>
+ 
+<p>To start the search, click <b>Search</b>. To clear all the form parameters, click <b>Cancel</b>.</p>
+ 
+<p>The results of the search will be displayed below the filter form:</p>
+ 
+<p><img width="471" height="114" src="cid:resources/res16/T4uhq.group_card.png" /></p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

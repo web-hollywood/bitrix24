@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="CHA"><id>6</id>
+<timestamp_x>1231750428</timestamp_x>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Company</name>
+<code></code>
+<sort>600</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>The <b>Company</b> section contains various information about the company.<p> 
+<p>Here you can learn:</p> 
+<ul>
+<li>the company background;</li> 
+<li>the company's lines of activity.</li>
+</ul>
+<p>Moreover, the company address, contacts and vacancies are listed here.</p>
+<p>Dry facts about the company can be smoothed by the event calendar, photos and video about the company life.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

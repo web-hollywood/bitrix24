@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="CHA"><id>5</id>
+<timestamp_x>1231852292</timestamp_x>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Services</name>
+<code></code>
+<sort>500</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>The <b>Services</b> section offers special services and useful information to employees.</p>
+<ul>
+  <li>You can request services on the <b>Submit An Order</b> page. First, select the request type, and then fill in the request form.</li>
+  <li>The <b>Knowledge Base</b> page contains frequently asked questions. Here you can quickly find answers to your basic questions. If the answer to your question is not listed there, refer to the IT service department.</li>
+  <li>You can send a request to the IT service department on the <b>Technical Support</b> page. There you will describe your problem, and then discuss it with an IT service specialist who will try to solve your problem.</li>
+  <li>The <b>Training</b> section contains various training courses. Each course consists of a number of lessons; some lessons can be grouped. A course may contain self-check tests, and a final certification test that you can take to receive a certificate confirming that you passed the course. A summary of tests taken and certificates obtains can be viewed on the pages <b>Gradebook</b> and <b>My Certificates</b>, respectively.</li>
+  <li>Polls and surveys are the means to reveal the company employees' opinions on different matters. Users can vote in any active poll on the <b>Polls</b> page which shows a list of all polls and voting history.</li>
+  <li>Popular links are shown on the <b>Link Directory</b> page.</li>
+  <li>You can manage your subscriptions to newsletters on the <b>Subscription</b> page. There you can select subscription topics and specify your e-mail.</li>
+</ul>]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

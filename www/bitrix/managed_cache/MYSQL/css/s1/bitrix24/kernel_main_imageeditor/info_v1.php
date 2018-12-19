@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/js/main/imageeditor/css/style.css" => "1544127384799",); ?>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="CHA"><id>4</id>
+<timestamp_x>1231842387</timestamp_x>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Communication</name>
+<code></code>
+<sort>400</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<p>The portal offers various features for communication among its users.</p>
+ 
+<p>The <b>Blogs</b> section shows the blogs of employees and groups. The main page of this section gives you a brief overview of all the new blogs, latest posts and user comments. </p>
+ 
+<p>Using <b>Forums</b>, you can ask for help on a certain problem or read the existing topics of other employees. Forums are grouped in the following way:</p>
+ 
+<ul> 
+  <li><b>General Forums</b> - for example, the public forum in which any user can create topics for discussion.</li>
+ 
+  <li><b>Forum for comments</b> - the employees can leave their comments on the company news and events here.</li>
+ </ul>
+ 
+<p>The published photos of employees and the pictures of workgroups are available for viewing in the <b>Photo Gallery</b> section. The gallery name follows the employee's name. If an employee allows viewing of their photos, the employee's personal page will open upon clicking their name.</p>
+ 
+<p>The <b>Classifieds</b> page allows you to view advertisements of the company employees or place your own using &quot;<b>Classifieds</b>&quot;, and further view them by clicking &quot;<b>My Ads</b>&quot;.</p>
+ ]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

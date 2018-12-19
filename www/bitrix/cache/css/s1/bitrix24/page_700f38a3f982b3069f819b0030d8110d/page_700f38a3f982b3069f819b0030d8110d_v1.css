@@ -1,0 +1,18 @@
+
+
+/* Start:/bitrix/components/bitrix/tasks.report/templates/.default/style.min.css?1544127461229*/
+div.filter-field span.webform-field-textbox-inner{width:200px;padding:0 20px 0 4px}div.filter-field input.webform-field-textbox{height:20px;width:200px}div.filter-field a.webform-field-textbox-clear{background-position:-17px 8px}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/tasks.interface.topmenu/templates/.default/style.min.css?1544127461158*/
+#tasks_panel_menu_view_effective .main-buttons-item-counter{background:#4fc3f7}#tasks_panel_menu_view_effective .main-buttons-item-counter::after{content:'%'}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/tasks.user.selector/templates/.default/style.css?154412746141*/
+input.tasks-hidden-input {display: none;}
+/* End */
+/* /bitrix/components/bitrix/tasks.report/templates/.default/style.min.css?1544127461229 */
+/* /bitrix/components/bitrix/tasks.interface.topmenu/templates/.default/style.min.css?1544127461158 */
+/* /bitrix/components/bitrix/tasks.user.selector/templates/.default/style.css?154412746141 */

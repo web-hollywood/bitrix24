@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<coursetoc><id>2</id>
+<timestamp_x>1231863278</timestamp_x>
+<active>Y</active>
+<code>portal</code>
+<name>Intranet Portal training course</name>
+<sort>200</sort>
+<preview_picture>598.jpg</preview_picture>
+<preview_text><![CDATA[<p>The first thing you should know about Bitrix Intranet Portal: it is an application that requires a bit of special knowledge. However, it is not difficult to use if you carefully study this course which describes in detail how the portal works.</p>]]></preview_text>
+<preview_text_type>html</preview_text_type>
+<description><![CDATA[<p>The first thing you should know about Bitrix Intranet Portal: it is an application that requires a bit of special knowledge. However, it is not difficult to use if you carefully study this course which describes in detail how the portal works.</p>
+<p>This course introduces the main principles of portal usage and modules of the system. The step-by-step structure of the course ensures that you get a full understanding of using the system from the ground up. If you want, you can skip steps and focus your attention on the required sections only.</p>]]></description>
+<description_type>html</description_type>
+<active_from></active_from>
+<active_to></active_to>
+</coursetoc>

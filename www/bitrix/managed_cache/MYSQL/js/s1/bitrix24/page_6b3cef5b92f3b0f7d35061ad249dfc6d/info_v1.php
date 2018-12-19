@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/mail.client/templates/.default/script.js" => "154412743327247","/bitrix/components/bitrix/main.mail.confirm/templates/.default/script.js" => "15441273846063",); ?>

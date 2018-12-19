@@ -1,0 +1,7 @@
+
+; /* Start:"a:4:{s:4:"full";s:71:"/bitrix/components/bitrix/system.field.edit/script.min.js?1544127384814";s:6:"source";s:53:"/bitrix/components/bitrix/system.field.edit/script.js";s:3:"min";s:57:"/bitrix/components/bitrix/system.field.edit/script.min.js";s:3:"map";s:57:"/bitrix/components/bitrix/system.field.edit/script.map.js";}"*/
+function addElement(e,n){if(document.getElementById("main_"+e)){var d=document.getElementById("main_"+e).getElementsByTagName("div");if(d&&d.length>0&&d[0]){var t=d[0].parentNode;t.appendChild(d[d.length-1].cloneNode(true))}}}function addElementFile(e,n){var d=document.getElementById("main_"+e);var t=document.getElementById("main_add_"+e);if(d&&t){t=t.cloneNode(true);t.id="";t.style.display="";d.appendChild(t)}}function addElementDate(e,n){var d=document.getElementById("date_container_"+n);var t=document.getElementById("hidden_"+n).innerHTML;if(d&&t){var a=e[n].fieldName;var i=e[n].index;t=t.replace(/[#]FIELD_NAME[#]/g,a+"["+i+"]");t=t.replace(/[\%]23FIELD_NAME[\%]23/g,escape(a+"["+i+"]"));var l=d.appendChild(document.createElement("DIV"));l.innerHTML+=t;e[n].index++}}
+/* End */
+;; /* /bitrix/components/bitrix/system.field.edit/script.min.js?1544127384814*/
+
+//# sourceMappingURL=page_b7da5053189b581e6b73d322facc8473.map.js

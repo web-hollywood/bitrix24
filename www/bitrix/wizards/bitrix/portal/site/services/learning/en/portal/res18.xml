@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>24</id>
+<timestamp_x>1231849780</timestamp_x>
+<date_create>1227862903</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>4</chapter_id>
+<name>Forums</name>
+<sort>100</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p><b>Creating a Topic</b></p>
+ 
+<p>To create a new topic, click the <img src="cid:resources/res18/30JCY.new_theme_button.png" /> button. When clicked, it will open the new topic creation form:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/new_theme_form.png',450,553,'Creating a topic')"> <img width="200" height="246" border="0" src="cid:resources/res18/d24pP.new_theme_form_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Complete the following steps in the form:</p>
+ 
+<ul> 
+  <li>type in the topic title and description;</li>
+ 
+  <li>fill in the <b>Tags</b> field if needed and select an icon;</li>
+ 
+  <li>type in the <b>Message text</b>.</li>
+ </ul>
+ 
+<p>You can have new message notifications sent to your e-mail address by enabling the <b>Subscribe to new topic messages</b> option.</p>
+ 
+<p>Click <b>Post New Topic</b> to create the topic. The topic created will look similar to the following figure:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/theme.png',605,295,'New topic')"> <img width="250" height="122" border="0" src="cid:resources/res18/soshv.theme_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p><b>Creating Messages (Replying in Topics)</b></p>
+ 
+<p>To create a new message, type in the text and click <b>Reply</b>:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/answer_form.png',606,480,'New message')"> <img width="250" height="198" border="0" src="cid:resources/res18/m3hJw.answer_form_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>The reply will be published:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/theme2.png',605,357,'Topic messages')"> <img width="250" height="148" border="0" src="cid:resources/res18/MY8wM.theme2_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p><b>Subscription Management</b></p>
+ 
+<p>To subscribe to new posts and/or new topics, click the button <img src="cid:resources/res18/KirOm.subscr_but.png" />. In the drop-down list, select <b>New posts</b> and/or <b>New topics</b>.</p>
+ 
+<p>To configure the subscription parameters, click <img width="103" height="28" src="cid:resources/res18/mT2AB.subscr_but2.png" /> on the context toolbar. The subscription management form will open:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/forum_subscribe.png',585,97,'Subscription management')"> <img width="300" height="50" border="0" src="cid:resources/res18/Bt6Dg.forum_subscribe_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>To remove the subscription, click <b>Delete</b>.</p>
+ ]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

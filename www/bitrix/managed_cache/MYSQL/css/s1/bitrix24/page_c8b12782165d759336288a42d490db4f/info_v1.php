@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/sender.config.limits/templates/.default/style.css" => "15441274507149",); ?>

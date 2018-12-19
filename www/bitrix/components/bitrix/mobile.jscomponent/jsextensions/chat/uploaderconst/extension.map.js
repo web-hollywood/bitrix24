@@ -1,0 +1,1 @@
+{"version":3,"sources":["extension.js"],"names":["ChatUploaderEvents","DISK_MESSAGE_ADD_SUCCESS","DISK_MESSAGE_ADD_FAIL"],"mappings":"AAAA,aAMA,IAAIA,oBACHC,yBAA0B,4BAC1BC,sBAAuB","file":""}

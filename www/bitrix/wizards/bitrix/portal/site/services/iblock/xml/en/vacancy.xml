@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:39:20">
+	<Metadata>
+		<Id>vacancy_temp</Id>
+		<Title>Job Vacancies</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>50</Id>
+				<Title>Office</Title>
+				<Multiple>false</Multiple>
+				<BitrixSort>500</BitrixSort>
+				<BitrixCode>office</BitrixCode>
+				<BitrixDefaultValue></BitrixDefaultValue>
+				<BitrixPropertyType>S</BitrixPropertyType>
+				<BitrixRows>1</BitrixRows>
+				<BitrixColumns>30</BitrixColumns>
+				<BitrixListType>L</BitrixListType>
+				<BitrixFileType>jpg, gif, bmp, png, jpeg</BitrixFileType>
+				<BitrixNumberOfInputs>5</BitrixNumberOfInputs>
+				<BitrixLinkedInformationBlock></BitrixLinkedInformationBlock>
+				<BitrixWithDescription>false</BitrixWithDescription>
+				<BitrixUsedInSearch>false</BitrixUsedInSearch>
+				<BitrixFilterAllowed>false</BitrixFilterAllowed>
+				<BitrixUserType></BitrixUserType>
+				<BitrixRequired>false</BitrixRequired>
+			</Property>
+			<Property>
+				<Id>51</Id>
+				<Title>Department</Title>
+				<Multiple>false</Multiple>
+				<BitrixSort>600</BitrixSort>
+				<BitrixCode>department</BitrixCode>
+				<BitrixDefaultValue></BitrixDefaultValue>
+				<BitrixPropertyType>S</BitrixPropertyType>
+				<BitrixRows>1</BitrixRows>
+				<BitrixColumns>30</BitrixColumns>
+				<BitrixListType>L</BitrixListType>
+				<BitrixFileType>jpg, gif, bmp, png, jpeg</BitrixFileType>
+				<BitrixNumberOfInputs>5</BitrixNumberOfInputs>
+				<BitrixLinkedInformationBlock></BitrixLinkedInformationBlock>
+				<BitrixWithDescription>false</BitrixWithDescription>
+				<BitrixUsedInSearch>false</BitrixUsedInSearch>
+				<BitrixFilterAllowed>false</BitrixFilterAllowed>
+				<BitrixUserType></BitrixUserType>
+				<BitrixRequired>false</BitrixRequired>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>vacancy_temp</Id>
+		<MetadataId>vacancy_temp</MetadataId>
+		<Title>Job Vacancies</Title>
+		<BitrixCode>vacancy_temp</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#/about/career.php</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#/about/career.php?ID=#ID#</BitrixDetailURL>
+		<BitrixSectionURL>#SITE_DIR#/about/career.php?SECTION_ID=#ID#</BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Vacancy</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Vacancies</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add Vacancy</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit Vacancy</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete Vacancy</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Categories</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Category</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>1149</Id>
+				<Title>Food Service Sales Representative</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;p&gt;&lt;b&gt;Job Summary:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Sales Representatives strive to achieve the sales and profit goals set within their territories, while communicating the value of the New England Coffee brand to current and prospective customers. The Sales Representative is responsible for seeking, acquiring, and maintaining a profitable customer base through the sale of beverage programs including coffee, tea and related allied products.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Salary:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;$18-22k + 3k Bonus + Benefits&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Job Description:&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Liaising with customers by telephone&lt;/li&gt;
+
+  &lt;li&gt;Responding to customers enquiries&lt;/li&gt;
+
+  &lt;li&gt;Providing advise and cross-selling various products&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Skills Required:&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understanding the sales cycle.&lt;/li&gt;
+
+  &lt;li&gt;Confident telephone manner&lt;/li&gt;
+
+  &lt;li&gt;Ability to work on own initiative&lt;/li&gt;
+
+  &lt;li&gt;Strong communication skills&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;Excellent communication and organization skills as well as attention to detail are necessary. Must have Microsoft Office proficiency, valid driver's license, impeccable driving record, and ability to travel.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Education Level&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The ideal candidate will possess a college degree (Bachelor's Degree).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Relevant Work Experience&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;2+ years of sales experience, preferably in the food industry.&lt;/p&gt;
+
+
+
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Company is seeking a highly motivated Food Service Sales Representative. Sales Representatives strive to achieve the sales and profit goals set within their territories, while communicating the value of the Global Food brand to current and prospective customers. </Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>50</Id>
+						<Value>New England office</Value>
+						<PropertyValue>
+							<Value>New England office</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>51</Id>
+						<Value>Food Service Department</Value>
+						<PropertyValue>
+							<Value>Food Service Department</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1153</Id>
+				<Title>Customer Service Advisor</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;p&gt;&lt;b&gt;Job Summary:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Real dream job for customer service representative exhibiting ability to work independently, good organizational skills and customer service focused.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Salary:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#163;17-19k + Benefits&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Job Description:&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Customer Support/Client Care&lt;/li&gt;
+
+  &lt;li&gt;Resolving customer complaints&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;b&gt;Major Duties:&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Customer Support/Client Care&lt;/li&gt;
+
+  &lt;li&gt;Resolving customer complaints&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Skills Required:&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Professional Telephone Manner&lt;/li&gt;
+
+  &lt;li&gt;Experience of working within a fast paced office environment&lt;/li&gt;
+
+  &lt;li&gt;Excellent oral and written communication skills, with demonstrated ability to articulate relevant information and directions in an organized and concise manner&lt;/li&gt;
+
+  &lt;li&gt;Proven listening and analytical skills, with demonstrated ability to obtain key information and resolve complex service problem&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Preferred Qualifications&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;One (1) year previous call center or help desk service experience.&lt;/p&gt;
+
+&lt;p&gt;If offered a position, all applicants must be able to successfully pass a drug, educational (High school diploma or general equivalency degree), employment, and criminal background check.&lt;/p&gt;
+
+
+
+
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Real dream job for customer service representative exhibiting ability to work independently, good organizational skills and customer service focused. </Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>50</Id>
+						<Value>Head office</Value>
+						<PropertyValue>
+							<Value>Head office</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>51</Id>
+						<Value>Customer Department</Value>
+						<PropertyValue>
+							<Value>Customer Department</Value>
+							<Description></Description>
+						</PropertyValue>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/sender.config.limits/templates/.default/script.js" => "15441274502499",); ?>

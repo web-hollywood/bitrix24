@@ -1,0 +1,70 @@
+<?
+$MESS["DEFAULT_SITE_NAME"] = "Ñàéò ïî óìîë÷àíèþ";
+$MESS["MAIN_OPT_MENU_SECT"] = "Ìåíþ ðàçäåëà";
+$MESS["MAIN_OPT_MENU_MAIN"] = "Ãëàâíîå ìåíþ ñàéòà";
+$MESS["MAIN_OPT_MENU_BOTTOM"] = "Íèæíåå ìåíþ";
+$MESS["MAIN_OPT_MENU_DEPARTMENT"] = "Äåïàðòàìåíòû";
+$MESS["MAIN_OPT_MENU_TOPLINKS"] = "Ìåíþ áûñòðûõ ññûëîê";
+$MESS["MAIN_OPT_DEF_LINKS"] = "[IMG]/images/icons/bullet_dot.gif[/IMG] [url=http://www.1c-bitrix.ru]Ñàéò íàøåé êîìïàíèè[/url]
+
+[IMG]/images/icons/bullet_dot.gif[/IMG] [url=http://v8.1c.ru/enterprise/]Âõîä â ÓÏÏ[/url]
+
+[IMG]/images/icons/bullet_dot.gif[/IMG] [url=http://v8.1c.ru/enterprise/2/]Âõîä â CRM[/url]
+
+[IMG]/images/icons/bullet_dot.gif[/IMG] [url=http://yandex.ru]Ïîèñê èíôîðìàöèè[/url]";
+$MESS["main_opt_user_user"]="Ïîëüçîâàòåëü";
+$MESS["main_opt_user_upd"]="Äàòà îáíîâëåíèÿ";
+$MESS["main_opt_user_last"]="Ïîñëåäíÿÿ àâòîðèçàöèÿ";
+$MESS["main_opt_user_name"]="Èìÿ";
+$MESS["main_opt_user_lastname"]="Ôàìèëèÿ";
+$MESS["main_opt_user_secondname"]="Îò÷åñòâî";
+$MESS["main_opt_user_login"]="Ëîãèí (ìèí. 3 ñèìâîëà)";
+$MESS["main_opt_user_pass"]="Íîâûé ïàðîëü";
+$MESS["main_opt_user_str"]="Ñòðóêòóðà îðãàíèçàöèè";
+$MESS["main_opt_user_dep"]="Ïîäðàçäåëåíèÿ";
+$MESS["main_opt_user_group"]="Ãðóïïû";
+$MESS["main_opt_user_group_user"]="Ãðóïïû ïîëüçîâàòåëÿ";
+$MESS["main_opt_user_pers"]="Ëè÷íûå äàííûå";
+$MESS["main_opt_user_sex"]="Ïîë";
+$MESS["main_opt_user_bith"]="Äàòà ðîæäåíèÿ";
+$MESS["main_opt_user_photo"]="Ôîòîãðàôèÿ";
+$MESS["main_opt_user_spec"]="Ñïåöèàëüíîñòü";
+$MESS["main_opt_user_inn"]="ÈÍÍ";
+$MESS["main_opt_user_www"]="WWW-ñòðàíèöà";
+$MESS["main_opt_user_ph"]="Òåëåôîíû";
+$MESS["main_opt_user_ph1"]="Òåëåôîí";
+$MESS["main_opt_user_fax"]="Ôàêñ";
+$MESS["main_opt_user_mobile"]="Ìîáèëüíûé";
+$MESS["main_opt_user_pager"]="Ïåéäæåð";
+$MESS["main_opt_user_skype"]="Skype";
+$MESS["main_opt_user_addr"]="Ïî÷òîâûé àäðåñ";
+$MESS["main_opt_user_country"]="Ñòðàíà";
+$MESS["main_opt_user_reg"]="Îáëàñòü / êðàé";
+$MESS["main_opt_user_city"]="Ãîðîä";
+$MESS["main_opt_user_zip"]="Ïî÷òîâûé èíäåêñ";
+$MESS["main_opt_user_distr"]="Ðàéîí";
+$MESS["main_opt_user_street"]="Óëèöà, äîì";
+$MESS["main_opt_user_pb"]="Ïî÷òîâûé ÿùèê";
+$MESS["main_opt_user_notes"]="Äîïîëíèòåëüíûå çàìåòêè";
+$MESS["main_opt_user_work"]="Ðàáîòà";
+$MESS["main_opt_user_work_title"]="Äîëæíîñòü â îðãàíèçàöèè";
+$MESS["main_opt_user_work_dep"]="Äåïàðòàìåíò / Îòäåë";
+$MESS["main_opt_user_work_title1"]="Äîëæíîñòü";
+$MESS["main_opt_user_work_desc"]="Íàïðàâëåíèÿ äåÿòåëüíîñòè";
+$MESS["main_opt_user_internal_ph"]="Âíóòðåííèé òåëåôîí";
+$MESS["main_opt_user_comp"]="Êîìïàíèÿ";
+$MESS["main_opt_user_comp_name"]="Íàèìåíîâàíèå êîìïàíèè";
+$MESS["main_opt_user_comp_logo"]="Ëîãîòèï êîìïàíèè";
+$MESS["main_opt_user_blog"]="Áëîã";
+$MESS["main_opt_user_forum"]="Ôîðóì";
+$MESS["main_opt_user_learning"]="Îáó÷åíèå";
+$MESS["main_opt_user_addit"]="Äîïîëíèòåëüíî";
+$MESS["main_opt_user_userprop"]="Ïîëüçîâàòåëüñêèå ñâîéñòâà";
+$MESS["main_opt_user_userprop_add"]="Äîáàâèòü ïîëüçîâàòåëüñêîå ñâîéñòâî";
+$MESS["main_opt_user_userprop_1c"]="Ïîëüçîâàòåëü èç 1Ñ";
+$MESS["main_opt_user_notify"]="Îïîâåùåíèÿ";
+$MESS["main_opt_user_notify_site"]="Ñàéò ïî óìîë÷àíèþ äëÿ óâåäîìëåíèé";
+$MESS["main_opt_user_notify_do"]="Îïîâåñòèòü ïîëüçîâàòåëÿ";
+$MESS["main_opt_user_admin"]="Çàìåòêè àäìèíèñòðàòîðà";
+$MESS["main_opt_user_active"]="Ïîëüçîâàòåëü àêòèâåí";
+?>

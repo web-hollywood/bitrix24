@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<coursetoc><id>4</id>
+<timestamp_x>1228916203</timestamp_x>
+<active>Y</active>
+<code>new_employee</code>
+<name>New Employee Handbook</name>
+<sort>100</sort>
+<preview_picture>824.jpg</preview_picture>
+<preview_text><![CDATA[<p>We have developed the Human Resources course specifically for you.  We feel that this guide provide you with the information you need to take full advantage of your benefits.   You are always welcome to contact us with any issue or concern, but we highly recommend that you use the Intranet Portal tools provided on the web to stay up to date company employee benefits and information.</p>]]></preview_text>
+<preview_text_type>html</preview_text_type>
+<description><![CDATA[
+<p><b>A Message From Human Resources</b></p>
+
+<table>
+  <tbody>
+    <tr><td><img height="62" src="cid:resources/res1/Uxch4.264TK.ethics_sm.jpg" width="130" /></td><td>Before the Internet, it was sometimes difficult and often frustrating to find out about human resources regulations and entitlements. Now you can do just about everything online. You can also find the answer to almost any conceivable question you have quickly and easily. We have developed this Human Resources course specifically for you. We feel that this guide provides you with the information you need to take full advantage of your benefits. You are always welcome to contact us with any issue or concern, but we highly recommend that you use the Intranet Portal tools provided on the web to stay up to date on company employee benefits and information. To have a successful career and to take full advantage of your benefits, we recommend that you make it a priority to develop a sound foundational knowledge of human resources.</td></tr>
+  </tbody>
+</table>
+]]></description>
+<description_type>html</description_type>
+<active_from></active_from>
+<active_to></active_to>
+</coursetoc>

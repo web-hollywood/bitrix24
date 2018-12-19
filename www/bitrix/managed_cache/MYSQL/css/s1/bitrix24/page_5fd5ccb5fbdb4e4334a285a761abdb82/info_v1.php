@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/intranet.contact_center.list/templates/.default/style.css" => "154412742433373",); ?>

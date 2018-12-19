@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/templates/bitrix24/components/bitrix/im.messenger/content/script.js" => "1544127644738",); ?>

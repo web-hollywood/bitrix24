@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2008-12-30T17:35:48">
+	<Metadata>
+		<Id>our_life_temp</Id>
+		<Title>Company life</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>59</Id>
+				<Title>Forum topic for comments</Title>
+				<Multiple>false</Multiple>
+				<BitrixSort>500</BitrixSort>
+				<BitrixCode>FORUM_TOPIC_ID</BitrixCode>
+				<BitrixDefaultValue></BitrixDefaultValue>
+				<BitrixPropertyType>S</BitrixPropertyType>
+				<BitrixRows>1</BitrixRows>
+				<BitrixColumns>30</BitrixColumns>
+				<BitrixListType>L</BitrixListType>
+				<BitrixFileType></BitrixFileType>
+				<BitrixNumberOfInputs>0</BitrixNumberOfInputs>
+				<BitrixLinkedInformationBlock></BitrixLinkedInformationBlock>
+				<BitrixWithDescription>false</BitrixWithDescription>
+				<BitrixUsedInSearch>false</BitrixUsedInSearch>
+				<BitrixFilterAllowed>false</BitrixFilterAllowed>
+				<BitrixUserType>TopicID</BitrixUserType>
+				<BitrixRequired>false</BitrixRequired>
+			</Property>
+			<Property>
+				<Id>60</Id>
+				<Title>Number of comments for item</Title>
+				<Multiple>false</Multiple>
+				<BitrixSort>500</BitrixSort>
+				<BitrixCode>FORUM_MESSAGE_CNT</BitrixCode>
+				<BitrixDefaultValue></BitrixDefaultValue>
+				<BitrixPropertyType>N</BitrixPropertyType>
+				<BitrixRows>1</BitrixRows>
+				<BitrixColumns>30</BitrixColumns>
+				<BitrixListType>L</BitrixListType>
+				<BitrixFileType></BitrixFileType>
+				<BitrixNumberOfInputs>0</BitrixNumberOfInputs>
+				<BitrixLinkedInformationBlock></BitrixLinkedInformationBlock>
+				<BitrixWithDescription>false</BitrixWithDescription>
+				<BitrixUsedInSearch>false</BitrixUsedInSearch>
+				<BitrixFilterAllowed>false</BitrixFilterAllowed>
+				<BitrixUserType></BitrixUserType>
+				<BitrixRequired>false</BitrixRequired>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>our_life_temp</Id>
+		<MetadataId>our_life_temp</MetadataId>
+		<Title>Company life</Title>
+		<BitrixCode>our_life_temp</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#about/life.php</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#about/life.php?ID=#ID#</BitrixDetailURL>
+		<BitrixSectionURL></BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete News</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Sections</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Section</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>1</Id>
+				<Title>Birthdays In September!</Title>
+				<BitrixTags>birthdays</BitrixTags>
+				<Description>This month, three of our colleagues celebrate birthdays! We congratulate Olivia Acres, Tegan Funnel and Louise Mayall and send them many wishes!
+&lt;br /&gt;
+ 
+&lt;br /&gt;
+We shall be toasting them at the Assembly Hall! Everyone is welcome! 
+
+ </Description>
+				<Picture>our_life_files/iblock/2b7/a808dd51ff15be4c45ee7b0954625898.jpg</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-13 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>This month, three of our colleagues celebrate birthdays! </Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>our_life_files/iblock/77e/9a6f97166e2086b378db9497438e2f82.jpg</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>59</Id>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>60</Id>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>223</Id>
+				<Title>The Indispensable!</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;b&gt;Nickolas Gilbert has been named the manager of the month!&lt;/b&gt; 
+&lt;br /&gt;
+ 
+&lt;br /&gt;
+As their supervisor states, Nickolas is a uniquely universal specialist who not only copes with his work but always helps other workers and even other departments!</Description>
+				<Picture>our_life_files/iblock/e86/016c613a9d28a6acfc18f7f009fca0e0.jpg</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-21 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>The manager of the month...</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>our_life_files/iblock/963/475f6886ee9b2663c0f6a05c3d545394.jpg</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>59</Id>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>60</Id>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1571</Id>
+				<Title>The Initiation of New Members</Title>
+				<BitrixTags></BitrixTags>
+				<Description>Dear colleagues! According to our tradition, we are going to conduct the autumn initiation of the new employees into our ranks. Those of our members, who have joined our company in the spring and summer, will absorb the spirit of our corporate culture. The company’s veterans will enjoy their long-expected promotion and the ratification of the new status. We hope this festivity will bring you many positive emotions!
+</Description>
+				<Picture>our_life_files/iblock/0e2/39c633e564261b47139f7191006a27dc.jpg</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-08 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>According to our tradition, we are going to conduct the autumn initiation of the new employees into our ranks </Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>our_life_files/iblock/33a/ae7108563a8c68e79edf16f68a446b04.jpg</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>59</Id>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>60</Id>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1583</Id>
+				<Title>Best Photo Interactive Contest</Title>
+				<BitrixTags></BitrixTags>
+				<Description>Dear friends! This summer has presented us with a burst of positive emotions and sun heat. Now it’s autumn and raining cats and dogs, and the naked tree limbs are here and there… But don’t give up! The financial department stages a contest for the most joyful and warm summer photo! 
+&lt;br /&gt;
+ 
+&lt;br /&gt;
+Upload your photos to the corporate portal photo gallery, to a special folder created just for this contest. A winner will get a summer heat surprise!
+</Description>
+				<Picture>our_life_files/iblock/abe/5578738dcefa136669bca686d81e27fd.jpg</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-03 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>A contest for the most joyful summer photo!</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>our_life_files/iblock/600/2ea5245c28dd859e1aecf108363ae4ca.jpg</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>59</Id>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>60</Id>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1592</Id>
+				<Title>Congratulations Mr. & Mrs. Hawkins!</Title>
+				<BitrixTags></BitrixTags>
+				<Description>Sybil and Alexander got married at the Cathedral of Christ The King, Atlanta. The catholic ceremony was intimate and elegant. The bride was stunning and the groom charming. The happy couple entertained their wedding guest with a dinner reception at the Mason Murer Art Gallery immediately following the ceremony. Sybil and Alexander were an amazing couple! Matrimony Inc. has never had a client more organized and detailed.</Description>
+				<Picture>our_life_files/iblock/260/b87a678ba994cfed3dd5983ed3076362.jpg</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-19 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Sybil and Alexander got married at the Cathedral of Christ the King, Atlanta </Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>our_life_files/iblock/aa1/a109623551fdb2117079c221562ed29a.jpg</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>59</Id>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>60</Id>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>1595</Id>
+				<Title>Found Documents</Title>
+				<BitrixTags></BitrixTags>
+				<Description>Dear colleagues! On Friday, one of our security officers has found the warranty documents for domestic electronic equipment at the parking nearby the office building.
+&lt;br&gt;&lt;br&gt;
+The owner is welcome to get their documents back at the security station which is at the building entrance. </Description>
+				<Picture>our_life_files/iblock/d1d/f35c4538b1f7f3f10cf89937b90a43d0.jpg</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2011-04-22 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>One of our security officers has found the warranty documents</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>our_life_files/iblock/5a0/ca38a38ae9fc9b23eb7ac2622d8a2340.jpg</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>59</Id>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>60</Id>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

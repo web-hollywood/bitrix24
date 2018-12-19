@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2011-11-15T16:29:28">
+	<Metadata>
+		<Id>idea</Id>
+		<Title>Idea manager categories</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_ACTIVE</Id>
+				<Title>BitrixActive</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_DETAIL_TEXT</Id>
+				<Title>Description</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+			<Section>
+				<Id>171</Id>
+				<Title>Holidays</Title>
+				<BitrixActive>true</BitrixActive>
+				<BitrixSort>500</BitrixSort>
+				<BitrixCode>our_events</BitrixCode>
+				<BitrixPicture></BitrixPicture>
+				<BitrixDetailPicture></BitrixDetailPicture>
+				<Sections>
+				</Sections>
+			</Section>
+			<Section>
+				<Id>168</Id>
+				<Title>Company Activity</Title>
+				<BitrixActive>true</BitrixActive>
+				<BitrixSort>500</BitrixSort>
+				<BitrixCode>company</BitrixCode>
+				<BitrixPicture></BitrixPicture>
+				<BitrixDetailPicture></BitrixDetailPicture>
+				<Sections>
+					<Section>
+						<Id>170</Id>
+						<Title>International business</Title>
+						<BitrixActive>true</BitrixActive>
+						<BitrixSort>500</BitrixSort>
+						<BitrixCode>outside</BitrixCode>
+						<BitrixPicture></BitrixPicture>
+						<BitrixDetailPicture></BitrixDetailPicture>
+						<Sections>
+						</Sections>
+					</Section>
+					<Section>
+						<Id>169</Id>
+						<Title>Domestic business</Title>
+						<BitrixActive>true</BitrixActive>
+						<BitrixSort>500</BitrixSort>
+						<BitrixCode>inside</BitrixCode>
+						<BitrixPicture></BitrixPicture>
+						<BitrixDetailPicture></BitrixDetailPicture>
+						<Sections>
+						</Sections>
+					</Section>
+				</Sections>
+			</Section>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>idea</Id>
+		<MetadataId>idea</MetadataId>
+		<Title>Idea manager categories</Title>
+		<BitrixCode>idea</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL></BitrixListURL>
+		<BitrixDetailURL></BitrixDetailURL>
+		<BitrixSectionURL></BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>false</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Idea</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Ideas</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add Idea</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit Idea</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete Idea</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Categories</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit Category</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete Category</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

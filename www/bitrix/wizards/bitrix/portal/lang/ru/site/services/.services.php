@@ -1,0 +1,36 @@
+<?
+$MESS["SERVICE_MAIN_SETTINGS"] = "Íàñòðîéêè êîðïîðàòèâíîãî ïîðòàëà";
+$MESS["SERVICE_VOTE"] = "Ãîëîñîâàíèå";
+$MESS["SERVICE_COMPANY_STRUCTURE"] = "Ñòðóêòóðà êîìïàíèè";
+$MESS["SERVICE_FORUM"] = "Ôîðóì";
+$MESS["SERVICE_PHOTOGALLERY"] = "Ôîòîãàëåðåÿ";
+$MESS["SERVICE_USERS"] = "Ïîëüçîâàòåëè";
+$MESS["SERVICE_IBLOCK_DEMO_DATA"] = "Äåìîíñòðàöèîííûå äàííûå";
+$MESS["SERVICE_ADVERTISING"] = "Áàííåðû";
+$MESS["SERVICE_LEARNING"] = "Îáó÷åíèå";
+$MESS["SERVICE_FORM"] = "Âåá-ôîðìû";
+$MESS["SERVICE_SUBSCRIBE"] = "Ïîäïèñêà";
+$MESS["SERVICE_BLOG"] = "Áëîã";
+$MESS["SERVICE_SOCIALNETWORK"] = "Ñîöèàëüíàÿ ñåòü";
+$MESS["SERVICE_SUPPORT"] = "Òåõïîääåðæêà";
+$MESS["SERVICE_WORKFLOW"] = "Äîêóìåíòîîáîðîò";
+$MESS["SERVICE_FILEMAN"] = "Óïðàâëåíèå ñòðóêòóðîé";
+$MESS["SERVICE_STATISTIC"] = "Ñòàòèñòèêà";
+$MESS["SERVICE_LISTS"] = "Óíèâåðñàëüíûå ñïèñêè";
+$MESS["SERVICE_INTRANET"] = "Íàñòðîéêè êîðïîðàòèâíîãî ïîðòàëà";
+$MESS["SERVICE_FILES"] = "Ôàéëû êîðïîðàòèâíîãî ïîðòàëà";
+$MESS["SERVICE_SEARCH"] = "Ïîèñê";
+$MESS["SERVICE_DEPARTMENTS_HEAD"] = "Ðóêîâîäèòåëè ïîäðàçäåëåíèé";
+$MESS["SERVICE_BPV"] = "Áèçíåñ-ïðîöåññû";
+$MESS["SERVICE_WIKI"] = "Áàçà çíàíèé (wiki)";
+$MESS["SERVICE_CRM"] = "CRM";
+$MESS["SERVICE_TIMEMAN"] = "Ó÷åò ðàáî÷åãî âðåìåíè";
+$MESS["SERVICE_MEETING"] = "Ñîáðàíèÿ è ïëàíåðêè";
+$MESS["SERVICE_MEDIALIBRARY"] = "Ìåäèàáèáëèîòåêà";
+$MESS["SERVICE_MEDIALIBRARY_DESC"] = "Ïðèìåðû êîëëåêöèé â ìåäèàáèáëèîòåêå";
+$MESS["SERVICE_XDIMPORT"] = "Ïóáëèêàöèÿ â Æèâóþ ëåíòó";
+$MESS["SERVICE_CALENDAR"] = "Êàëåíäàðü ñîáûòèé";
+$MESS["SERVICE_TASKS"] = "Çàäà÷è";
+$MESS["SERVICE_DISK"] = "Äèñê";
+$MESS["SERVICE_SENDER"] = "CRM-ìàðêåòèíã";
+?>

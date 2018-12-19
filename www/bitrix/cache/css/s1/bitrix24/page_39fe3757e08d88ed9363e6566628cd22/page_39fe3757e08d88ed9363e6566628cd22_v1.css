@@ -1,0 +1,600 @@
+
+
+/* Start:/bitrix/components/bitrix/socialnetwork_group/templates/.default/style.css?154412745416111*/
+/* Standart */
+div.empty-clear{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+	height:4px!important;}
+form.wd-form{
+ 	padding:0px!important;
+ 	margin:0px!important;
+ 	border:none!important;}
+div.controls a{
+	display:block;
+	margin:0px;
+	padding:3px 3px 5px 23px;
+	border:none;
+	white-space:nowrap;
+	text-decoration:none;
+	background-position:2px center;
+	background-repeat: no-repeat;
+	vertical-align:bottom;}
+span.controls a{
+	margin:0px;
+	padding:5px 3px 6px 21px;
+	border:none;
+	white-space:nowrap;
+	text-decoration:none;
+	background-position:2px center;
+	background-repeat: no-repeat;
+	vertical-align:bottom;}
+span.controls a:hover{}
+div.wd-help-list{
+	border:1px solid #C4C4C4;
+	padding:4px;
+	background-color:#f6f6f6;}
+ul.wd-content li{
+	padding: 5px;}
+table.clear, td.clear {
+	border:none!important;
+	padding:0px;
+	margin:0px;
+	width:auto!important;
+	background-color:transparent;}
+div.debug-info{
+	position:absolute;
+	width:170px; padding:5px;
+	background-color:#FCF7D1;
+	border:1px solid #EACB6B;
+	text-align:left;
+	z-index:100; font-size:11px;}
+/* /Standart */
+
+/* Top Menu */
+div.wd-menu{}
+table.wd-menu{
+	border:none;
+	background-color:#CEDEEC;
+	width:100%;
+	padding:0px;
+	margin:0px;}
+table.wd-row{
+	height:auto!important;}
+table.wd-menu td {
+	font-size:100%;
+	padding:0px;
+	margin:0px;
+	border:none;}
+table.wd-menu thead, table.wd-menu tfoot,
+/*table.wd-menu tbody td.right, table.wd-menu tbody td.left,*/
+table.wd-menu-inner div.section-separator{
+	display:none;}
+table.wd-menu tbody td.center{
+	width:100%;
+	padding:4px;}
+table.wd-menu div.separator {
+	width:1px;
+	height:21px;
+	border-left:1px solid #9CB0C5;
+	margin:0px 3px 0px 3px;}
+table.wd-menu-inner td{
+	vertical-align:bottom;}
+table.wd-menu-inner td.separator{
+	vertical-align:middle;}
+table.wd-menu-inner div.controls a{
+	border:1px solid #CEDEEC;
+	color:#072838;}
+table.wd-menu-inner div.controls a:hover {
+	border:1px solid #6290A6;
+	background-color:#E6EEF5;}
+table.wd-menu-inner div.controls a,
+table.wd-menu-inner div.controls a:visited,
+table.wd-menu-inner div.controls a:active {
+	color:#072838;}
+table.wd-menu-inner{}
+/* Top Menu icons*/
+table.wd-menu-inner div.sections a, table.wd-menu-inner div.sections span{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/sections.gif');}
+table.wd-menu-inner div.add a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/section_add.gif');}
+table.wd-menu-inner div.subscribe a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/subscribe.gif');}
+table.wd-menu-inner div.unsubscribe a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/unsubscribe.gif');}
+table.wd-menu-inner div.element-add a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/element_add.gif');}
+table.wd-menu-inner div.upload a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/element_upload.gif');}
+table.wd-menu-inner div.element_edit a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/element_edit.gif');}
+table.wd-menu-inner div.element_delete a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/element_delete.gif');}
+table.wd-menu-inner div.element_download a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/element.gif');}
+table.wd-menu-inner div.help a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/help.gif');}
+table.wd-menu-inner div.maping a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/maping.gif');}
+table.wd-menu div.notice{
+	padding:0px;
+	margin:0px 10px;
+	width:15px;
+	height:15px;
+	display:block;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/menu_icons/notice.gif');
+	corsor:hand;
+	cursor:pointer;}
+/* Breadcrumb */
+div.wd-breadcrumb-navigation{
+	padding:10px 0px;
+	display:block;}
+div.wd-breadcrumb-navigation span{
+	padding:10px 0;
+	font-size:11px;
+	color:#7f7f7f;}
+div.wd-breadcrumb-navigation span.wd-breadcrumb-navigation-header{
+	color:#777777;}
+div.wd-breadcrumb-navigation a{
+	text-decoration:none;
+	color:#7f7f7f;}
+/* /Top Menu */
+
+/* Main table */
+table.wd-main{
+	border-collapse:collapse;
+	font-size:100%;
+	border: 1px solid #C4C4C4;}
+table.wd-main th, table.wd-main td{
+	font-size:100%;}
+table.wd-main th.wd-cell, table.wd-main td.wd-cell{}
+table.wd-main thead th{
+	background-color: #CEDEEC;
+	color:#072838;
+	white-space:nowrap;
+	font-weight:bold;}
+table.wd-main thead th.selected{
+	background-color: #E6EEF5;}
+table.wd-main thead a.wd-sort{
+	color:#072838;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	padding-right:10px;
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/passive_down.gif');}
+table.wd-main thead a.wd-sort-desc{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/active_up.gif');}
+table.wd-main thead a.wd-sort-asc{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/active_down.gif');}
+table.wd-main tbody th{
+	white-space:nowrap;
+	font-weight:normal;
+	text-align:right;}
+table.wd-main tbody td{
+	border-left:none;
+	border-right:none;}
+table.wd-main tbody td.selected{
+	color: #0C4797!important;}
+table.wd-main tbody tr.over td{
+	background-color:#fefdea;}
+table.wd-main tbody tr.checked td{
+	background-color:#eaf8df;}
+table.wd-main td{
+	padding:0px 5px;
+	white-space:normal!important;}
+/* Page History */
+table.wd-main div.popup{
+	z-index:10;
+	background-color:white!important;}
+table.wd-main div.popup div.visible{
+	cursor:default;
+	z-index:10;
+	border:1px solid white;}
+table.wd-main div.popup div.hidden{
+	width:100%;
+	cursor:default;
+	z-index:1000;
+	background-color:white!important;
+	border: 1px solid #C4C4C4;
+	top:-3px;
+	left:-3px;
+	padding:3px;}
+/* /Main table */
+/* Form table */
+table.webdav-form {
+	border:none;
+	width:100%;}
+table.webdav-form td, table.webdav-form th {
+	font-size:100%;
+	padding:5px 10px 5px 0px;
+	font-weight:normal;
+	vertical-align:top;}
+table.webdav-form td{
+	text-align:left;
+	width:70%;}
+table.webdav-form th {
+	text-align:right;
+	width:30%;}
+table.webdav-form tr.header th, table.webdav-form tr.header2 th{
+/*	height:35px;*/
+	background-color: #CEDEEC;
+	color:#072838;
+	vertical-align:middle;
+	white-space:nowrap;
+	font-weight:normal;
+	text-align:center;}
+table.webdav-form tr.header2 th{
+	background-color: #E6EEF5;}
+table.webdav-form tbody select, table.webdav-form tbody input, table.webdav-form tbody textarea{
+	width:70%;}
+table.webdav-form tbody textarea{
+	height:50px;}
+table.webdav-form tbody input.checkbox{
+	width:auto;}
+table.webdav-form tfoot td{
+	height:35px;
+	background-color: #CEDEEC;
+	text-align:center;
+	vertical-align:middle;}
+table.webdav-form span{
+	padding-left:5px;}
+table.webdav-form span.controls a{
+	font-size:11px;
+	white-space:nowrap;}
+table.webdav-form span.controls a:hover{}
+table.webdav-form span.element_download  a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/simple/element_download.gif');}
+table.webdav-form span.element_edit a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/simple/element_edit.gif');}
+table.webdav-form span.element_history a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/simple/element_history.gif');}
+table.webdav-form span.element_delete a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/simple/element_delete.gif');}
+table.webdav-form span.element_view a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/simple/element_view.gif');}
+table.webdav-form span.element_unlock a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/simple/element_unlock.gif');}
+
+span.comments{
+	font-style:italic;}
+table.webdav-upload tbody select, table.webdav-upload tbody input{
+	width:auto;}
+/* /Form table */
+
+/* Actions styles */
+div.up a{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/up.gif');}
+div.show-action a.action{
+	display:block;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/arr_down.gif');
+	background-repeat:no-repeat;
+	background-position:22px center;
+	padding:3px;
+	border:1px solid white;
+	margin:0px;
+	white-space:nowrap;}
+div.show-action a.action:hover, table.wd-dropdown-pointer-active a.action {
+	border:1px solid #AEB6C2;
+	background-color:#DBE3F2;}
+div.show-action a.action div.empty{
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/action.gif');
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:25px;
+	height:20px; }
+div.wd-action-block{
+	display:block;
+	height:11px;
+	background-image: url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/action_head.gif');
+	background-repeat:no-repeat;
+	background-position:top center;}
+tr.selected div.show-action a.action{}
+/* Actions styles */
+/* Dropdown */
+table.wd-dropdown-pointer{
+	display:table!important;
+	border:none!important;
+	padding:0px;
+	margin:0px;}
+table.wd-dropdown-pointer td{
+	border:none!important;
+	padding:0px!important;
+	margin:0px!important;}
+div.wd-dropdown-menu table.wd-dropdown-menu, div.wd-dropdown-menu td{
+	font-size:100%;
+	border:none;
+	background:transparent;
+	width:auto;
+	vertical-align:middle;
+	white-space:normal;
+	text-decoration: none;
+	text-align:left;
+	padding:0px;
+	margin:0px;
+	height:auto;}
+div.wd-dropdown-menu{
+	background:#FCFCFC;
+	border:1px solid #B6B6B6;
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/menu_gutter.gif');
+	background-repeat:repeat-y;
+	background-position:left top;
+	padding:1px;}
+table.wd-dropdown-menu{
+	display:table!important;
+	width:100%;}
+table.wd-dropdown-menu td.wd-dropdown-menu{
+	padding:0px!important;}
+table.wd-dropdown-item{
+	width:100%!important;
+	margin:1px;
+	border:none;}
+table.wd-dropdown-item td{
+	cursor:default;}
+table.wd-dropdown-item-over{
+	margin:0px;
+	border:1px solid #AEB6C2;
+	background-color:#CEDAEE;}
+table.wd-dropdown-item-over td{
+	cursor:hand;
+	cursor:pointer;}
+table.wd-dropdown-item td.gutter {
+	width:23px;}
+table.wd-dropdown-item td.gutter div{
+	width:20px;
+	height:20px;
+	background-position:center center;
+	background-repeat:no-repeat;}
+table.wd-dropdown-item td.content{
+	padding:3px 5px 3px 9px;
+	white-space: nowrap;}
+table.wd-dropdown-item td.gutter div.section_edit{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/section_edit.gif');}
+table.wd-dropdown-item td.gutter div.section_drop{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/section_drop.gif');}
+table.wd-dropdown-item td.gutter div.element_edit{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_edit.gif');}
+table.wd-dropdown-item td.gutter div.element_view{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_view.gif');}
+table.wd-dropdown-item td.gutter div.element_delete{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_delete.gif');}
+table.wd-dropdown-item td.gutter div.element_download{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element.gif');}
+table.wd-dropdown-item td.gutter div.element_unlock{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_unlock.gif');}
+table.wd-dropdown-item td.gutter div.element_history{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_history.gif');}
+table.wd-dropdown-item td.gutter div.element_subscribe{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_subscribe.gif');}
+table.wd-dropdown-item td.gutter div.element_unsubscribe{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_unsubscribe.gif');}
+table.wd-dropdown-item td.gutter div.element_unlock{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/dropdown/element_unlock.gif');}
+td.popupmenu div.popupseparator {margin:1px 0px 1px 30px;
+	background-color:#B6B6B6;
+	height:1px;
+	overflow:hidden;}
+/* /Dropdown */
+
+/* Popups */
+div.wd-popup, div.wd-window-edit{
+	background-color:white;
+	padding:0px;
+	margin:0px;
+	border: 1px solid gray;
+	width:350px;
+	height:200px;
+	overflow:hidden;
+	text-align:center;
+	color:black;}
+div.wd-popup{
+	width:352px;
+	height:202px;}
+div.wd-window-edit{
+	border:none;}
+div.wd-window-edit table, div.wd-window-edit table td{
+	font-size:100%;
+	text-align:left;
+	vertical-align:top;
+	border:none;
+	padding:0px;
+	margin:0px;}
+div.wd-window-edit table.wd-window-edit{
+	width:100%;
+	height:200px;}
+div.wd-window-edit table.wd-window-edit thead td{
+	height:50px!important;
+	overflow:hidden;
+	font-size: 110%;
+	padding:5px 10px 0px 10px;
+	color:gray;
+	font-weight:bold;}
+div.wd-window-edit table.wd-window-edit tbody td{
+	height:100px;
+	padding:0px 10px;}
+div.wd-window-edit table.wd-window-edit tfoot td{
+	text-align:center;
+	vertical-align:middle;
+	padding:2px;
+	height:50px!important;}
+div.wd-window-edit table.wd-window-edit tfoot input{
+	margin:0px 7px;}
+div.wd-window-edit table.wd-window-edit tbody div.content {
+	height:90px;
+	overflow:auto;
+	border:none;
+	position:relative;
+	width:330px;}
+div.wd-window-edit table.wd-window-edit tbody input{
+	width: 90%;}
+
+/* /Popups */
+
+
+/* Elements icons */
+div.section-icon{
+	background-position:center;
+	background-repeat: no-repeat;
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/section.gif');
+	float:left;
+	width:20px;
+	height:20px;
+	margin-right:2px;}
+div.element-lamp-green, div.element-lamp-yellow, div.element-lamp-red {
+	background-repeat: no-repeat;
+	background-position:center;
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/green.gif');
+	height:14px;
+	width:14px;}
+div.element-lamp-yellow {
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/yellow.gif');}
+div.element-lamp-red {
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/table/red.gif');}
+div.icbmp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icbmp.gif');}
+div.iccss{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/iccss.gif');}
+div.iccsv{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/iccsv.gif');}
+div.icdib{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icdib.gif');}
+div.icdoc{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icdoc.gif');}
+div.icdocp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icdocp.gif');}
+div.icdocx{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icdocx.gif');}
+div.icgif{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icgif.gif');}
+div.ichtm{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/ichtm.gif');}
+div.ichtml{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/ichtml.gif');}
+div.icjfif{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icjfif.gif');}
+div.icjpe{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icjpe.gif');}
+div.icjpeg{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icjpeg.gif');}
+div.icjpg{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icjpg.gif');}
+div.icjs{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icjs.gif');}
+div.icpdf{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icpdf.gif');}
+div.icphp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icphp.gif');}
+div.icpng{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icpng.gif');}
+div.icppt, div.icpptx{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icppt.gif');}
+div.icpptp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icpptp.gif');}
+div.icrar{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icrar.gif');}
+div.icrtf{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icrtf.gif');}
+div.icswf{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icswf.gif');}
+div.ictif{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/ictif.gif');}
+div.ictiff{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/ictiff.gif');}
+div.ictxt{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/ictxt.gif');}
+div.icundef{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icundef.gif');}
+div.icxls{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icxls.gif');}
+div.icxlsp{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icxlsp.gif');}
+div.icxlsx{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icxlsx.gif');}
+div.icxml{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/icxml.gif');}
+div.iczip{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/iczip.gif');}
+/* /Elements icons */
+div.element-name{
+	float:left;}
+a.element-properties{
+	float:left;
+	display:block;
+	padding-left:16px;
+	margin-left:7px;
+	background-position:left center;
+	background-repeat: no-repeat;}
+a.element-comments{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/comments_count.gif');}
+a.element-view{
+	background-image:url('/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/webdav/icons/element_view.gif');
+	height:15px; width:15px;}
+div#pwaitwindow {
+	position:relative;
+	text-align:center;
+	width:100%;}
+iframe.waitwindow {
+	position:absolute;
+	border:0px;
+	z-index:9999;}
+div.waitwindow {
+	position:absolute;
+	width:170px!important;
+	padding:10px;
+	background-color:#FCF7D1;
+	border:1px solid #EACB6B;
+	text-align:center;
+	z-index:10000;
+	font-size:13px;
+	background-image:url(/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/wait.gif);
+	background-position:10px center;
+	background-repeat:no-repeat;
+	display:block;}
+/*/ WEBDAV*/
+
+/*top panel icons */
+div.bx-top-panel table.bx-pnbutton div.icon-socnet-reindex {background-image:url(/bitrix/components/bitrix/socialnetwork_group/templates/.default/images/panel/reindex.gif);}
+
+/* DISK */
+.bx-disk-bizproc-section{padding:15px;}
+
+/* End */
+
+
+/* Start:/bitrix/templates/bitrix24/css/profile_menu.min.css?15441276458211*/
+.profile-menu-top{background-color:#fff}.profile-menu-info{position:relative}.profile-menu-inner{background:#fff;position:relative}.profile-menu-group .profile-menu-inner{background:transparent}.profile-menu-avatar{float:left;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;height:58px;width:58px;position:relative;margin:19px 20px 19px 19px}.group-default-avatar{background:#535c6a url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2282%22%20height%3D%2282%22%20viewBox%3D%220%200%2082%2082%22%3E%3Cpath%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M46.03%2033.708s-.475%201.492-.55%201.692c-.172.256-.317.53-.433.816.1%200%201.107.47%201.107.47l3.917%201.227-.056%201.86c-.74.296-1.394.778-1.894%201.4-.19.413-.42.806-.69%201.17%203.568%201.45%205.655%203.573%205.74%205.95.058.422%202.223%208.205%202.347%209.958H72c.014-.072-.5-10.14-.5-10.216%200%200-.946-2.425-2.446-2.672-1.487-.188-2.924-.66-4.233-1.388-.864-.504-1.775-.923-2.72-1.252-.483-.425-.858-.957-1.095-1.555-.5-.623-1.152-1.105-1.894-1.4l-.055-1.86%203.917-1.227s1.01-.47%201.107-.47c-.158-.33-.338-.646-.54-.948-.075-.2-.444-1.554-.444-1.554.572.733%201.242%201.384%201.992%201.933-.667-1.246-1.238-2.542-1.708-3.876-.314-1.233-.532-2.488-.653-3.754-.27-2.353-.69-4.687-1.255-6.987-.406-1.148-1.124-2.16-2.072-2.923-1.403-.974-3.04-1.555-4.742-1.685h-.2c-1.7.13-3.333.712-4.733%201.685-.947.765-1.664%201.777-2.07%202.925-.568%202.3-.987%204.634-1.255%206.987-.103%201.295-.31%202.58-.622%203.84-.47%201.312-1.052%202.58-1.737%203.792.75-.55%201.42-1.202%201.99-1.936zM54.606%2064c0-2.976-3.336-15.56-3.336-15.56%200-1.84-2.4-3.942-7.134-5.166-1.603-.448-3.127-1.142-4.517-2.057-.3-.174-.26-1.78-.26-1.78l-1.524-.237c0-.13-.13-2.057-.13-2.057%201.824-.613%201.636-4.23%201.636-4.23%201.158.645%201.912-2.213%201.912-2.213%201.37-3.976-.682-3.736-.682-3.736.36-2.428.36-4.895%200-7.323-.912-8.053-14.646-5.867-13.018-3.24-4.014-.744-3.1%208.4-3.1%208.4l.87%202.364c-1.71%201.108-.52%202.45-.463%204%20.085%202.28%201.477%201.808%201.477%201.808.086%203.764%201.94%204.26%201.94%204.26.348%202.363.13%201.96.13%201.96l-1.65.2c.022.538-.02%201.075-.13%201.6-1.945.867-2.36%201.375-4.287%202.22-3.726%201.634-7.777%203.76-8.5%206.62C13.117%2052.695%2010.99%2064%2010.99%2064H54.606z%22/%3E%3C/svg%3E') no-repeat}.profile-menu-group .profile-menu-avatar{flex:1 0 34px;margin:14px 11px 14px 14px;width:34px;height:34px}.profile-menu-top{display:flex;align-items:center;height:56px;border-bottom:1px solid #d7d9de}.profile-menu-group .profile-menu-links-item{position:relative;margin:0 0 0 30px;border-bottom:1px solid transparent;font:13px "OpenSans-Regular",Helvetica,Arial,sans-serif;color:#525c69;letter-spacing:-0.3px;transition:border-bottom .3s}.profile-menu-group .profile-menu-links-item:hover{border-bottom:1px solid #525c69}.profile-menu-group .profile-menu-links-item:first-child{margin:0}.profile-menu-links-count{display:inline-block;margin:0 0 0 3px;padding:0 5px;height:16px;border-radius:10px;background:#42c2ec;font:12px "OpenSans-Semibold",Helvetica,Arial,sans-serif;color:#fff;letter-spacing:-0.28px}.profile-menu-right{padding:18px 0 0 0;margin-left:98px}.profile-menu-avatar i{background-color:#baed21;border:2px solid #fff;border-radius:50%;bottom:1px;height:9px;position:absolute;right:0;width:9px}.profile-menu-avatar-offline i{background-color:#f1361b}.profile-menu-group .profile-menu-info{margin-bottom:5px;margin-right:190px;margin-top:1px}.profile-menu-group .profile-menu-info{display:flex;justify-content:space-between;align-items:center;margin-right:17px;width:100%;overflow:hidden}.profile-menu-group-info-extranet,.profile-menu-user-info-extranet,.profile-menu-user-info-email{padding-left:16px;position:relative}.profile-menu-group-info-extranet:before,.profile-menu-user-info-extranet:before,.profile-menu-user-info-email:before{content:"";height:13px;left:0;position:absolute;width:13px}.profile-menu-group-info-extranet:before,.profile-menu-user-info-extranet:before{background:url("/bitrix/templates/bitrix24/css/../images/template_sprite.png?10") no-repeat -35px -1607px}.profile-menu-user-info-email:before{background:url("/bitrix/templates/bitrix24/css/../images/template_sprite.png?10") no-repeat -115px -1607px}.profile-menu-group-info-extranet:before{top:8px}.profile-menu-user-info-extranet:before,.profile-menu-user-info-email:before{top:7px}.profile-menu-group-info-extranet .profile-menu-name,.profile-menu-user-info-extranet .profile-menu-name,.profile-menu-user-info-email .profile-menu-name{color:#d9930a!important}.profile-menu-name{display:inline-block;border-bottom:1px solid transparent;color:#545c6a;font-size:20px;font-family:"OpenSans-Light",Helvetica,Arial,sans-serif;-webkit-transition:.1s;transition:.1s;vertical-align:middle}.profile-menu-group .profile-menu-name{margin:0 20px 0 0;font:18px "OpenSans-Regular",Helvetica,Arial,sans-serif;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.profile-menu-group .profile-menu-links{display:flex;justify-content:flex-end;flex-wrap:wrap;flex:1 0 auto}.profile-menu-name:hover{border-bottom:1px solid}.profile-menu-user-menu{cursor:pointer;display:inline-block;height:15px;vertical-align:middle;width:20px;position:relative;border-left:1px solid #d4dbdd;margin-left:12px;padding-left:13px}.profile-menu-user-menu:before,.profile-menu-user-menu:after{content:"";display:block;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:8px;height:2px;background:#c5c8cd}.profile-menu-user-menu:before{transform:rotate(45deg)}.profile-menu-user-menu:after{transform:rotate(-45deg);margin-left:5px}.profile-menu-user-menu:hover:before,.profile-menu-user-menu:hover:after,.profile-menu-user-active:before,.profile-menu-user-active:after{background:#8e939d}.profile-menu-description{border-left:1px solid #d4dbdd;color:#555;display:inline-block;font-size:13px;margin-left:12px;padding-left:13px;vertical-align:middle}.profile-menu-birthday-icon,.profile-menu-leaderboard-icon{background:url("/bitrix/templates/bitrix24/css/../images/template_sprite.png?10") no-repeat 0 -727px;display:inline-block;height:19px;margin:-3px 0 0 10px;vertical-align:middle;width:13px}.profile-menu-leaderboard-icon{background-position:-97px -1047px;width:16px}.profile-menu-status{color:#555;display:inline-block;font-size:13px;margin-left:5px;vertical-align:middle}.profile-menu-user .filter-but-wrap{margin-top:5px}.profile-menu-items{position:relative;white-space:nowrap}.profile-menu-items-new{position:relative}.profile-menu-item{font-size:15px;color:#545c6a;margin:0;padding:10px 20px 22px 20px;font-family:'OpenSans-Semibold',sans-serif;-webkit-transition:.1s;-moz-transition:.1s;transition:.1s;position:relative;display:inline-block}.profile-menu-item:first-child{margin:0 0 0 -20px}.profile-menu-item:hover{color:#1058d0}.profile-menu-item-active{color:#1058d0}.profile-menu-item-active:before,.profile-menu-item-active:after{content:"";display:none;position:absolute;width:9px;height:9px;bottom:-5px;left:50%;border-top:1px solid #e5e9ec;margin-left:-4px}.profile-menu-item-active:before{background:#fff;transform:rotate(-45deg)}.profile-menu-item-active:after{transform:rotate(45deg)}.profile-menu-type{flex:1 0 auto;margin:0 15px 0 0;font:13px "OpenSans-Regular",Helvetica,Arial,sans-serif;color:#a8adb4}.profile-menu-type-name-item{display:inline-block;margin:0 5px 0 0;text-transform:lowercase}.profile-menu-type-icon{border:0;display:inline-block;width:12px;height:12px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%3E%3Cpath%20fill%3D%22%23525C68%22%20d%3D%22M7.64.044L1.346%206.33c.522.248%201.006.568%201.44.952.356.414.653.874.883%201.37.388-.39%204.37-4.367%206.286-6.283-.243-.54-.576-1.034-.98-1.462-.39-.37-.846-.66-1.34-.862L7.64.043zM.78%207.086l-.476%202.61%202.87-.475c-.206-.488-.505-.935-.89-1.316-.425-.38-.94-.66-1.502-.818z%22%20fill-rule%3D%22evenodd%22/%3E%3C/svg%3E');background-repeat:no-repeat;vertical-align:middle;transition:opacity .3s;opacity:.35}.profile-menu-type:hover .profile-menu-type-icon{opacity:1}.profile-menu-type-input{display:none;margin:0 5px 0 0}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/main.interface.buttons/templates/.default/style.min.css?154412738414934*/
+.main-buttons{position:relative;overflow:hidden;height:68px;box-sizing:border-box}.main-buttons{-moz-user-select:none;-webkit-user-select:none;user-select:none}.main-buttons-inner-container{padding:0 25px;height:60px}.main-buttons-inner-container{background:rgba(240,240,240,0.44)}.template-bitrix24 .main-buttons-inner-container{background:#fff}.main-buttons-item{position:relative;display:inline-block;margin:0 50px 8px 0;height:60px;line-height:30px;text-decoration:none}.main-buttons-item:last-child{margin:0}.main-buttons-item:after{content:'';display:block;margin:-5px auto 0;width:0;height:2px;background:0;transition:width .5s ease,background .5s ease}.main-buttons-item[data-disabled="true"]{display:none}.main-buttons-item-link{position:relative;display:inline-block;height:65px;font:15px/65px "OpenSans-Semibold","Helvetica Neue",Arial,Helvetica,sans-serif;color:#545c6a;outline:0;text-decoration:none;-webkit-transition:color .3s ease;transition:color .3s ease;vertical-align:middle;box-sizing:border-box;cursor:pointer;-khtml-user-drag:none;-webkit-user-drag:none;text-transform:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.main-buttons-item:focus,.main-buttons-item:focus .main-buttons-item-link,.main-buttons-item-link:focus{outline:0}.main-buttons-item-link:hover{color:#545c6a}.main-buttons-item.over .main-buttons-item-link{color:#1058d0}.main-buttons-item-active{border-bottom:2px solid #1058d0;height:58px!important}.main-buttons-item-active .main-buttons-item-link{color:#1058d0}.main-buttons-item .main-buttons-item-icon{display:none}.main-buttons-item-more{margin:0;height:60px;float:right;color:#545c6a;-webkit-transition:background .3s ease,color .3s ease;transition:background .3s ease,color .3s ease}.main-buttons-item-more:hover,.main-buttons-item-more.active{background:#ebf1f4}.main-buttons-item-more .main-buttons-item-link{padding:0 15px 0 11px}.main-buttons-item-more.main-buttons-item:after{position:absolute;top:37px;right:5px;content:"";display:inline-block;width:0;height:0;border-style:solid;border-width:3px 3px 0 3px;border-color:#717a84 transparent transparent transparent;-webkit-transition:border-color .3s ease;transition:border-color .3s ease}.main-buttons-item-more.main-buttons-item-more:hover:after{border-color:#1058d0 transparent transparent transparent}.main-buttons-item-more.main-buttons-item:hover:after{width:0;background:0}.main-buttons-item .main-buttons-item-text{position:relative}.main-buttons-item .main-buttons-item-counter{position:absolute;top:8px;right:-20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 7px;min-width:12px;border-radius:30px;background:#f54819;font:bold 11px/16px "OpenSans-Regular","Helvetica Neue",Arial,Helvetica,sans-serif;color:#fff}.main-buttons-item-more .main-buttons-item-counter{right:-4px}.main-buttons-item .main-buttons-item-counter:empty,.menu-popup-item-text .main-buttons-item-counter:empty{display:none}.menu-popup-item-text .main-buttons-item-text{margin:0 2px 0 0}.menu-popup-item-text .main-buttons-item-counter{padding:0 7px;min-width:12px;border-radius:30px;background:#f54819;font:bold 11px/15px "OpenSans-Regular","Helvetica Neue",Arial,Helvetica,sans-serif;color:#fff}.main-buttons-item-sublink{position:absolute;left:50%;bottom:-8px;display:none;height:15px;width:40px;margin-left:-20px;cursor:pointer;z-index:2}.main-buttons-item-sublink:before{content:'';position:absolute;top:1px;left:50%;height:14px;width:14px;margin-left:-8px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%227%22%20r%3D%227%22%20fill%3D%22%231058D0%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M8%206V3H6v3H3v2h3v3h2V8h3V6H8z%22/%3E%3C/g%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center;-webkit-transition:background-image .3s;transition:background-image .3s}.main-buttons-item-sublink:hover:before{background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%227%22%20r%3D%227%22%20fill%3D%22%232FC7F7%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M8%206V3H6v3H3v2h3v3h2V8h3V6H8z%22/%3E%3C/g%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center}.main-buttons-item:hover .main-buttons-item-sublink{display:block}.main-buttons-submenu-item{min-width:195px;padding-left:10px;padding-right:10px;position:relative;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;-khtml-user-drag:element;-webkit-user-drag:element;text-transform:none}.menu-popup-items .menu-popup-item.main-buttons-submenu-item.secret{display:none!important}.main-buttons-submenu-item.main-buttons-disabled{opacity:.8}.main-buttons-submenu-item .menu-popup-item-icon{display:inline}.main-buttons-submenu-item.noicon .menu-popup-item-icon{display:none}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone{display:none}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone::before{position:absolute;content:'';top:0;right:0;bottom:0;left:0}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone::after{position:absolute;content:'';top:10px;right:10px;bottom:10px;left:10px;border:1px rgba(0,0,0,.2) dashed;border-radius:2px}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone.over::after{border:2px rgba(0,0,0,.2) dashed}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone .menu-popup-item-icon{display:none}.popup-window .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone .menu-popup-item-text{height:auto;line-height:45px}.main-buttons-drag .menu-popup-items .menu-popup-item.main-buttons-submenu-dropzone{background:#f0f5f5;position:relative;display:block!important;padding-top:8px;padding-bottom:8px;text-align:center;margin-top:10px;box-shadow:none;border:0;height:48px;min-width:140px}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator{margin-top:4px;margin-bottom:4px;height:0;border-top:0;border-bottom:1px rgba(0,0,0,.1) solid}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator.main-buttons-hidden-label{margin-top:8px;margin-bottom:8px;height:0;border-top:0;border-bottom:1px rgba(0,0,0,.1) solid;z-index:2}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator.main-buttons-hidden-label .menu-popup-item-icon{display:none}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator:hover{background:0;box-shadow:none;border-bottom:1px rgba(0,0,0,.1) solid;cursor:default}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator{padding:0}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator .menu-popup-item-text{width:100%;padding-left:0;box-sizing:border-box;text-align:center;padding-right:0;height:1px;position:relative;top:-8px}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator .menu-popup-item-text span{position:relative;display:inline-block;padding:0 12px;border-radius:30px;background:#fff;color:#b1b6bc;font-size:10px;font-weight:bold;text-transform:uppercase;vertical-align:middle;height:16px;line-height:16px}.template-bitrix24 .menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator .menu-popup-item-text span{top:-19px}.menu-popup .menu-popup-items .main-buttons-submenu-item.main-buttons-submenu-separator.main-buttons-manage{margin-top:12px;margin-bottom:12px}.main-buttons-item-edit-button,.main-buttons-item-drag-button{position:absolute;display:inline-block;width:16px;height:18px;right:-15px;top:2px;pointer-events:none;opacity:0;cursor:pointer;-webkit-transition:opacity 200ms;-moz-transition:opacity 200ms;-ms-transition:opacity 200ms;-o-transition:opacity 200ms;transition:opacity 200ms}.main-buttons-item-drag-button{left:-15px;top:3px;right:auto;cursor:move}.main-buttons-edit .main-buttons-item-edit-button,.main-buttons-edit .main-buttons-item-drag-button{opacity:.4;pointer-events:all}.main-buttons-edit .main-buttons-item-edit-button:hover,.main-buttons-edit .main-buttons-item-drag-button:hover{opacity:1}.main-buttons-item-edit-button::after,.main-buttons-item-drag-button::after{display:inline-block;position:absolute;content:'';width:16px;height:18px}.main-buttons-item-edit-button::after{background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2211%22%20height%3D%2211%22%20viewBox%3D%220%200%2011%2011%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%23525c68%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C/style%3E%3C/defs%3E%3Cpath%20id%3D%22Shape_2_copy_8%22%20data-name%3D%22Shape%202%20copy%208%22%20class%3D%22cls-1%22%20d%3D%22M.8%208.157L0%2011l2.933-.842a3.848%203.848%200%200%200-.792-1.233A3.4%203.4%200%200%200%20.8%208.157zm6.49-6.56L1.552%207.332a5.68%205.68%200%200%201%201.312.87%205.38%205.38%200%200%201%20.806%201.25c.354-.356%203.984-3.985%205.732-5.733a4.845%204.845%200%200%200-.895-1.334%203.93%203.93%200%200%200-1.22-.786zM10.567.434A1.51%201.51%200%200%200%208.406.48l-.344.343a4.164%204.164%200%200%201%201.24.813%204.693%204.693%200%200%201%20.876%201.307l.346-.346a1.51%201.51%200%200%200%20.04-2.163z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center}.main-buttons-item-drag-button::after{background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%226%22%20height%3D%2214%22%20viewBox%3D%220%200%206%2014%22%3E%3Cpath%20fill%3D%22%23717A84%22%20fill-rule%3D%22evenodd%22%20d%3D%22M0%200h2v2H0V0zm0%204h2v2H0V4zm4-4h2v2H4V0zm0%204h2v2H4V4zM0%208h2v2H0V8zm4%200h2v2H4V8zm-4%204h2v2H0v-2zm4%200h2v2H4v-2z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center}.main-buttons-submenu-item .main-buttons-item-edit-button,.main-buttons-submenu-item .main-buttons-item-drag-button{top:0;bottom:0;height:auto;width:30px}.main-buttons-submenu-item .main-buttons-item-edit-button{right:0;width:35px}.main-buttons-submenu-item .main-buttons-item-drag-button{right:auto;left:0}.main-buttons-submenu-item .main-buttons-item-edit-button::after,.main-buttons-submenu-item .main-buttons-item-drag-button::after{top:9px}.main-buttons-submenu-item .main-buttons-item-edit-button::after{left:6px}.main-buttons-submenu-item .main-buttons-item-drag-button::after{right:6px;top:10px}.main-buttons-submenu-setting{position:relative}.main-buttons-submenu-setting::after{content:'';position:relative;top:6px;right:9px;display:inline-block;height:18px;width:24px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%23545C6A%22%20fill-rule%3D%22evenodd%22%20d%3D%22M11.654%206.56V5.093h-1.42c-.11-.69-.374-1.326-.763-1.872l.996-.995L9.43%201.188l-.996.995c-.542-.394-1.174-.662-1.863-.78V0H5.106v1.4c-.696.113-1.334.378-1.882.77l-.99-.99-1.038%201.038.99.988c-.397.55-.663%201.19-.777%201.887H0V6.56h1.41c.117.69.385%201.325.778%201.87l-1%20.998%201.037%201.037%201-1c.55.39%201.188.652%201.88.765v1.425H6.57v-1.43c.688-.114%201.318-.382%201.86-.772l1.005%201.006%201.04-1.038-1.01-1.008c.388-.54.653-1.17.768-1.854h1.42zM5.82%208.6C4.285%208.6%203.04%207.353%203.04%205.816c0-1.54%201.246-2.785%202.783-2.785%201.54%200%202.785%201.247%202.785%202.786C8.605%207.353%207.36%208.6%205.82%208.6z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center;-webkit-transition:opacity .3s;transition:opacity .3s}.menu-popup .menu-popup-item.main-buttons-submenu-item.main-buttons-submenu-settings-apply{display:none}.menu-popup .menu-popup-item.main-buttons-submenu-item.main-buttons-submenu-settings-apply::after{content:'';position:relative;top:6px;right:9px;display:inline-block;height:18px;width:24px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%229%22%20height%3D%227%22%20viewBox%3D%220%200%209%207%22%3E%3Cpath%20fill%3D%22%23535C68%22%20fill-rule%3D%22evenodd%22%20d%3D%22M3.456%204.253L1.42%202.177c-.03-.03-.07-.046-.11-.046-.042%200-.08.017-.11.047L.046%203.354c-.06.063-.06.163%200%20.225l2.12%202.16c.006.01.014.02.023.03L3.342%206.95c.03.03.068.047.11.047.04%200%20.08-.017.11-.047l5.386-5.5c.06-.062.06-.162%200-.225L7.794.046C7.765.016%207.725%200%207.685%200c-.042%200-.08.017-.11.047l-4.12%204.206z%22/%3E%3C/svg%3E');background-repeat:no-repeat;background-position:center;-webkit-transition:opacity .3s;transition:opacity .3s}.main-buttons-settings-apply-alias{position:absolute;display:none;top:5px;right:10px;width:24px;height:24px;background:#afc776;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;cursor:pointer;-webkit-transition:width 200ms;-moz-transition:width 200ms;-ms-transition:width 200ms;-o-transition:width 200ms;transition:width 200ms;border:2px #fff solid}.main-buttons-settings-apply-alias:hover{width:157px}.main-buttons-settings-apply-alias::before{content:'';position:absolute;top:4px;right:3px;display:inline-block;height:14px;width:20px;background:url(/bitrix/components/bitrix/main.interface.buttons/templates/.default/images/menu-sprite.svg) no-repeat 6px -81px;-webkit-transition:opacity .3s;transition:opacity .3s}.main-buttons-settings-apply-alias-text{display:inline-block;max-width:100%;-ms-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#545c6a;font-weight:normal;font-size:12px;line-height:24px;text-align:left;z-index:7;margin-left:11px;opacity:0;-webkit-transition:opacity 100ms;-moz-transition:opacity 100ms;-ms-transition:opacity 100ms;-o-transition:opacity 100ms;transition:opacity 100ms}.main-buttons-settings-apply-alias:hover .main-buttons-settings-apply-alias-text{-webkit-transition-delay:200ms;-moz-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-delay:200ms;opacity:1}.main-buttons-submenu-item-no-hidden{text-align:center;padding-top:12px;padding-bottom:12px;opacity:.6;cursor:default!important}.main-buttons-submenu-item-no-hidden:hover{background:#fff}.main-buttons-submenu-item-no-hidden.over{opacity:1}.menu-popup-item.main-buttons-submenu-item.main-buttons-item-active{background:#f6f8f9;border-bottom:none!important;height:auto!important}.menu-popup-item.main-buttons-submenu-item.main-buttons-item-active .main-buttons-item-text-title{color:#2067b0}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/style.css?1544127453568*/
+div.sonet-admin-note { background-color: #FFFDC1; border: 1px solid #E6E4AF; color: #787878; margin: 12px 0; padding: 6px; text-align: center; }
+
+.sonet-adminset-error-text-block { padding: 20px; }
+.sonet-adminset-wait-cont { height: 31px; }
+.sonet-adminset-wait-icon { height: 31px; width: 31px; background: url('/bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/images/wait.gif') no-repeat 0 0; display: inline-block; position: relative; left: 1px; top: 1px; }
+.sonet-adminset-wait-text { height: 31px; display: inline-block; position: relative; padding: 0 10px 0 5px; left: 1px; top: -11px; color: #7F7F7F; }
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/socialnetwork.pageslider.wrapper/templates/.default/style.min.css?15441274542470*/
+.sonet-slider-frame-popup{background:#eef2f4!important;padding:0 15px 5px 21px;height:auto!important}.sonet-slider-pagetitle{font:24px/24px "OpenSans-Light",Helvetica,Arial,sans-serif;margin:0;padding:21px 0 21px 5px;display:block;word-wrap:break-word}.sonet-slider-frame-popup .popup-window-buttons,.sonet-slider-frame-popup .sonet-ui-btn-cont.sonet-ui-btn-cont-center{text-align:left;padding:0;position:static}.sonet-slider-frame-popup .popup-window .popup-window-buttons{padding:15px}.sonet-slider-frame-popup .popup-window-button-link-cancel{color:#535b69;border:0}.sonet-slider-frame-popup .popup-window-button-link-cancel:hover{color:#80868e;border:0}.sonet-slider-frame-popup .sonet-slider-footer-fixed{box-shadow:0 -2px 4px 0 #c6c9cb;overflow:hidden;position:fixed;left:0;right:0;bottom:0;z-index:99;padding:15px;background:#fff;text-align:left}.sonet-slider-frame-popup .pagetitle-inner-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0 0 0 13px;min-height:74px;box-sizing:border-box}.sonet-slider-frame-popup .sonet-pagetitle-item{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.sonet-slider-frame-popup .sonet-pagesubtitle-item{display:block;margin:5px 0 0 0;font:13px/24px "OpenSans-Light",Helvetica,Arial,sans-serif;color:rgba(82,92,105,.6);text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.sonet-slider-frame-popup .slider-pagetitle-menu{display:none;margin-left:auto;order:1;text-align:right;z-index:2;white-space:nowrap;padding-left:20px}.sonet-slider-frame-popup.pagetitle-menu-visible .slider-pagetitle-menu{display:-webkit-box;display:-ms-flexbox;display:flex}.sonet-slider-frame-popup.pagetitle-menu-visible .slider-pagetitle-menu{padding-left:0}.sonet-slider-frame-popup .slider-pagetitle-menu{padding-right:20px}.sonet-slider-frame-popup .sonet-slider-pagetitle{display:-webkit-box;display:-ms-flexbox;display:flex;flex-direction:column;-webkit-box-flex:0;-ms-flex:0 1 auto;flex:0 1 auto;margin:0 45px 0 0;padding:21px 0 21px 0;max-width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.sonet-slider-frame-popup #workarea-content{background-color:#fff}.sonet-slider-frame-popup .workarea-content-paddings{overflow-x:hidden}.social-group-create-body #crm-frame-popup-workarea{min-width:905px}.social-group-create-body #workarea-content{background:#ebf1f4}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/socialnetwork.group_users.ex/templates/.default/style.min.css?15441274544680*/
+.sonet-members-item{position:relative;min-height:136px}* html .sonet-members-item{zoom:1}.sonet-members-item-name{color:#59626f;font-size:12px;font-weight:bold;line-height:12px;text-transform:uppercase}.sonet-members-item-menu{color:#b2b2b2;font-size:13px;right:0;top:0;position:absolute}.sonet-members-item-menu-title{color:#1069c3;cursor:pointer;font-size:13px;font-weight:bold;padding-right:9px;position:relative;font-family:Arial,Verdana,Helvetica,sans-serif}.sonet-members-item-menu-arrow{background:url("/bitrix/components/bitrix/socialnetwork.group_users.ex/templates/.default/images/group-list-sprite.png") no-repeat -36px -99px;height:3px;top:7px;right:4px;position:absolute;width:5px}.sonet-members-member-block-shift{margin-left:-7px}* html .sonet-members-member-block-shift{margin-left:-25px}.sonet-members-separator{background:url("/bitrix/components/bitrix/socialnetwork.group_users.ex/templates/.default/images/group-list-sprite.png") no-repeat right -121px #f2f2f2;height:1px;font-size:1px;overflow:hidden;margin:5px 0 8px}.sonet-members-member-img-wrap{display:block;float:left;padding-left:7%;vertical-align:top;zoom:1}* html .sonet-members-member-img-wrap{padding-left:18px}.sonet-members-member-img{float:left;display:inline-block;height:42px;width:42px;border:0;border-radius:100%;background:url("/bitrix/components/bitrix/socialnetwork.group_users.ex/templates/.default/images/group-list-sprite.png") no-repeat 0 -189px;vertical-align:top}.sonet-members-member-block{position:relative;display:inline-block;margin:0 1% 8px 0;padding:5px 0 3px;height:auto;width:28%;min-width:240px;border:1px solid transparent;border-radius:4px;vertical-align:top;transition:border .3s;overflow:hidden}* html .sonet-members-member-block{padding-left:25px;width:250px}*+html .sonet-members-member-block{width:46%;overflow:hidden;position:relative}.sonet-members-item .sonet-members-member-block-over{border:1px solid #edeef0}.sonet-members-item .sonet-members-member-block-active{background-color:#f5f1db!important}.sonet-members-member-text{display:block;overflow:hidden;padding-left:3%;padding-right:3%;width:auto;opacity:1;transition:opacity .4s}* html .sonet-members-item .sonet-members-member-text{padding-right:7px;padding-left:7px;width:345px;zoom:1}.sonet-members-checkbox{display:none;left:2%;top:4px;margin:0;border:0;overflow:hidden;height:15px;width:15px;padding:0;font-size:1px;line-height:1;position:absolute}* html .sonet-members-checkbox{left:2px;top:4px}.sonet-members-item .sonet-members-member-block-over .sonet-members-checkbox,.sonet-members-item .sonet-members-member-block-active .sonet-members-checkbox{display:block}.sonet-members-caption{color:#23ae26;display:block;font-size:11px}.sonet-members-member-title{display:block;margin-bottom:4px;max-width:167px;font-size:15px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;zoom:1}.sonet-members-member-link,.sonet-members-member-link:hover,.sonet-members-member-link:visited,.sonet-members-member-link:active{font-size:15px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.sonet-members-member-link{text-decoration:none}.sonet-members-member-link:hover{text-decoration:underline}.sonet-members-member-description{display:block;text-overflow:ellipsis;overflow:hidden;font-size:13px;color:#7f7f7f;white-space:nowrap;zoom:1}.sonet-members-nav{padding:10px 0 20px 0}.sonet-members-error-text-block{padding:20px}.sonet-members-close{position:absolute;top:5px;right:5px;opacity:0;transition:opacity .3s;cursor:pointer;z-index:2}.sonet-members-member-block:hover .sonet-members-close{opacity:1}.sonet-members-close-item{display:inline-block;width:11px;height:11px;background-image:url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2011%2011%22%3E%3Cpath%20fill%3D%22%23535C69%22%20fill-rule%3D%22evenodd%22%20d%3D%22M7.076%205.485l3.448-3.448-1.59-1.59-3.45%203.447L2.04.446.45%202.036l3.446%203.45L.446%208.93l1.59%201.59%203.45-3.446%203.447%203.447%201.59-1.59%22/%3E%3C/svg%3E');background-repeat:no-repeat;opacity:.3;transition:opacity .3s;box-sizing:border-box}.sonet-members-close-item:hover{opacity:1}.sonet-members-member-button.ui-btn{position:absolute;top:50%;margin:0 0 0 8px;transform:translate(0,-50%);pointer-events:none;visibility:hidden;opacity:0;transition:opacity .4s}.sonet-members-member-block.delete .sonet-members-member-button.ui-btn{pointer-events:auto;visibility:visible;opacity:1}.sonet-members-member-block.delete .sonet-members-member-text{pointer-events:none;visibility:hidden;opacity:0}.sonet-slider-frame-popup .socialnetwork-group-users-content{padding:15px 15px 20px}.sonet-members-hint{position:relative;top:-1px;background:#bfc5ca none repeat scroll 0 0;border-radius:50%;color:#fff;display:inline-block;font-size:11px;height:16px;line-height:16px;margin-left:7px;right:0;text-align:center;width:16px;cursor:help}
+/* End */
+/* /bitrix/components/bitrix/socialnetwork_group/templates/.default/style.css?154412745416111 */
+/* /bitrix/templates/bitrix24/css/profile_menu.min.css?15441276458211 */
+/* /bitrix/components/bitrix/main.interface.buttons/templates/.default/style.min.css?154412738414934 */
+/* /bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/style.css?1544127453568 */
+/* /bitrix/components/bitrix/socialnetwork.pageslider.wrapper/templates/.default/style.min.css?15441274542470 */
+/* /bitrix/components/bitrix/socialnetwork.group_users.ex/templates/.default/style.min.css?15441274544680 */

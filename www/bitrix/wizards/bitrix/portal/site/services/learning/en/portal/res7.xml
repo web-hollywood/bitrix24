@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="CHA"><id>1</id>
+<timestamp_x>1231762221</timestamp_x>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id></chapter_id>
+<name>Employees</name>
+<code></code>
+<sort>100</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<p>The <b>Employees</b> section contains general information about the company staff and structure.</p>
+<ul>
+<li>If you need to find an employee and/or obtain brief information about them, open the <b>Find Employee</b> page and find a user.</li>
+
+<li>The <b>Company Structure</b> page displays a vivid and illustrative view of the hierarchy of company's departments, subdivisions, branches or affiliates. Click a subdivision to view its inner departments, or a department to view its members.</li>
+
+<li>Each employee has a <b>Personal Profile</b> page that shows their personal and official information. A user can add friends; create groups; publish photos; create forum topics and blog posts; manage their personal calendar and file storage.</li>
+
+<li>The <b>Staff Changes</b> page registers changes that have taken place among the employees. You can look through the changes of the whole company or in a certain department.</li>
+
+<li>If an employee is absent for any reason, this event is registered in the monthly <b>Absence Graph</b>. The absence graph can be constructed for a certain department and the list may contain all employees, not only the absent ones. To view the graph for other months, use the navigation buttons.</li>
+
+<li>Featured and honored employees are shown on the <b>Honored Employees</b> page. In the user profile title, the award or accomplishment is specified. </li>
+
+<li>The <b>Birthdays</b> page reminds you to send birthday greetings or find upcoming birthdays. You can select the department for which birthday information is required. </li>
+
+<li>Introductory information that a new employee may require can be found on the <b>For New Employees</b> page.</li>
+</ul>]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

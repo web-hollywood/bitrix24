@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<content type="LES"><id>37</id>
+<timestamp_x>1228916187</timestamp_x>
+<date_create>1227876853</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>4</course_id>
+<chapter_id></chapter_id>
+<name>Dress Code</name>
+<sort>300</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[
+<table>
+  <tbody>
+    <tr><td><img height="175" src="cid:resources/res6/5eDRX.VxkbB.dress_code.jpg" width="100" /></td><td></td><td>Office dress code is business casual. Your purpose or goal is to dress appropriately for each occasion. Your office or work setting and environment will influence your dress style. Always be neat and clean in whatever you choose to wear. Clothing should be clean and free of rips, tears, or holes. 
+        <br />
+      
+        <br />
+      Your dress style will project a positive or negative image about &ldquo;you&rdquo;. You broadcast a message in what you wear. We suggest you make an accurate statement in your appearance and transmit a positive, professional image at all times. Remember that your dress is a reflection of you and the company. Dress professionally to match the occasion. Shorts, short skirts, crop tops, t-shirts with advertising, etc. are not appropriate dress.</td></tr>
+  </tbody>
+</table>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

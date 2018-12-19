@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001544982463';
+$dateexpire = '001547574463';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{s:8:"arResult";a:1:{i:0;a:25:{s:2:"ID";s:1:"1";s:4:"NAME";s:11:"Ono Kenichi";s:6:"XML_ID";s:32:"342b4d76252c5ff037686dbf16ac9bbd";s:11:"EXTERNAL_ID";N;s:16:"GAPI_CALENDAR_ID";N;s:6:"ACTIVE";s:1:"Y";s:11:"DESCRIPTION";s:39:"The calendar was created by the system.";s:5:"COLOR";s:7:"#9dcf00";s:10:"TEXT_COLOR";N;s:6:"EXPORT";a:2:{s:5:"ALLOW";b:1;s:4:"LINK";s:117:"&type=user&owner=1&user=1&sec_id=1&sign=45a642ca91b18951de6ee3db8a242c21&bx_hit_hash=b3301acf655814de87f52fd67c174e6e";}s:4:"SORT";s:3:"100";s:8:"CAL_TYPE";s:4:"user";s:8:"OWNER_ID";s:1:"1";s:10:"CREATED_BY";s:1:"1";s:9:"PARENT_ID";N;s:11:"DATE_CREATE";s:19:"2018-12-06 23:22:00";s:11:"TIMESTAMP_X";s:19:"2018-12-06 18:32:01";s:12:"DAV_EXCH_CAL";N;s:12:"DAV_EXCH_MOD";N;s:11:"CAL_DAV_CON";N;s:11:"CAL_DAV_CAL";N;s:11:"CAL_DAV_MOD";N;s:11:"IS_EXCHANGE";b:0;s:10:"SYNC_TOKEN";N;s:10:"OUTLOOK_JS";s:163:"BX.StsSync.sync(\'calendar\', \'/stssync/calendar\', \'/company/personal/user/1/calendar/\', \'Ono Kenichi\', \'Ono Kenichi\', \'{342b4d76-252c-5ff0-3768-6dbf16ac9bbd}\', 443)";}}s:12:"arSectionIds";a:1:{i:0;s:1:"1";}s:11:"permissions";a:1:{i:1;a:2:{s:2:"G2";s:2:"15";s:2:"U1";i:19;}}}}';
+return true;
+?>

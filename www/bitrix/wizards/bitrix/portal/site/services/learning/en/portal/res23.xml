@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content type="LES"><id>28</id>
+<timestamp_x>1231859237</timestamp_x>
+<date_create>1227863037</date_create>
+<created_by>1</created_by>
+<active>Y</active>
+<course_id>2</course_id>
+<chapter_id>5</chapter_id>
+<name>Communicating with The IT Service</name>
+<sort>200</sort>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_picture></detail_picture>
+<detail_text><![CDATA[<b>Creating Tickets</b> 
+<p>To create and send a ticket to the IT service, use the special ticket wizard. Type in the <b>Ticket title</b> and select the problem topic.</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/sup1.png',606,410,'New ticket')"> <img width="250" height="169" border="0" src="cid:resources/res23/9qRyv.sup1_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Click <b>Next</b>.</p>
+ 
+<p>The number of steps and the content of the next step depend on the problem topic you have selected. For example, if you choose to ask a question about the portal, the second step demands clarification from you:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/sup2.png',606,286,'New ticket')"> <img width="250" height="118" border="0" src="cid:resources/res23/w4pfi.sup2_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Check the required option and click <b>Next</b>.</p>
+ 
+<p>Then, type the detailed description of the problem:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/sup3.png',606,501,'New ticket')"> <img width="250" height="207" border="0" src="cid:resources/res23/RgoNk.sup3_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>Describe the problem in detail and click <b>Finished</b>. The message preview will show:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/sup_preview.png',450,126,'Preview')"> <img width="250" height="70" border="0" src="cid:resources/res23/kva7z.sup_preview_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>If you want, you can correct your ticket in the form below:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/sup_mess.png',606,520,'Ticket form')"> <img width="250" height="215" border="0" src="cid:resources/res23/hDJdh.sup_mess_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>In this form, you can attach files to the ticket; specify urgency and category. Later, you can close the ticket in this form.</p>
+ 
+<p>Click <b>Save</b> to send the ticket. The ticket will show in the list of your tickets:</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/mes_list.png',581,150,'List of tickets')"> <img width="250" height="65" border="0" src="cid:resources/res23/8DUC2.mes_list_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+
+ <b>Viewing and Discussing Tickets</b> 
+<p>To view or post new comments to the existing tickets, click the link <b>My Tickets</b> on the <b>Technical Support</b> page. This will open your tickets page. This page is equipped with a special filter form enabling you to find tickets matching your search criteria.</p>
+ 
+<p>Each ticket has an indicator. The grey <img src="cid:resources/res23/GkgxK.gray.png" /> indicator stands for the resolved problems. If the last comment in your ticket was yours, the indicator is green <img src="cid:resources/res23/CpFpP.green.png" />. If the last response was from a techsupport specialist, the indicator is red <img width="14" height="14" src="cid:resources/res23/fnsfu.red.png" />.</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/mes_list2.png',581,150,'List of tickets')"> <img width="250" height="65" border="0" src="cid:resources/res23/0rJ9C.mes_list2_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>To view the replies or correct the ticket, click <b>Modify</b> in the row showing the corresponding ticket. The page with the ticket discussion will open.</p>
+ 
+<p><a href="javascript:ShowImg('/images/portal_course/big/discuss.png',606,495,'Discussion')"> <img width="250" height="204" border="0" src="cid:resources/res23/7Vrue.discuss_sm.png" style="cursor: pointer;" alt="Click on image to enlarge" /></a></p>
+ 
+<p>You can add your reply using the form below. The form is similar to the one in which you amend a ticket during creation.</p>
+]]></detail_text>
+<detail_text_type>html</detail_text_type>
+</content>

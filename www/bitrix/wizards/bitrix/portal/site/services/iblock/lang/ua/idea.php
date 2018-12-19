@@ -1,0 +1,8 @@
+<?
+$MESS["IDEA_CATEGORY_EDIT_FORM_TAB_TITLE"] = "Ðîçä³ë";
+$MESS["IDEA_CATEGORY_EDIT_FORM_P_ACTIVE"] = "Ðîçä³ë àêòèâíèé";
+$MESS["IDEA_CATEGORY_EDIT_FORM_P_NAME"] = "*Íàçâà";
+$MESS["IDEA_CATEGORY_EDIT_FORM_P_CODE"] = "*Ñèìâîëüíèé êîä";
+$MESS["IDEA_CATEGORY_EDIT_FORM_P_IBLOCK_SECTION_ID"] = "Áàòüê³âñüêèé ðîçä³ë";
+$MESS["IDEA_CATEGORY_EDIT_FORM_P_SORT"] = "Ñîðòóâàííÿ";
+?>
