@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001545210429';
-$dateexpire = '001545214029';
+$datecreate = '001545386131';
+$dateexpire = '001545389731';
 $ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:7:{i:0;a:6:{s:2:"ID";s:2:"26";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:2:"A+";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"10";s:6:"XML_ID";s:32:"b5d154c887f4dffd57d4a3efc6f11971";}i:1;a:6:{s:2:"ID";s:2:"27";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:11:"B (Invoice)";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"20";s:6:"XML_ID";s:32:"6bf330c4a58e59303da310cf73a9fddd";}i:2;a:6:{s:2:"ID";s:2:"28";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:1:"B";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"30";s:6:"XML_ID";s:32:"7718c8456b0829b04f3babc21d03717a";}i:3;a:6:{s:2:"ID";s:2:"29";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:2:"B-";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"40";s:6:"XML_ID";s:32:"13cde504bb359a1f73ebbd58bee61176";}i:4;a:6:{s:2:"ID";s:2:"30";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:1:"D";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"50";s:6:"XML_ID";s:32:"9929ef492dcf4862da812452e9209029";}i:5;a:6:{s:2:"ID";s:2:"31";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:1:"E";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"60";s:6:"XML_ID";s:32:"c54586683f7ce69b737d855f7fdba234";}i:6;a:6:{s:2:"ID";s:2:"32";s:13:"USER_FIELD_ID";s:3:"100";s:5:"VALUE";s:1:"F";s:3:"DEF";s:1:"N";s:4:"SORT";s:2:"70";s:6:"XML_ID";s:32:"a0722865c8adb5cc62bdafcceea18b23";}}}';
 return true;
 ?>

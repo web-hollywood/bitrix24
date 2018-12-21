@@ -1,8 +1,15 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Test", 
-		"/crm/lead/test/", 
+		"Leads", 
+		"/crm/lead/list/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Recruitment", 
+		"/crm/recruitment/", 
 		Array(), 
 		Array(), 
 		"" 

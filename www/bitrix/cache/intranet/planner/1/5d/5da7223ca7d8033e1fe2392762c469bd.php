@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001545210411';
-$dateexpire = '001545296811';
+$datecreate = '001545246732';
+$dateexpire = '001545333132';
 $ser_content = 'a:2:{s:7:"CONTENT";s:190:"
 <script>
 	BX.Tasks.Component.IframePopup.create({\'pathToTasks\':\'/company/personal/user/1/tasks/task/#action#/#task_id#/\',\'callbacks\':{\'ADD\':false,\'UPDATE\':false,\'DELETE\':false}});

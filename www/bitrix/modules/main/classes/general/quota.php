@@ -264,7 +264,6 @@ class CAllDiskQuota
 	{
 		if (COption::GetOptionInt("main", "disk_space") <= 0)
 			return true;
-
 		$this->LAST_ERROR = "";
 		$arMsg = Array();
 

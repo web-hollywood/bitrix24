@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001545087797';
-$dateexpire = '001545088397';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:8:"arResult";a:1:{s:11:"STATUS_INFO";a:2:{s:8:"ACTIVITY";d:10;s:11:"INVOLVEMENT";i:0;}}s:18:"templateCachedData";a:3:{s:6:"frames";a:2:{i:0;a:6:{s:2:"id";s:9:"pulse-cnt";s:11:"containerId";s:9:"pulse-cnt";s:10:"staticPart";s:0:"";s:17:"useBrowserStorage";b:0;s:10:"autoUpdate";b:1;s:12:"useAnimation";b:0;}i:1;a:6:{s:2:"id";s:10:"pulse-rate";s:11:"containerId";s:10:"pulse-rate";s:10:"staticPart";s:0:"";s:17:"useBrowserStorage";b:0;s:10:"autoUpdate";b:1;s:12:"useAnimation";b:0;}}s:9:"frameMode";b:1;s:6:"__view";a:1:{s:7:"sidebar";a:1:{i:0;a:2:{i:0;s:16711:"
+$datecreate = '001545253606';
+$dateexpire = '001545254206';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{s:8:"arResult";a:1:{s:11:"STATUS_INFO";a:2:{s:8:"ACTIVITY";i:0;s:11:"INVOLVEMENT";i:0;}}s:18:"templateCachedData";a:3:{s:6:"frames";a:2:{i:0;a:6:{s:2:"id";s:9:"pulse-cnt";s:11:"containerId";s:9:"pulse-cnt";s:10:"staticPart";s:0:"";s:17:"useBrowserStorage";b:0;s:10:"autoUpdate";b:1;s:12:"useAnimation";b:0;}i:1;a:6:{s:2:"id";s:10:"pulse-rate";s:11:"containerId";s:10:"pulse-rate";s:10:"staticPart";s:0:"";s:17:"useBrowserStorage";b:0;s:10:"autoUpdate";b:1;s:12:"useAnimation";b:0;}}s:9:"frameMode";b:1;s:6:"__view";a:1:{s:7:"sidebar";a:1:{i:0;a:2:{i:0;s:16710:"
 <script type="text/javascript">
 
 BX.INTRANET_USTAT_LAST_PARAMETERS = null;
@@ -284,7 +284,7 @@ BX.ready(function() {
 			</td>
 			<td class="sidebar-pulse-cell-r">
 				<div class="sidebar-pulse-nums">
-					<div class="sidebar-pulse-counter" title="Current company activity level (composite of all users in the last hour)"><span id="pulse-cnt"></span><!--\'start_frame_cache_pulse-cnt\'-->10<!--\'end_frame_cache_pulse-cnt\'--><div class="sidebar-pulse-counter-line"></div>
+					<div class="sidebar-pulse-counter" title="Current company activity level (composite of all users in the last hour)"><span id="pulse-cnt"></span><!--\'start_frame_cache_pulse-cnt\'-->0<!--\'end_frame_cache_pulse-cnt\'--><div class="sidebar-pulse-counter-line"></div>
 					</div>
 					<div class="sidebar-pulse-percent" title="Current engagement of users. This shows the percentage of all users today who have used at least four different tools in the intranet."><span id="pulse-rate"></span><!--\'start_frame_cache_pulse-rate\'-->0<span class="sidebar-pulse-percent-icon">%</span><!--\'end_frame_cache_pulse-rate\'--><div class="sidebar-pulse-percent-bg"></div>
 					</div>
