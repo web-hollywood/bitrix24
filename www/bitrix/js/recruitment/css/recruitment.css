@@ -1,0 +1,15 @@
+.recruitment-table__row--header {
+    display: flex;
+}
+
+.recruitment-col {
+    min-width: 30px;
+}
+
+.recruitment-col--12 {
+    width: 12%;
+}
+
+.recruitment-col--15 {
+    width: 15%;
+}

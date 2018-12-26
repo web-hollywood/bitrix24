@@ -1,1 +1,1 @@
-<? $filesInfo = array("/bitrix/js/ui/actionpanel/css/style.css" => "15441274655260",); ?>
+<? $filesInfo = array("/bitrix/js/ui/actionpanel/css/style.css" => "15452377665260",); ?>

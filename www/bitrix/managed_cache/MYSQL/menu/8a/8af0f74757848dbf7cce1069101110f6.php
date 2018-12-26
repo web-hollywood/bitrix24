@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001544986336';
-$dateexpire = '001544989936';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:8:{i:0;a:3:{s:4:"LINK";s:20:"/telephony/lines.php";s:5:"LINKS";a:2:{i:0;s:19:"/telephony/edit.php";i:1;s:20:"/telephony/lines.php";}s:4:"PERM";s:1:"R";}i:1;a:3:{s:4:"LINK";s:20:"/telephony/index.php";s:5:"LINKS";a:2:{i:0;s:21:"/telephony/detail.php";i:1;s:20:"/telephony/index.php";}s:4:"PERM";s:1:"R";}i:2;a:3:{s:4:"LINK";s:20:"/telephony/users.php";s:5:"LINKS";a:1:{i:0;s:20:"/telephony/users.php";}s:4:"PERM";s:1:"R";}i:3;a:3:{s:4:"LINK";s:21:"/telephony/groups.php";s:5:"LINKS";a:2:{i:0;s:24:"/telephony/editgroup.php";i:1;s:21:"/telephony/groups.php";}s:4:"PERM";s:1:"R";}i:4;a:3:{s:4:"LINK";s:21:"/telephony/phones.php";s:5:"LINKS";a:1:{i:0;s:21:"/telephony/phones.php";}s:4:"PERM";s:1:"R";}i:5;a:3:{s:4:"LINK";s:26:"/telephony/permissions.php";s:5:"LINKS";a:2:{i:0;s:23:"/telephony/editrole.php";i:1;s:26:"/telephony/permissions.php";}s:4:"PERM";s:1:"R";}i:6;a:3:{s:4:"LINK";s:18:"/telephony/ivr.php";s:5:"LINKS";a:2:{i:0;s:22:"/telephony/editivr.php";i:1;s:18:"/telephony/ivr.php";}s:4:"PERM";s:1:"R";}i:7;a:3:{s:4:"LINK";s:22:"/telephony/configs.php";s:5:"LINKS";a:1:{i:0;s:22:"/telephony/configs.php";}s:4:"PERM";s:1:"R";}}}';
-return true;
-?>

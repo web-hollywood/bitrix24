@@ -1,1 +1,1 @@
-<? $filesInfo = array("/bitrix/js/im/common.js" => "1544127419328331","/bitrix/js/im/window.js" => "154412742016924","/bitrix/js/im/im.js" => "1544127419635923",); ?>
+<? $filesInfo = array("/bitrix/js/im/common.js" => "1545237694328331","/bitrix/js/im/window.js" => "154523773716924","/bitrix/js/im/im.js" => "1545237696635923",); ?>

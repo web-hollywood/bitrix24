@@ -1,0 +1,58 @@
+.page-filter {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.main-ui-filter-search-filter {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    margin: 4px 1px;
+    padding: 0 50px 0 15px;
+    width: 100%;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    font: 15px/30px "Helvetica Neue",Arial,Helvetica,sans-serif;
+    transition: background .3s;
+}
+
+.pagetitle-inner-container {
+    display: flex;
+}
+
+.recruitment-content__table-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #c4b7ba;
+    background-color: #d6f1fb;
+}
+
+.recruitment-table-row {
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+}
+
+.recruitment-table-col {
+    min-width: 50px;
+    text-align: center;
+}
+
+.recruitment-table-col--p-5 {
+    width: 5%;
+}
+
+.recruitment-table-col--p-10 {
+    width: 10%;
+}
+
+.recruitment-table-col--p-13 {
+    width: 13%;
+}
+
+.recruitment-table-col--p-15 {
+    width: 15%;
+}

@@ -1,1 +1,1 @@
-<? $filesInfo = array("/bitrix/js/main/sidepanel/css/sidepanel.css" => "15441273844564",); ?>
+<? $filesInfo = array("/bitrix/js/main/sidepanel/css/sidepanel.css" => "15452377644564",); ?>
