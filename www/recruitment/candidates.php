@@ -3,7 +3,11 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Candidates");
 
 $arResult['BUTTONS'] = array();
-
+$link = "javascript:(new BX.CDialog({
+    'content_url':'/bitrix/components/bitrix/crm.recruitment/addmodal.php',
+    'width':'540',
+    'height':'275',
+    'resizable':false })).Show();";
 $arResult['BUTTONS'][] = array(
     'TEXT' => 'ADD',
     'TITLE' => 'ADD',

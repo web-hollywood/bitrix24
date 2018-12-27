@@ -1,0 +1,11 @@
+<?
+$MESS["MODAL_WINDOW_TITLE"] = "Add New Candidate";
+$MESS["CRM_SAVE_BUTTON"] = "Save";
+$MESS["CRM_CLOSE_BUTTON"] = "Close";
+$MESS["CRM_CANCEL_BUTTON"] = "Cancel";
+$MESS["CRM_LOC_FIRST_NAME"] = "First Name";
+$MESS["CRM_LOC_LAST_NAME"] = "Last Name";
+$MESS["CRM_LOC_EMAIL"] = "Email";
+$MESS["CRM_LOC_PHONE"] = "Phone";
+$MESS["CRM_LOC_NOTES"] = "NOTES";
+$MESS["CRM_LOC_SOURCE"] = "SOURCE";
